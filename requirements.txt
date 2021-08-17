@@ -1,0 +1,8 @@
+scikit-learn
+ipykernel
+pandas
+selenium
+
+# Needed to export notebooks
+nbconvert 
+jupyter

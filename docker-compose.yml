@@ -1,0 +1,18 @@
+# Run with docker-compose up --exit-code-from ocps-covid
+version: '3.4'
+
+services:
+  selenium-remote:
+    image: selenium/standalone-chrome
+    shm_size: 2gb
+
+  ocps-covid:
+    build: 
+      context: .
+      dockerfile: "Dockerfile"
+    entrypoint: "python3 ocps.py"
+    environment:
+      TZ: "America/New_York"
+    volumes:
+      - ./data:/ocps-covid/data
+

@@ -1,0 +1,575 @@
+index,location,type,count,date
+0,Andover Elementary,Students,1,2021-08-14
+1,Castleview Elementary,Students,1,2021-08-14
+2,Lake Sybelia Elementary,Students,1,2021-08-14
+3,Lakemont Elementary,Students,1,2021-08-14
+4,Orange Technical College - Mid Florida,Students,1,2021-08-14
+5,Wyndham Lakes Elementary,Students,1,2021-08-14
+6,Aloma Elementary,Students,1,2021-08-13
+7,Apopka High,Students,5,2021-08-13
+8,Avalon Elementary,Students,2,2021-08-13
+9,Azalea Park Elementary,Students,2,2021-08-13
+10,Baldwin Park Elementary,Students,3,2021-08-13
+11,Bay Lake Elementary,Students,1,2021-08-13
+12,Blankner School (K-8),Students,1,2021-08-13
+13,Boone High,Students,1,2021-08-13
+14,Cheney Elementary,Students,1,2021-08-13
+15,Clay Springs Elementary,Students,1,2021-08-13
+16,Corner Lake Middle,Students,1,2021-08-13
+17,Discovery Middle,Students,1,2021-08-13
+18,East River High,Students,1,2021-08-13
+19,Engelwood Elementary,Students,1,2021-08-13
+20,Glenridge Middle,Students,1,2021-08-13
+21,Horizon West Middle,Students,1,2021-08-13
+22,John Young Elementary,Students,1,2021-08-13
+23,Jones High,Students,4,2021-08-13
+24,Lake Buena Vista High,Students,1,2021-08-13
+25,Lake Gem Elementary,Students,1,2021-08-13
+26,Lake Nona Middle,Students,2,2021-08-13
+27,Lake Whitney Elementary,Students,1,2021-08-13
+28,Lakeview Middle,Students,2,2021-08-13
+29,Laureate Park Elementary,Students,1,2021-08-13
+30,Little River Elementary,Students,2,2021-08-13
+31,Maxey Elementary,Students,2,2021-08-13
+32,Meadow Woods Elementary,Students,1,2021-08-13
+33,Memorial Middle,Students,1,2021-08-13
+34,MetroWest Elementary,Students,2,2021-08-13
+35,Moss Park Elementary,Students,2,2021-08-13
+36,NorthLake Park Community School,Students,2,2021-08-13
+37,Oakshire Elementary,Students,1,2021-08-13
+38,Ocoee Elementary,Students,1,2021-08-13
+39,Ocoee High,Students,6,2021-08-13
+40,Olympia High,Students,1,2021-08-13
+41,Orange Technical College - Mid Florida,Students,1,2021-08-13
+42,Palm Lake Elementary,Students,3,2021-08-13
+43,Prairie Lake Elementary,Students,1,2021-08-13
+44,Rock Springs Elementary,Students,1,2021-08-13
+45,Rosemont Elementary,Students,1,2021-08-13
+46,Shingle Creek Elementary,Students,1,2021-08-13
+47,South Creek Middle,Students,1,2021-08-13
+48,Southwest Middle,Students,1,2021-08-13
+49,Spring Lake Elementary,Students,5,2021-08-13
+50,Summerlake Elementary,Students,2,2021-08-13
+51,Sunset Park Elementary,Students,1,2021-08-13
+52,Tildenville Elementary,Students,1,2021-08-13
+53,University High,Students,1,2021-08-13
+54,Ventura Elementary,Students,1,2021-08-13
+55,Village Park Elementary,Students,1,2021-08-13
+56,Vista Lakes Elementary,Students,1,2021-08-13
+57,Vista Pointe Elementary,Students,3,2021-08-13
+58,Water Spring Elementary,Students,3,2021-08-13
+59,Wekiva High,Students,2,2021-08-13
+60,West Creek Elementary,Students,1,2021-08-13
+61,Westridge Middle,Students,1,2021-08-13
+62,Whispering Oak Elementary,Students,1,2021-08-13
+63,Windermere Elementary,Students,1,2021-08-13
+64,Windermere High,Students,2,2021-08-13
+65,Winter Park High,Students,1,2021-08-13
+66,Aloma Elementary,Students,1,2021-08-12
+67,Andover Elementary,Students,1,2021-08-12
+68,Apopka Elementary,Students,1,2021-08-12
+69,Apopka Memorial Middle,Students,1,2021-08-12
+70,Avalon Middle,Students,1,2021-08-12
+71,Blankner School (K-8),Students,1,2021-08-12
+72,Brookshire Elementary,Students,1,2021-08-12
+73,Castle Creek Elementary,Students,2,2021-08-12
+74,Catalina Elementary,Students,1,2021-08-12
+75,Conway Elementary,Students,1,2021-08-12
+76,Corner Lake Middle,Students,3,2021-08-12
+77,Dommerich Elementary,Students,3,2021-08-12
+78,Eagle Creek Elementary,Students,1,2021-08-12
+79,East Lake Elementary,Students,1,2021-08-12
+80,East River High,Students,5,2021-08-12
+81,Edgewater High,Students,3,2021-08-12
+82,Evans High,Students,2,2021-08-12
+83,Hillcrest Elementary,Students,1,2021-08-12
+84,Hospital Homebound/Esteem Academy,Students,2,2021-08-12
+85,Hunter’s Creek Elementary,Students,2,2021-08-12
+86,Innovation Middle,Students,1,2021-08-12
+87,Jones High,Students,1,2021-08-12
+88,Lake Nona Middle,Students,2,2021-08-12
+89,Lake Silver Elementary,Students,1,2021-08-12
+90,Lakemont Elementary,Students,2,2021-08-12
+91,Lakeview Middle,Students,1,2021-08-12
+92,Lancaster Elementary,Students,1,2021-08-12
+93,Lockhart Elementary,Students,1,2021-08-12
+94,Lovell Elementary,Students,1,2021-08-12
+95,Maitland Middle,Students,2,2021-08-12
+96,Millennia Elementary,Students,1,2021-08-12
+97,Millennia Gardens Elementary,Students,1,2021-08-12
+98,Moss Park Elementary,Students,1,2021-08-12
+99,Orange Center Elementary,Students,1,2021-08-12
+100,Orange Technical College - Mid Florida,Students,1,2021-08-12
+101,Orange Technical College - Winter Park,Students,1,2021-08-12
+102,Palm Lake Elementary,Students,1,2021-08-12
+103,Palmetto Elementary,Students,1,2021-08-12
+104,Pineloch Elementary,Students,1,2021-08-12
+105,Riverside Elementary,Students,1,2021-08-12
+106,Rolling Hills Elementary,Students,1,2021-08-12
+107,Sunridge Elementary,Students,2,2021-08-12
+108,Sunset Park Elementary,Students,3,2021-08-12
+109,Sunshine Elementary,Students,1,2021-08-12
+110,Timber Creek High,Students,2,2021-08-12
+111,Timber Lakes Elementary,Students,1,2021-08-12
+112,University High,Students,2,2021-08-12
+113,Waterbridge Elementary,Students,1,2021-08-12
+114,Wedgefield School (K-8),Students,1,2021-08-12
+115,West Orange High,Students,1,2021-08-12
+116,Westbrooke Elementary,Students,1,2021-08-12
+117,Westpointe Elementary,Students,1,2021-08-12
+118,Westridge Middle,Students,1,2021-08-12
+119,Whispering Oak Elementary,Students,2,2021-08-12
+120,Windermere Elementary,Students,1,2021-08-12
+121,Wolf Lake Middle,Students,1,2021-08-12
+122,Wyndham Lakes Elementary,Students,1,2021-08-12
+123,Aloma Elementary,Students,1,2021-08-11
+124,Andover Elementary,Students,1,2021-08-11
+125,Audubon Park School (K-8),Students,1,2021-08-11
+126,Avalon Elementary,Students,1,2021-08-11
+127,Azalea Park Elementary,Students,1,2021-08-11
+128,Brookshire Elementary,Students,1,2021-08-11
+129,Camelot Elementary,Students,2,2021-08-11
+130,Castleview Elementary,Students,1,2021-08-11
+131,Colonial High 9th Grade Center,Students,1,2021-08-11
+132,Conway Middle,Students,2,2021-08-11
+133,Corner Lake Middle,Students,1,2021-08-11
+134,Discovery Middle,Students,1,2021-08-11
+135,Endeavor Elementary,Students,1,2021-08-11
+136,Jones High,Students,1,2021-08-11
+137,Lake Buena Vista High,Students,2,2021-08-11
+138,Lake Nona High,Students,1,2021-08-11
+139,Lake Nona Middle,Students,1,2021-08-11
+140,Lancaster Elementary,Students,1,2021-08-11
+141,Lockhart Elementary,Students,1,2021-08-11
+142,Meadow Woods Middle,Students,1,2021-08-11
+143,Memorial Middle,Students,1,2021-08-11
+144,Moss Park Elementary,Students,4,2021-08-11
+145,Oak Hill Elementary,Students,2,2021-08-11
+146,Ocoee High,Students,1,2021-08-11
+147,Ocoee Middle,Students,1,2021-08-11
+148,Orange Center Elementary,Students,1,2021-08-11
+149,Orange Technical College - Westside,Students,1,2021-08-11
+150,Palmetto Elementary,Students,1,2021-08-11
+151,Prairie Lake Elementary,Students,1,2021-08-11
+152,Riverdale Elementary,Students,1,2021-08-11
+153,Summerlake Elementary,Students,2,2021-08-11
+154,Tildenville Elementary,Students,1,2021-08-11
+155,Timber Creek High,Students,1,2021-08-11
+156,Timber Lakes Elementary,Students,2,2021-08-11
+157,Timber Springs Middle,Students,1,2021-08-11
+158,University High,Students,2,2021-08-11
+159,Wekiva High,Students,1,2021-08-11
+160,West Oaks Elementary,Students,1,2021-08-11
+161,West Orange High,Students,1,2021-08-11
+162,Westpointe Elementary,Students,1,2021-08-11
+163,Westridge Middle,Students,1,2021-08-11
+164,Windy Ridge School (K-8),Students,1,2021-08-11
+165,Azalea Park Elementary,Students,1,2021-08-10
+166,Castle Creek Elementary,Students,1,2021-08-10
+167,Evans High,Students,2,2021-08-10
+168,Lake Whitney Elementary,Students,1,2021-08-10
+169,Little River Elementary,Students,1,2021-08-10
+170,Orange Technical College - Westside,Students,1,2021-08-10
+171,Pershing School (K-8),Students,1,2021-08-10
+172,Rosemont Elementary,Students,1,2021-08-10
+173,Timber Creek High,Students,2,2021-08-10
+174,University High,Students,1,2021-08-10
+175,Vista Pointe Elementary,Students,1,2021-08-10
+176,Wedgefield School (K-8),Students,3,2021-08-10
+177,Camelot Elementary,Students,1,2021-08-09
+178,Colonial High 9th Grade Center,Students,1,2021-08-09
+179,Dr. Phillips Elementary,Students,1,2021-08-09
+180,Hiawassee Elementary,Students,1,2021-08-09
+181,Horizon West Middle,Students,1,2021-08-09
+182,Lake Buena Vista High,Students,1,2021-08-09
+183,Lawton Chiles Elementary,Students,1,2021-08-09
+184,Little River Elementary,Students,1,2021-08-09
+185,Lockhart Elementary,Students,1,2021-08-09
+186,Maxey Elementary,Students,2,2021-08-09
+187,Meadowbrook Middle,Students,7,2021-08-09
+188,OCPS Academic Center for Excellence,Students,1,2021-08-09
+189,Orange Technical College - Mid Florida,Students,1,2021-08-09
+190,Orange Technical College - Westside,Students,1,2021-08-09
+191,Southwood Elementary,Students,2,2021-08-09
+192,Summerlake Elementary,Students,1,2021-08-09
+193,University High,Students,1,2021-08-09
+194,Waterford Elementary,Students,2,2021-08-09
+195,Westridge Middle,Students,1,2021-08-09
+196,Wyndham Lakes Elementary,Students,1,2021-08-09
+197,Lake Whitney Elementary,Students,1,2021-08-08
+198,Pinar Elementary,Students,1,2021-08-08
+199,Rock Springs Elementary,Students,1,2021-08-08
+200,Summerlake Elementary,Students,1,2021-08-08
+201,Sunridge Elementary,Students,1,2021-08-08
+202,Waterford Elementary,Students,2,2021-08-07
+203,Wyndham Lakes Elementary,Students,1,2021-08-07
+204,Citrus Elementary,Students,1,2021-08-06
+205,Cypress Creek High,Students,1,2021-08-06
+206,Lawton Chiles Elementary,Students,1,2021-08-06
+207,Palm Lake Elementary,Students,1,2021-08-06
+208,Aloma Elementary,Students,1,2021-08-05
+209,Evans High,Students,1,2021-08-05
+210,Sunshine Elementary,Students,2,2021-08-05
+211,Windy Ridge School (K-8),Students,1,2021-08-05
+212,Lake Como School (K-8),Students,1,2021-08-04
+213,Wedgefield School (K-8),Students,2,2021-08-04
+214,Horizon West Middle,Students,1,2021-08-03
+215,Lake Nona High,Students,1,2021-08-03
+216,Tildenville Elementary,Students,1,2021-08-03
+217,Timber Creek High,Students,2,2021-08-03
+218,Water Spring Elementary,Students,1,2021-08-03
+219,Tildenville Elementary,Students,2,2021-08-02
+220,Timber Creek High,Students,1,2021-08-02
+221,University High,Students,1,2021-08-02
+222,Waterford Elementary,Students,1,2021-08-02
+223,Alternative Education Centers,Employees,1,2021-08-14
+224,Curriculum & Digital Learning,Employees,1,2021-08-14
+225,OCPS Academic Center for Excellence,Employees,1,2021-08-14
+226,Roberto Clemente Middle,Employees,1,2021-08-14
+227,University High,Employees,2,2021-08-14
+228,Acceleration West,Employees,1,2021-08-13
+229,Apopka High,Employees,2,2021-08-13
+230,Horizon West Middle,Employees,1,2021-08-13
+231,Jones High,Employees,1,2021-08-13
+232,Lake Nona High,Employees,1,2021-08-13
+233,Operations,Employees,3,2021-08-13
+234,Orange Technical College - Mid Florida,Employees,1,2021-08-13
+235,Orlo Vista Elementary,Employees,1,2021-08-13
+236,Pinar Elementary,Employees,1,2021-08-13
+237,Rosemont Elementary,Employees,1,2021-08-13
+238,Shingle Creek Elementary,Employees,1,2021-08-13
+239,Southwest Middle,Employees,1,2021-08-13
+240,Teaching and Learning,Employees,1,2021-08-13
+241,Washington Shores Elementary,Employees,2,2021-08-13
+242,Waterbridge Elementary,Employees,1,2021-08-13
+243,West Oaks Elementary,Employees,2,2021-08-13
+244,Windermere High,Employees,1,2021-08-13
+245,Arbor Ridge School (K-8),Employees,1,2021-08-12
+246,Bridgewater Middle,Employees,2,2021-08-12
+247,Chickasaw Elementary,Employees,1,2021-08-12
+248,Facilities Services,Employees,1,2021-08-12
+249,Freedom High,Employees,2,2021-08-12
+250,Horizon High,Employees,1,2021-08-12
+251,Hungerford Elementary,Employees,1,2021-08-12
+252,Lake Weston Elementary,Employees,1,2021-08-12
+253,Laureate Park Elementary,Employees,1,2021-08-12
+254,McCoy Elementary,Employees,1,2021-08-12
+255,Meadowbrook Middle,Employees,1,2021-08-12
+256,Oak Hill Elementary,Employees,1,2021-08-12
+257,Oakshire Elementary,Employees,1,2021-08-12
+258,Olympia High,Employees,1,2021-08-12
+259,Operations,Employees,1,2021-08-12
+260,Orlo Vista Elementary,Employees,1,2021-08-12
+261,Palm Lake Elementary,Employees,1,2021-08-12
+262,Piedmont Lakes Middle,Employees,1,2021-08-12
+263,Pinar Elementary,Employees,1,2021-08-12
+264,Southwest Middle,Employees,1,2021-08-12
+265,SunRidge Middle,Employees,1,2021-08-12
+266,Timber Lakes Elementary,Employees,1,2021-08-12
+267,Wekiva High,Employees,1,2021-08-12
+268,Wolf Lake Middle,Employees,2,2021-08-12
+269,Apopka High,Employees,1,2021-08-11
+270,Cypress Creek High,Employees,1,2021-08-11
+271,Dr. Phillips Elementary,Employees,1,2021-08-11
+272,Glenridge Middle,Employees,1,2021-08-11
+273,Independence Elementary,Employees,1,2021-08-11
+274,Information Technology Services,Employees,1,2021-08-11
+275,Keene’s Crossing Elementary,Employees,1,2021-08-11
+276,Lake Buena Vista High,Employees,1,2021-08-11
+277,Maitland Middle,Employees,1,2021-08-11
+278,McCoy Elementary,Employees,1,2021-08-11
+279,Olympia High,Employees,1,2021-08-11
+280,Operations,Employees,3,2021-08-11
+281,Palmetto Elementary,Employees,1,2021-08-11
+282,Princeton Elementary,Employees,1,2021-08-11
+283,Sand Lake Elementary,Employees,1,2021-08-11
+284,Stone Lakes Elementary,Employees,1,2021-08-11
+285,Sun Blaze Elementary,Employees,1,2021-08-11
+286,Sunrise Elementary,Employees,1,2021-08-11
+287,Timber Creek High,Employees,1,2021-08-11
+288,Timber Lakes Elementary,Employees,1,2021-08-11
+289,University High,Employees,1,2021-08-11
+290,West Creek Elementary,Employees,1,2021-08-11
+291,West Orange High,Employees,1,2021-08-11
+292,Westridge Middle,Employees,2,2021-08-11
+293,Wolf Lake Elementary,Employees,1,2021-08-11
+294,Alternative Education Center - Randall,Employees,1,2021-08-10
+295,Apopka High,Employees,1,2021-08-10
+296,Azalea Park Elementary,Employees,1,2021-08-10
+297,Clay Springs Elementary,Employees,1,2021-08-10
+298,Colonial High,Employees,1,2021-08-10
+299,Cypress Springs Elementary,Employees,2,2021-08-10
+300,East River High,Employees,1,2021-08-10
+301,Edgewater High,Employees,2,2021-08-10
+302,Fiscal Services,Employees,1,2021-08-10
+303,Hunter’s Creek Middle,Employees,1,2021-08-10
+304,John Young Elementary,Employees,1,2021-08-10
+305,Lake Weston Elementary,Employees,1,2021-08-10
+306,Memorial Middle,Employees,1,2021-08-10
+307,Oak Ridge High,Employees,1,2021-08-10
+308,Operations,Employees,4,2021-08-10
+309,Shenandoah Elementary,Employees,1,2021-08-10
+310,Sun Blaze Elementary,Employees,1,2021-08-10
+311,Thornebrooke Elementary,Employees,1,2021-08-10
+312,Timber Creek High,Employees,1,2021-08-10
+313,Waterford Elementary,Employees,1,2021-08-10
+314,Wolf Lake Middle,Employees,2,2021-08-10
+315,Avalon Middle,Employees,2,2021-08-09
+316,Cypress Creek High,Employees,2,2021-08-09
+317,Edgewater High,Employees,1,2021-08-09
+318,Horizon High,Employees,1,2021-08-09
+319,Independence Elementary,Employees,1,2021-08-09
+320,Lake George Elementary,Employees,1,2021-08-09
+321,Lake Silver Elementary,Employees,1,2021-08-09
+322,Lakeville Elementary,Employees,1,2021-08-09
+323,Meadowbrook Middle,Employees,1,2021-08-09
+324,Olympia High,Employees,1,2021-08-09
+325,Operations,Employees,4,2021-08-09
+326,Orange County Virtual School,Employees,1,2021-08-09
+327,Orange Technical College - Mid Florida,Employees,1,2021-08-09
+328,Orlando Gifted Academy,Employees,1,2021-08-09
+329,Piedmont Lakes Middle,Employees,1,2021-08-09
+330,Teaching and Learning,Employees,2,2021-08-09
+331,Timber Creek High,Employees,1,2021-08-09
+332,Timber Lakes Elementary,Employees,1,2021-08-09
+333,West Creek Elementary,Employees,1,2021-08-09
+334,Wolf Lake Middle,Employees,1,2021-08-09
+335,Alternative Education Centers,Employees,1,2021-08-08
+336,Apopka High,Employees,2,2021-08-08
+337,Dr. Phillips High,Employees,1,2021-08-08
+338,Freedom Middle,Employees,1,2021-08-08
+339,Liberty Middle,Employees,1,2021-08-08
+340,Ridgewood Park Elementary,Employees,1,2021-08-08
+341,Sally Ride Elementary,Employees,1,2021-08-08
+342,Thornebrooke Elementary,Employees,1,2021-08-08
+343,Boone High,Employees,1,2021-08-07
+344,Freedom Middle,Employees,1,2021-08-07
+345,Lake Gem Elementary,Employees,1,2021-08-07
+346,Lake Weston Elementary,Employees,1,2021-08-07
+347,Lakeview Middle,Employees,1,2021-08-07
+348,MetroWest Elementary,Employees,1,2021-08-07
+349,Riverside Elementary,Employees,1,2021-08-07
+350,Roberto Clemente Middle,Employees,1,2021-08-07
+351,Spring Lake Elementary,Employees,2,2021-08-07
+352,SunRidge Middle,Employees,1,2021-08-07
+353,Wyndham Lakes Elementary,Employees,1,2021-08-07
+354,Colonial High,Employees,1,2021-08-06
+355,Evans High,Employees,1,2021-08-06
+356,Independence Elementary,Employees,1,2021-08-06
+357,Lake Buena Vista High,Employees,2,2021-08-06
+358,OCPS Academic Center for Excellence,Employees,1,2021-08-06
+359,Operations,Employees,2,2021-08-06
+360,Orange County Virtual School,Employees,1,2021-08-06
+361,Orlando Gifted Academy,Employees,1,2021-08-06
+362,Pine Hills Elementary,Employees,1,2021-08-06
+363,Riverside Elementary,Employees,1,2021-08-06
+364,Sun Blaze Elementary,Employees,1,2021-08-06
+365,Sunshine Elementary,Employees,1,2021-08-06
+366,Waterford Elementary,Employees,1,2021-08-06
+367,West Oaks Elementary,Employees,1,2021-08-06
+368,Apopka High,Employees,1,2021-08-05
+369,Bay Lake Elementary,Employees,1,2021-08-05
+370,Camelot Elementary,Employees,1,2021-08-05
+371,Evans High,Employees,2,2021-08-05
+372,Facilities Services,Employees,1,2021-08-05
+373,Freedom High,Employees,1,2021-08-05
+374,Lake George Elementary,Employees,1,2021-08-05
+375,Lake Silver Elementary,Employees,1,2021-08-05
+376,Lakeview Middle,Employees,1,2021-08-05
+377,Lancaster Elementary,Employees,1,2021-08-05
+378,Lockhart Elementary,Employees,1,2021-08-05
+379,Meadowbrook Middle,Employees,1,2021-08-05
+380,Memorial Middle,Employees,1,2021-08-05
+381,Oak Ridge High,Employees,1,2021-08-05
+382,Ocoee Elementary,Employees,1,2021-08-05
+383,Orange Technical College - Mid Florida,Employees,1,2021-08-05
+384,Palm Lake Elementary,Employees,1,2021-08-05
+385,Teaching and Learning,Employees,5,2021-08-05
+386,Wyndham Lakes Elementary,Employees,1,2021-08-05
+387,Baldwin Park Elementary,Employees,2,2021-08-04
+388,Clay Springs Elementary,Employees,1,2021-08-04
+389,Edgewater High,Employees,1,2021-08-04
+390,Evans High,Employees,1,2021-08-04
+391,Facilities Services,Employees,2,2021-08-04
+392,Forsyth Woods Elementary,Employees,1,2021-08-04
+393,Ivey Lane Elementary,Employees,1,2021-08-04
+394,Lake Como School (K-8),Employees,1,2021-08-04
+395,Odyssey Middle,Employees,1,2021-08-04
+396,Operations,Employees,1,2021-08-04
+397,Orange Technical College - Mid Florida,Employees,1,2021-08-04
+398,Rosemont Elementary,Employees,1,2021-08-04
+399,Sunridge Elementary,Employees,1,2021-08-04
+400,Timber Lakes Elementary,Employees,1,2021-08-04
+401,Carver Middle,Employees,1,2021-08-03
+402,Cheney Elementary,Employees,1,2021-08-03
+403,Colonial High,Employees,1,2021-08-03
+404,East Lake Elementary,Employees,1,2021-08-03
+405,Facilities Services,Employees,2,2021-08-03
+406,Freedom High,Employees,1,2021-08-03
+407,Freedom Middle,Employees,1,2021-08-03
+408,Lake Gem Elementary,Employees,1,2021-08-03
+409,Meadow Woods Middle,Employees,1,2021-08-03
+410,Operations,Employees,1,2021-08-03
+411,Ridgewood Park Elementary,Employees,2,2021-08-03
+412,Sadler Elementary,Employees,2,2021-08-03
+413,Sunridge Elementary,Employees,1,2021-08-03
+414,Teaching and Learning,Employees,3,2021-08-03
+415,Ventura Elementary,Employees,1,2021-08-03
+416,Westbrooke Elementary,Employees,1,2021-08-03
+417,Wolf Lake Middle,Employees,1,2021-08-03
+418,Bay Lake Elementary,Employees,1,2021-08-02
+419,Catalina Elementary,Employees,2,2021-08-02
+420,Cheney Elementary,Employees,1,2021-08-02
+421,Citrus Elementary,Employees,1,2021-08-02
+422,Colonial High,Employees,2,2021-08-02
+423,Curriculum & Digital Learning,Employees,1,2021-08-02
+424,Evans High,Employees,1,2021-08-02
+425,Facilities Services,Employees,1,2021-08-02
+426,Meadow Woods Middle,Employees,3,2021-08-02
+427,Ocoee Middle,Employees,1,2021-08-02
+428,Operations,Employees,1,2021-08-02
+429,Palm Lake Elementary,Employees,1,2021-08-02
+430,Pine Hills Elementary,Employees,1,2021-08-02
+431,School Choice Services,Employees,1,2021-08-02
+432,Teaching and Learning,Employees,3,2021-08-02
+433,Water Spring Elementary,Employees,1,2021-08-02
+434,West Orange High,Employees,1,2021-08-02
+435,Lake Nona High,Employees,2,1900-01-01
+436,Oakshire Elementary,Employees,1,1900-01-01
+437,Olympia High,Employees,2,1900-01-01
+438,Pine Hills Elementary,Employees,1,1900-01-01
+439,Moss Park Elementary,Volunteers,1,2021-08-12
+440,Operations,Volunteers,1,2021-08-12
+441,Deerwood Elementary,Volunteers,1,2021-08-10
+442,Camelot Elementary,Volunteers,1,2021-08-09
+443,Apopka Elementary,Students,1,2021-08-15
+444,Avalon Elementary,Students,1,2021-08-15
+445,Ivey Lane Elementary,Students,1,2021-08-15
+446,Keene’s Crossing Elementary,Students,1,2021-08-15
+447,Orlo Vista Elementary,Students,1,2021-08-15
+448,Princeton Elementary,Students,1,2021-08-15
+449,Sunridge Elementary,Students,1,2021-08-15
+450,West Orange High,Students,1,2021-08-15
+451,Corner Lake Middle,Employees,1,2021-08-15
+452,Cypress Creek High,Employees,2,2021-08-15
+453,Edgewater High,Employees,1,2021-08-15
+454,Facilities Services,Employees,1,2021-08-15
+455,Forsyth Woods Elementary,Employees,1,2021-08-15
+456,John Young Elementary,Employees,1,2021-08-15
+457,Lake Nona High,Employees,3,2021-08-15
+458,Lakemont Elementary,Employees,1,2021-08-15
+459,Laureate Park Elementary,Employees,1,2021-08-15
+460,Meadow Woods Middle,Employees,1,2021-08-15
+461,Oakshire Elementary,Employees,1,2021-08-15
+462,OCPS Academic Center for Excellence,Employees,1,2021-08-15
+463,Olympia High,Employees,3,2021-08-15
+464,Orlo Vista Elementary,Employees,1,2021-08-15
+465,Pine Hills Elementary,Employees,1,2021-08-15
+466,Princeton Elementary,Employees,1,2021-08-15
+467,Sand Lake Elementary,Employees,1,2021-08-15
+468,Timber Lakes Elementary,Employees,1,2021-08-15
+469,Union Park Elementary,Employees,1,2021-08-15
+470,Westridge Middle,Employees,1,2021-08-15
+471,Windermere High,Employees,1,2021-08-15
+472,Winegard Elementary,Employees,1,2021-08-15
+473,Princeton Elementary,Volunteers,1,2021-08-15
+474,Acceleration East,Students,1,2021-08-16
+475,Aloma Elementary,Students,1,2021-08-16
+476,Andover Elementary,Students,1,2021-08-16
+477,Apopka Elementary,Students,2,2021-08-16
+478,Apopka High,Students,8,2021-08-16
+479,Apopka Memorial Middle,Students,2,2021-08-16
+480,Arbor Ridge School (K-8),Students,1,2021-08-16
+481,Avalon Middle,Students,1,2021-08-16
+482,Baldwin Park Elementary,Students,1,2021-08-16
+483,Bay Meadows Elementary,Students,1,2021-08-16
+484,Blankner School (K-8),Students,3,2021-08-16
+485,Boone High,Students,2,2021-08-16
+486,Bridgewater Middle,Students,3,2021-08-16
+487,Brookshire Elementary,Students,1,2021-08-16
+488,Carver Middle,Students,1,2021-08-16
+489,Castleview Elementary,Students,1,2021-08-16
+490,Clay Springs Elementary,Students,5,2021-08-16
+491,Colonial High 9th Grade Center,Students,4,2021-08-16
+492,Columbia Elementary,Students,2,2021-08-16
+493,Conway Middle,Students,1,2021-08-16
+494,Corner Lake Middle,Students,3,2021-08-16
+495,Cypress Creek High,Students,1,2021-08-16
+496,Cypress Springs Elementary,Students,2,2021-08-16
+497,Discovery Middle,Students,2,2021-08-16
+498,Dommerich Elementary,Students,1,2021-08-16
+499,Dover Shores Elementary,Students,1,2021-08-16
+500,East Lake Elementary,Students,1,2021-08-16
+501,Edgewater High,Students,4,2021-08-16
+502,Endeavor Elementary,Students,1,2021-08-16
+503,Frangus Elementary,Students,1,2021-08-16
+504,Gotha Middle,Students,1,2021-08-16
+505,Hidden Oaks Elementary,Students,3,2021-08-16
+506,Horizon High,Students,2,2021-08-16
+507,Horizon West Middle,Students,2,2021-08-16
+508,Hunter’s Creek Elementary,Students,1,2021-08-16
+509,Hunter’s Creek Middle,Students,3,2021-08-16
+510,Innovation Middle,Students,1,2021-08-16
+511,Jones High,Students,1,2021-08-16
+512,Keene’s Crossing Elementary,Students,1,2021-08-16
+513,Lake Buena Vista High,Students,1,2021-08-16
+514,Lake Como School (K-8),Students,1,2021-08-16
+515,Lake Nona High,Students,9,2021-08-16
+516,Lake Nona Middle,Students,4,2021-08-16
+517,Lakemont Elementary,Students,5,2021-08-16
+518,Lakeview Middle,Students,3,2021-08-16
+519,Lakeville Elementary,Students,1,2021-08-16
+520,Laureate Park Elementary,Students,7,2021-08-16
+521,Liberty Middle,Students,1,2021-08-16
+522,Little River Elementary,Students,2,2021-08-16
+523,Lockhart Elementary,Students,1,2021-08-16
+524,Lovell Elementary,Students,1,2021-08-16
+525,Meadowbrook Middle,Students,5,2021-08-16
+526,MetroWest Elementary,Students,2,2021-08-16
+527,Millennia Gardens Elementary,Students,1,2021-08-16
+528,Mollie Ray Elementary,Students,2,2021-08-16
+529,NorthLake Park Community School,Students,1,2021-08-16
+530,Oak Hill Elementary,Students,1,2021-08-16
+531,Oak Ridge High,Students,1,2021-08-16
+532,Oakshire Elementary,Students,1,2021-08-16
+533,Ocoee Elementary,Students,2,2021-08-16
+534,Alternative Education Centers,Employees,1,2021-08-16
+535,Andover Elementary,Employees,1,2021-08-16
+536,Apopka Memorial Middle,Employees,1,2021-08-16
+537,Boone High,Employees,1,2021-08-16
+538,Clay Springs Elementary,Employees,1,2021-08-16
+539,Dommerich Elementary,Employees,1,2021-08-16
+540,Dover Shores Elementary,Employees,1,2021-08-16
+541,Dr. Phillips High,Employees,3,2021-08-16
+542,Edgewater High,Employees,2,2021-08-16
+543,ESE Transition School,Employees,1,2021-08-16
+544,Glenridge Middle,Employees,1,2021-08-16
+545,Horizon West Middle,Employees,1,2021-08-16
+546,Jones High,Employees,2,2021-08-16
+547,Lake Como School (K-8),Employees,2,2021-08-16
+548,Lake George Elementary,Employees,1,2021-08-16
+549,Legal Services,Employees,1,2021-08-16
+550,Lovell Elementary,Employees,1,2021-08-16
+551,Magnolia School,Employees,1,2021-08-16
+552,Mollie Ray Elementary,Employees,1,2021-08-16
+553,OCPS Academic Center for Excellence,Employees,1,2021-08-16
+554,Operations,Employees,9,2021-08-16
+555,Orange Technical College - Mid Florida,Employees,1,2021-08-16
+556,Positive Pathways Transition Center,Employees,1,2021-08-16
+557,Prairie Lake Elementary,Employees,1,2021-08-16
+558,Riverside Elementary,Employees,1,2021-08-16
+559,Rock Springs Elementary,Employees,1,2021-08-16
+560,Rolling Hills Elementary,Employees,1,2021-08-16
+561,Rosemont Elementary,Employees,1,2021-08-16
+562,Shingle Creek Elementary,Employees,1,2021-08-16
+563,Sunridge Elementary,Employees,1,2021-08-16
+564,Teaching and Learning,Employees,1,2021-08-16
+565,Timber Creek High,Employees,2,2021-08-16
+566,University High,Employees,1,2021-08-16
+567,Ventura Elementary,Employees,1,2021-08-16
+568,Waterford Elementary,Employees,1,2021-08-16
+569,West Orange High,Employees,1,2021-08-16
+570,Westbrooke Elementary,Employees,1,2021-08-16
+571,Wetherbee Elementary,Employees,1,2021-08-16
+572,Wolf Lake Elementary,Employees,1,2021-08-16
+573,Thornebrooke Elementary,Students,1,1900-01-01
