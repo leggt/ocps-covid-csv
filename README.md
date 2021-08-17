@@ -11,6 +11,15 @@ You can grab the most up to date csv files here:
 
 This page includes the source files for generating this data along with the data. The 2021-2022 school year data will be updated here daily.
 
+## Running
+
+The easiest way to run the project is to use the provided docker configuration. If you want to run the project yourself, clone the repository and execute:
+
+`docker-compose up --exit-code-from ocps-covid`
+
+This will spin up the Selenium driver, run ocps.py, and update the 2021-2022-cases dataset.
+
+
 
 
 
