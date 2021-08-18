@@ -212,7 +212,10 @@ class Driver:
         if len(newData) > 0:
             data.addNewData(newData)
 
-    def getAllData(self, data, box):
+    def getAllData(self, data, box, all=False):
+        if all:
+            # Empty out the dataframe, but keep the columns
+            data.df = data.df[0:0]
         if not self.hasSlider(box):
             self.getNewData(data, box)
         else:
@@ -239,7 +242,7 @@ class Data:
 
     @staticmethod
     def fromCsv(path):
-        df = pd.read_csv(path, index_col="index")
+        df = pd.read_csv(path)
         df['date'] = df['date'].apply(pd.to_datetime)
         df['count'] = df['count'].apply(pd.to_numeric)
         return Data(df)
@@ -258,8 +261,10 @@ class Data:
         return ret
 
     def toCsv(self, path):
-        self.df = self.df.dropna().reset_index(drop=True)
-        self.df.to_csv(path, index_label="index")
+        df = self.df
+        df = self.df.sort_values(by=['date', 'type', 'location'])
+        df = self.df.dropna().reset_index(drop=True)
+        df.to_csv(path, index=False)
 
     def addNewData(self, data):
         newdata = Data.dfFromDriver(data)
@@ -275,5 +280,7 @@ if __name__ == "__main__":
     d.get()
     d.wait()
     data = Data.fromCsv(dataset['file'])
-    d.getAllData(data,d.casesBox)
+    # all=True .. looks like they may update previous dates, so my assumption 
+    # that we only needed to process new dates may be wrong
+    d.getAllData(data, d.casesBox, True)
     data.toCsv(dataset['file'])
