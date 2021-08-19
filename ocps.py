@@ -1,10 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import pandas as pd
 import time
+import json
 from datetime import datetime
+from seleniumwire import webdriver  # Import from seleniumwire
+
 
 d20212022 = {'file': 'data/2021-2022-cases.csv', 'url': "http://bit.ly/COVIDdashboardOCPS",
              'cutoff': datetime.strptime("2021 August 2", "%Y %B %d")}
@@ -25,10 +28,15 @@ class Driver:
 
     def __init__(self, dataset):
         self.dataset = dataset
-
+        options = {
+            'addr': 'ocps-covid'  # Address of the machine running Selenium Wire. Explicitly use 127.0.0.1 rather than localhost if remote session is running locally.
+        }
         self.driver = webdriver.Remote(
             command_executor='http://selenium-remote:4444/wd/hub',
-            desired_capabilities=DesiredCapabilities.CHROME)
+            seleniumwire_options=options,
+            desired_capabilities=DesiredCapabilities.CHROME
+        )
+
 
     def get(self):
         self.driver.get(self.dataset['url'])
@@ -70,27 +78,32 @@ class Driver:
             ret.append(r)
         return ret
 
-    def getValueForRect(self, rect):
+    def driverMoveTo(self,element):
         # ActionChains(self.driver).move_to_element(rect['rect']).perform()
         # Found one rect that was so small the above did not display a popup, but moving a tiny bit from the corner did work..
+        del self.driver.requests
         ActionChains(self.driver).move_to_element_with_offset(
-            rect['rect'], 2, 2).perform()
-        self.wait()
+            element, 2, 2).perform()
+        try:
+            return self.driver.wait_for_request("/public/reports/querydata",15)
+        except TimeoutException:
+            print("timed out waiting for request, skipping")
+            return None
 
-        schools = self.driver.find_elements_by_xpath(
-            "//div[@class='bodyCells']/div/div/div/div[not(contains(@class,'tablixAlignRight'))]")
-        counts = self.driver.find_elements_by_xpath(
-            "//div[@class='bodyCells']/div/div/div/div[contains(@class,'tablixAlignRight')]")
-
-        ret = []
-        for i in range(len(schools)):
-            d = {}
-            d['location'] = schools[i].text
-            d['type'] = rect['type']
-            d['count'] = counts[i].text
-            d['date'] = rect['date']
-            ret.append(d)
-
+    def getValueForRect(self,rect,date=datetime(1900,1,1),t="Unknown"):
+        print("Getting values for %s, %s"%(date,t))
+        response = self.driverMoveTo(rect['rect'])
+        ret=[]
+        if response:
+            for k,v in self.getResponse(response).items():
+                d={}
+                d['location']=k
+                d['count']=v
+                d['date']=date
+                d['type']=t
+                ret.append(d)
+        else:
+            print("Did not get response for %s, %s"%(date,t))
         return ret
 
     def getDatesInView(self, box):
@@ -204,7 +217,7 @@ class Driver:
                 date = dRect['date']
                 t = dRect['type']
                 if not data.haveDataFor(date, t):
-                    values.extend(self.getValueForRect(dRect))
+                    values.extend(self.getValueForRect(dRect,date,t))
         return values
 
     def getNewData(self, data, box):
@@ -221,6 +234,48 @@ class Driver:
         else:
             for _ in self.eachView(box):
                 self.getNewData(data, box)
+
+    def getResponse(self,response=None):
+        if not response:
+            for resp in self.driver.requests:
+                if resp.path == "/public/reports/querydata":
+                    response=resp
+
+        rj = json.loads(response.response.body)
+        del self.driver.requests
+        return self.parseResult(rj)
+
+    def parseResult(self,result_json):
+        ret = {}
+        for result in result_json['results']:
+
+            data = result['result']['data']
+            descriptor = data['descriptor']
+            dsr = data['dsr']
+            version = dsr['Version']
+            for ds in dsr['DS']:
+                value_dicts = ds['N']
+                for ph in ds['PH']:
+
+                    if 'DM1' in ph.keys():
+                        for dm1 in ph['DM1']:
+                            structures=[]
+                            if 'S' in dm1.keys():
+                                structure = dm1['S']
+                                for i in range(len(structure)):
+                                    s = structure[i]
+                                    key = s['N']
+                                    for d in descriptor['Select']:
+                                        if d['Value']==key:
+                                            if 'GroupKeys' in d:
+                                                groupKeys = d['GroupKeys']
+                            if 'C' in dm1.keys():
+                                c = dm1['C']
+                                count=1
+                                if len(c) > 1:
+                                    count=c[1]
+                                ret[c[0]]=count
+        return ret
 
 
 class Data:
