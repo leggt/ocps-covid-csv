@@ -5,10 +5,14 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import pandas as pd
 import time
 import json
+import logging
 from datetime import datetime
 from seleniumwire import webdriver  # Import from seleniumwire
 
 
+# File = the input/output csv file.
+# url = The public url for the dataset
+# cuttoff = The webelements on the page did not specify a year, this was a way to know what month/day mapped to what year
 d20212022 = {'file': 'data/2021-2022-cases.csv', 'url': "http://bit.ly/COVIDdashboardOCPS",
              'cutoff': datetime.strptime("2021 August 2", "%Y %B %d")}
 d20202021 = {'file': 'data/2020-2021-cases.csv', 'url': "https://app.powerbi.com/view?r=eyJrIjoiMDcyNjNlMmMtMDM1ZS00Mjg3LWI4N2MtYTFjNTJjMzhkYTc2IiwidCI6IjMwYTczNzMxLTdkNWEtNDY5My1hNGFmLTFmNWQ0ZTc0Y2E5MyIsImMiOjF9",
@@ -16,6 +20,24 @@ d20202021 = {'file': 'data/2020-2021-cases.csv', 'url': "https://app.powerbi.com
 
 
 class Driver:
+    """
+    Driver is mostly responsible for driving the website interactions through selenium
+    Initialize with a dataset. d20212022 and d20202021 are two datasets defined above
+
+    Once the first page loads, you have to hover your mouse over individual rectangles
+    which causes some network requests to be sent and received.
+
+    This driver loads the first page, and then iterates through all of the rectangles,
+    moves the mouse over each one, waits for a response, and parseses it to collect the
+    data.
+
+    Development note:
+    There's also a bunch of code for mapping up dates to rectangles because early on
+    I was not listening for the raw response but was parsing the page elements and that
+    was the only way to map dates to data. In the future this may not be necessary, we
+    might be able to directly request the data we want using the same calls the page
+    uses.
+    """
 
     # This is how we identify which type of rectangle we're collecting data for
     employeeFill = "fill: rgb(18, 35, 158);"
@@ -29,7 +51,8 @@ class Driver:
     def __init__(self, dataset):
         self.dataset = dataset
         options = {
-            'addr': 'ocps-covid'  # Address of the machine running Selenium Wire. Explicitly use 127.0.0.1 rather than localhost if remote session is running locally.
+            # Address of the machine running Selenium Wire. Explicitly use 127.0.0.1 rather than localhost if remote session is running locally.
+            'addr': 'ocps-covid'
         }
         self.driver = webdriver.Remote(
             command_executor='http://selenium-remote:4444/wd/hub',
@@ -37,13 +60,18 @@ class Driver:
             desired_capabilities=DesiredCapabilities.CHROME
         )
 
-
     def get(self):
+        """
+        Load the initial dataset url
+        """
         self.driver.get(self.dataset['url'])
         self.wait()
 
-    def wait(self):
-        timeout = 30
+    def wait(self, timeout=30):
+        """
+        This watches the page for 'loading' elements and waits until they're 
+        all gone, or we hit the timeout
+        """
         time.sleep(1)
         while len(self.driver.find_elements_by_class_name("circle")) != 0:
             time.sleep(1)
@@ -52,6 +80,7 @@ class Driver:
                 break
 
     def getRectsInView(self, title, type, fill):
+        """Find and return all the 'rect' elements of type 'fill' currently displayed in the box with the given title."""
         series = self.driver.find_element_by_xpath(
             "//div[starts-with(@aria-label, '%s')]//*[local-name()='g' and @class='series' and @style='%s']" % (title, fill))
         rects = []
@@ -71,51 +100,58 @@ class Driver:
 
         return rects
 
-    def getRectValues(self, rects):
-        ret = []
-        for r in rects:
-            r['values'] = self.getValueForRect(r)
-            ret.append(r)
-        return ret
-
-    def driverMoveTo(self,element):
+    def driverMoveTo(self, element):
+        """
+        Move the mouse to the element. Wait for a response for the expected querydata
+        """
         # ActionChains(self.driver).move_to_element(rect['rect']).perform()
         # Found one rect that was so small the above did not display a popup, but moving a tiny bit from the corner did work..
         del self.driver.requests
         ActionChains(self.driver).move_to_element_with_offset(
             element, 2, 2).perform()
         try:
-            return self.driver.wait_for_request("/public/reports/querydata",15)
+            return self.driver.wait_for_request("/public/reports/querydata", 15)
         except TimeoutException:
-            print("timed out waiting for request, skipping")
             return None
 
-    def getValueForRect(self,rect,date=datetime(1900,1,1),t="Unknown"):
-        print("Getting values for %s, %s"%(date,t))
+    def getValueForRect(self, rect, date=datetime(1900, 1, 1), t="Unknown"):
+        """
+        Get the data for the given rect
+        This handles sending the request, receiving the response, and parsing the results
+        """
+        logging.info("Getting values for %s, %s" % (date, t))
         response = self.driverMoveTo(rect['rect'])
-        ret=[]
+        ret = []
         if response:
-            for k,v in self.getResponse(response).items():
-                d={}
-                d['location']=k
-                d['count']=v
-                d['date']=date
-                d['type']=t
+            for k, v in self.getResponse(response).items():
+                d = {}
+                d['location'] = k
+                d['count'] = v
+                d['date'] = date
+                d['type'] = t
                 ret.append(d)
         else:
-            print("Did not get response for %s, %s"%(date,t))
+            logging.warning("Did not get response for %s, %s" % (date, t))
         return ret
 
     def getDatesInView(self, box):
+        """
+        Get all of the dates displayed in x axis in the given box
+        """
         elements = self.driver.find_elements_by_xpath(
             "//*[div and starts-with(@aria-label, '%s')]//*[local-name()='g' and @aria-label='%s']//*[local-name()='g' and @class='tick']" % (box['title'], box['dateTitle']))
         return [self.toDatetime(x.text) for x in elements]
 
-    def getTranslate(self, s):
-        strs = s.replace('translate(', "").replace(")", "").split(",")
-        return [float(strs[0]), float(strs[1])]
-
     def mapDateToRectsInView(self, dates, *series):
+        """
+        Early on this driver scraped only the elements on the page source.
+        The only way to map up all of the rects in all of the series to a
+        date was to:
+        Assign an index to each rect based off it's x axis value.
+        Next sort the buckets by x value.
+        We expect the number of buckets to match the number of given dates so map
+        each (sorted) bucket to each (sorted) date.
+        """
         # Get all the buckets
         buckets = set()
         for s in series:
@@ -135,6 +171,10 @@ class Driver:
         return ret
 
     def toDatetime(self, s):
+        """
+        Translate the date the web element gives us (e.g. 'August 12')
+        into a datetime. Wrap the year around the 'cutoff' in the dataset.
+        """
         cutoff = self.dataset['cutoff']
         if s == '(Blank)':
             return "1900 January 01"
@@ -147,6 +187,9 @@ class Driver:
             return datetime.strptime("%s %s" % (cutoff.year+1, s), "%Y %B %d")
 
     def hasSlider(self, box):
+        """
+        Determine if the box/view has a scroll bar or not. In other words do we see all of the data or not
+        """
         try:
             self.driver.find_element_by_xpath(
                 "//div[starts-with(@aria-label, '%s')]//*[local-name()='rect' and @class='overlay']" % (box['title']))
@@ -155,6 +198,10 @@ class Driver:
             return False
 
     def eachView(self, box):
+        """
+        Iterate through each view. Returns nothing but sets up the driver to be in a state such that it shows each
+        successive view within the box
+        """
         overlay = self.driver.find_element_by_xpath(
             "//div[starts-with(@aria-label, '%s')]//*[local-name()='rect' and @class='overlay']" % (box['title']))
 
@@ -188,18 +235,12 @@ class Driver:
             else:
                 curX = newX
 
-    def rectToValues(self, rects):
-        values = []
-
-        for r in rects:
-            for v in r['values']:
-                v['date'] = r['date']
-                v['type'] = r['type']
-                values.append(v)
-
-        return values
-
     def getAllRectsInView(self, box):
+        """
+        We expect separate series of students, employees, and volunteers
+        Go find each, and map them up to the dates that are displayed
+        at the bottom of the view.
+        """
         dates = self.getDatesInView(box)
         students = self.getRectsInView(
             box['title'], "Students", self.studentFill)
@@ -210,6 +251,9 @@ class Driver:
         return self.mapDateToRectsInView(dates, students, employees, volunteers)
 
     def getNewDataInView(self, data, box):
+        """
+        Only request data for the dates / type that we do not have.
+        """
         rectMap = self.getAllRectsInView(box)
         values = []
         for dRects in rectMap.values():
@@ -217,15 +261,22 @@ class Driver:
                 date = dRect['date']
                 t = dRect['type']
                 if not data.haveDataFor(date, t):
-                    values.extend(self.getValueForRect(dRect,date,t))
+                    values.extend(self.getValueForRect(dRect, date, t))
         return values
 
     def getNewData(self, data, box):
+        """
+        Get new data, and add it
+        """
         newData = self.getNewDataInView(data, box)
         if len(newData) > 0:
             data.addNewData(newData)
 
     def getAllData(self, data, box, all=False):
+        """
+        Get all data. If all=True, then clear out whatever data we have
+        and get everything
+        """
         if all:
             # Empty out the dataframe, but keep the columns
             data.df = data.df[0:0]
@@ -235,46 +286,41 @@ class Driver:
             for _ in self.eachView(box):
                 self.getNewData(data, box)
 
-    def getResponse(self,response=None):
+    def getResponse(self, response=None):
+        """
+        Given the response or
+        Get the latest response to our querydata request
+        Then parse the result and return it
+        """
         if not response:
             for resp in self.driver.requests:
                 if resp.path == "/public/reports/querydata":
-                    response=resp
+                    response = resp
 
         rj = json.loads(response.response.body)
         del self.driver.requests
         return self.parseResult(rj)
 
-    def parseResult(self,result_json):
+    def parseResult(self, result_json):
+        """
+        Read the result json that power bi gives us and translate it to a 
+        dictionary of school -> count
+        """
         ret = {}
         for result in result_json['results']:
-
             data = result['result']['data']
-            descriptor = data['descriptor']
             dsr = data['dsr']
-            version = dsr['Version']
             for ds in dsr['DS']:
-                value_dicts = ds['N']
                 for ph in ds['PH']:
-
                     if 'DM1' in ph.keys():
                         for dm1 in ph['DM1']:
-                            structures=[]
-                            if 'S' in dm1.keys():
-                                structure = dm1['S']
-                                for i in range(len(structure)):
-                                    s = structure[i]
-                                    key = s['N']
-                                    for d in descriptor['Select']:
-                                        if d['Value']==key:
-                                            if 'GroupKeys' in d:
-                                                groupKeys = d['GroupKeys']
                             if 'C' in dm1.keys():
+                                # It seems like they don't return a count, if the count is 1
                                 c = dm1['C']
-                                count=1
+                                count = 1
                                 if len(c) > 1:
-                                    count=c[1]
-                                ret[c[0]]=count
+                                    count = c[1]
+                                ret[c[0]] = count
         return ret
 
 
@@ -286,47 +332,52 @@ class Data:
         self.df = df
 
     @staticmethod
-    def fromDriver(data):
-        return Data(Data.dfFromDriver(data))
-
-    @staticmethod
     def dfFromDriver(data):
+        """
+        Translate driver data (a python list of dictionary values)
+        into a pandas dataframe and return it
+        """
         df = pd.DataFrame(data)
         df['count'] = df['count'].apply(pd.to_numeric)
         return df
 
     @staticmethod
     def fromCsv(path):
+        """
+        Read provided csv file at path, translate columns to their respective types,
+        and return a Data object
+        """
         df = pd.read_csv(path)
         df['date'] = df['date'].apply(pd.to_datetime)
         df['count'] = df['count'].apply(pd.to_numeric)
         return Data(df)
 
     def haveDataFor(self, date, typ):
+        """
+        Do we already have data for the given date and type?
+        """
         return len(self.df[(self.df['type'] == typ) & (self.df['date'] == date)]) > 0
 
-    def getNewDates(self, dates):
-        timestamps = self.df['date'][self.df['date'].isin(
-            dates)].unique().tolist()
-        processedDates = [pd.Timestamp(x) for x in timestamps]
-        ret = []
-        for d in dates:
-            if d not in processedDates:
-                ret.append(d)
-        return ret
-
     def toCsv(self, path):
+        """
+        Save the csv to path
+        """
         df = self.df
         df = self.df.sort_values(by=['date', 'type', 'location'])
         df = self.df.dropna().reset_index(drop=True)
         df.to_csv(path, index=False)
 
     def addNewData(self, data):
+        """
+        Append the given data from the driver to the data we already have
+        """
         newdata = Data.dfFromDriver(data)
         self.df = self.df.append(newdata)
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.WARN)
+
     # Temporary hack. Can't seem to get docker-compose depends-on / wait working
     time.sleep(10)
     # Update the current dataset
@@ -335,7 +386,7 @@ if __name__ == "__main__":
     d.get()
     d.wait()
     data = Data.fromCsv(dataset['file'])
-    # all=True .. looks like they may update previous dates, so my assumption 
+    # all=True .. looks like they may update previous dates, so my assumption
     # that we only needed to process new dates may be wrong
     d.getAllData(data, d.casesBox, True)
     data.toCsv(dataset['file'])
