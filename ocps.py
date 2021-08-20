@@ -63,6 +63,8 @@ class Driver:
             seleniumwire_options=options,
             desired_capabilities=DesiredCapabilities.CHROME
         )
+        # Some elements were so tiny we couldn't click on them. This is probably a temporary hack
+        self.driver.set_window_size(2000, 2000)
 
     def get(self):
         """
@@ -288,7 +290,7 @@ class Driver:
                     values.extend(self.getValueForRect(rect, date, t))
         return values
 
-    def getNewDates(self,data,box):
+    def getNewDates(self, data, box):
         return data.newDates(self.getDatesInView(box))
 
     def getNewData(self, data, box):
@@ -377,8 +379,8 @@ class Data:
         df['count'] = df['count'].apply(pd.to_numeric)
         return Data(df)
 
-    def newDates(self,data):
-        df2 = pd.DataFrame(data,columns=['date'])
+    def newDates(self, data):
+        df2 = pd.DataFrame(data, columns=['date'])
         dfnew = df2.date[~df2.date.isin(self.df.date)]
         return pd.to_datetime(dfnew.values).tolist()
 
@@ -393,8 +395,8 @@ class Data:
         Save the csv to path
         """
         df = self.df
-        df = self.df.sort_values(by=['date', 'type', 'location'])
         df = self.df.dropna().reset_index(drop=True)
+        df = self.df.sort_values(by=['date', 'type', 'location'],ascending=False)
         df.to_csv(path, index=False)
 
     def addNewData(self, data):
@@ -408,10 +410,13 @@ class Data:
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--check",help="Only check for and return any new dates",action='store_true')
-    parser.add_argument("--all",help="Refetch all data. By default only get new dates/types",action='store_true')
-    parser.add_argument("--sleep",help="Sleep for x seconds before parsng (Hack to ensure selenium is up)")
-    args=parser.parse_args()
+    parser.add_argument(
+        "--check", help="Only check for and return any new dates", action='store_true')
+    parser.add_argument(
+        "--all", help="Refetch all data. By default only get new dates/types", action='store_true')
+    parser.add_argument(
+        "--sleep", help="Sleep for x seconds before parsng (Hack to ensure selenium is up)")
+    args = parser.parse_args()
 
     if args.sleep is not None:
         time.sleep(int(args.sleep))
@@ -427,7 +432,7 @@ if __name__ == "__main__":
         sh.setLevel(logging.ERROR)
         logger.addHandler(sh)
         logger.setLevel(logging.ERROR)
-        for date in d.getNewDates(data,d.casesBox):
+        for date in d.getNewDates(data, d.casesBox):
             print(date.strftime("%Y-%m-%d"))
         sys.exit()
 
