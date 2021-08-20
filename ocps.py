@@ -293,27 +293,23 @@ class Driver:
     def getNewDates(self, data, box):
         return data.newDates(self.getDatesInView(box))
 
-    def getNewData(self, data, box):
-        """
-        Get new data, and add it
-        """
-        newData = self.getNewDataInView(data, box)
-        if len(newData) > 0:
-            data.addNewData(newData)
-
     def getAllData(self, data, box, all=False):
         """
         Get all data. If all=True, then clear out whatever data we have
         and get everything
         """
+
         if all:
             # Empty out the dataframe, but keep the columns
             data.df = data.df[0:0]
+
         if not self.hasSlider(box):
-            self.getNewData(data, box)
+            new = self.getNewDataInView(data, box)
+            data.addNewData(new)
         else:
             for _ in self.eachView(box):
-                self.getNewData(data, box)
+                new = self.getNewDataInView(data, box)
+                data.addNewData(new)
 
     def getResponse(self):
         """
@@ -396,30 +392,28 @@ class Data:
         """
         df = self.df
         df = self.df.dropna().reset_index(drop=True)
-        df = self.df.sort_values(by=['date', 'type', 'location'],ascending=False)
+        df = self.df.sort_values(
+            by=['date', 'type', 'location'], ascending=False)
         df.to_csv(path, index=False)
 
     def addNewData(self, data):
         """
         Append the given data from the driver to the data we already have
         """
-        newdata = Data.dfFromDriver(data)
-        self.df = self.df.append(newdata)
+        if len(data) > 0:
+            newdata = Data.dfFromDriver(data)
+            self.df = self.df.append(newdata)
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--check", help="Only check for and return any new dates", action='store_true')
     parser.add_argument(
         "--all", help="Refetch all data. By default only get new dates/types", action='store_true')
     parser.add_argument(
-        "--sleep", help="Sleep for x seconds before parsng (Hack to ensure selenium is up)")
+        "--nightly", help="Start a nightly run. Keep trying until we find new data", action='store_true')
     args = parser.parse_args()
-
-    if args.sleep is not None:
-        time.sleep(int(args.sleep))
 
     dataset = d20212022
     d = Driver(dataset)
@@ -441,5 +435,17 @@ if __name__ == "__main__":
     logger.addHandler(sh)
     logger.setLevel(logging.INFO)
 
-    d.getAllData(data, d.casesBox, args.all)
-    data.toCsv(dataset['file'])
+    sleep = 3*60
+
+    if args.nightly:
+        while True:
+            if len(d.getNewDates(data, d.casesBox)) > 0:
+                d.getAllData(data, d.casesBox, args.all)
+                data.toCsv(dataset['file'])
+                sys.exit()
+            else:
+                logger.warning("Did not find any new data, sleeping..")
+                time.sleep(sleep)
+
+    if d.getAllData(data, d.casesBox, args.all):
+        data.toCsv(dataset['file'])
