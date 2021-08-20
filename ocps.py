@@ -6,9 +6,13 @@ import pandas as pd
 import time
 import json
 import logging
+import argparse
+import sys
 from datetime import datetime
 from seleniumwire import webdriver  # Import from seleniumwire
 
+
+logger = logging.getLogger(__name__)
 
 # File = the input/output csv file.
 # url = The public url for the dataset
@@ -131,7 +135,7 @@ class Driver:
         Get the data for the given rect
         This handles sending the request, receiving the response, and parsing the results
         """
-        logging.info("Getting values for %s, %s" % (date, t))
+        logger.info("Getting values for %s, %s" % (date, t))
         self.driverMoveTo(rect, False)
         self.clearRequests()
         self.clickSeeDetails()
@@ -144,7 +148,7 @@ class Driver:
             d['type'] = t
             ret.append(d)
         if len(ret) == 0:
-            logging.warning("Did not get response for %s, %s" % (date, t))
+            logger.warning("Did not get response for %s, %s" % (date, t))
         self.clickBack()
         return ret
 
@@ -284,6 +288,9 @@ class Driver:
                     values.extend(self.getValueForRect(rect, date, t))
         return values
 
+    def getNewDates(self,data,box):
+        return data.newDates(self.getDatesInView(box))
+
     def getNewData(self, data, box):
         """
         Get new data, and add it
@@ -370,6 +377,11 @@ class Data:
         df['count'] = df['count'].apply(pd.to_numeric)
         return Data(df)
 
+    def newDates(self,data):
+        df2 = pd.DataFrame(data,columns=['date'])
+        dfnew = df2.date[~df2.date.isin(self.df.date)]
+        return pd.to_datetime(dfnew.values).tolist()
+
     def haveDataFor(self, date, typ):
         """
         Do we already have data for the given date and type?
@@ -394,17 +406,35 @@ class Data:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
 
-    # Temporary hack. Can't seem to get docker-compose depends-on / wait working
-    time.sleep(10)
-    # Update the current dataset
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--check",help="Only check for and return any new dates",action='store_true')
+    parser.add_argument("--all",help="Refetch all data. By default only get new dates/types",action='store_true')
+    parser.add_argument("--sleep",help="Sleep for x seconds before parsng (Hack to ensure selenium is up)")
+    args=parser.parse_args()
+
+    if args.sleep is not None:
+        time.sleep(int(args.sleep))
+
     dataset = d20212022
     d = Driver(dataset)
     d.get()
     d.wait()
     data = Data.fromCsv(dataset['file'])
-    # all=True .. looks like they may update previous dates, so my assumption
-    # that we only needed to process new dates may be wrong
-    d.getAllData(data, d.casesBox, True)
+
+    if args.check:
+        sh = logging.StreamHandler()
+        sh.setLevel(logging.ERROR)
+        logger.addHandler(sh)
+        logger.setLevel(logging.ERROR)
+        for date in d.getNewDates(data,d.casesBox):
+            print(date.strftime("%Y-%m-%d"))
+        sys.exit()
+
+    sh = logging.StreamHandler()
+    sh.setLevel(logging.INFO)
+    logger.addHandler(sh)
+    logger.setLevel(logging.INFO)
+
+    d.getAllData(data, d.casesBox, args.all)
     data.toCsv(dataset['file'])
