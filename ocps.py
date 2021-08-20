@@ -100,19 +100,31 @@ class Driver:
 
         return rects
 
-    def driverMoveTo(self, element):
+    def driverMoveTo(self, element, with_offset=True):
         """
         Move the mouse to the element. Wait for a response for the expected querydata
         """
-        # ActionChains(self.driver).move_to_element(rect['rect']).perform()
-        # Found one rect that was so small the above did not display a popup, but moving a tiny bit from the corner did work..
+        if with_offset:
+            # Found one rect that was so small the above did not display a popup, but moving a tiny bit from the corner did work..
+            ActionChains(self.driver).move_to_element_with_offset(
+                element, 2, 2).click().perform()
+        else:
+            ActionChains(self.driver).move_to_element(
+                element).click().perform()
+
+    def clickSeeDetails(self):
+        b = self.driver.find_element_by_xpath(
+            "//span[@class='button-text' and text()='See Details']")
+        self.driverMoveTo(b, False)
+        self.wait()
+
+    def clearRequests(self):
         del self.driver.requests
-        ActionChains(self.driver).move_to_element_with_offset(
-            element, 2, 2).perform()
-        try:
-            return self.driver.wait_for_request("/public/reports/querydata", 15)
-        except TimeoutException:
-            return None
+
+    def clickBack(self):
+        e = self.driver.find_element_by_xpath("//i[@title='Previous Page']")
+        self.driverMoveTo(e, False)
+        self.wait()
 
     def getValueForRect(self, rect, date=datetime(1900, 1, 1), t="Unknown"):
         """
@@ -120,18 +132,20 @@ class Driver:
         This handles sending the request, receiving the response, and parsing the results
         """
         logging.info("Getting values for %s, %s" % (date, t))
-        response = self.driverMoveTo(rect['rect'])
+        self.driverMoveTo(rect, False)
+        self.clearRequests()
+        self.clickSeeDetails()
         ret = []
-        if response:
-            for k, v in self.getResponse(response).items():
-                d = {}
-                d['location'] = k
-                d['count'] = v
-                d['date'] = date
-                d['type'] = t
-                ret.append(d)
-        else:
+        for k, v in self.getResponse().items():
+            d = {}
+            d['location'] = k
+            d['count'] = v
+            d['date'] = date
+            d['type'] = t
+            ret.append(d)
+        if len(ret) == 0:
             logging.warning("Did not get response for %s, %s" % (date, t))
+        self.clickBack()
         return ret
 
     def getDatesInView(self, box):
@@ -250,6 +264,10 @@ class Driver:
             box['title'], "Volunteers", self.volFill)
         return self.mapDateToRectsInView(dates, students, employees, volunteers)
 
+    def getRectFor(self, date, t, box):
+        series = self.getAllRectsInView(box)[date]
+        return [d for d in series if d['type'] == t][0]['rect']
+
     def getNewDataInView(self, data, box):
         """
         Only request data for the dates / type that we do not have.
@@ -261,7 +279,9 @@ class Driver:
                 date = dRect['date']
                 t = dRect['type']
                 if not data.haveDataFor(date, t):
-                    values.extend(self.getValueForRect(dRect, date, t))
+                    # Now that we're clicking to another page we have to refetch the element here
+                    rect = self.getRectFor(date, t, box)
+                    values.extend(self.getValueForRect(rect, date, t))
         return values
 
     def getNewData(self, data, box):
@@ -286,20 +306,18 @@ class Driver:
             for _ in self.eachView(box):
                 self.getNewData(data, box)
 
-    def getResponse(self, response=None):
+    def getResponse(self):
         """
-        Given the response or
-        Get the latest response to our querydata request
-        Then parse the result and return it
+        Look through all the querydata responses
+        Try to parse each and return the result
         """
-        if not response:
-            for resp in self.driver.requests:
-                if resp.path == "/public/reports/querydata":
-                    response = resp
-
-        rj = json.loads(response.response.body)
-        del self.driver.requests
-        return self.parseResult(rj)
+        ret = {}
+        for req in self.driver.requests:
+            if req.path == "/public/reports/querydata":
+                if req.response is not None and req.response.body is not None:
+                    rj = json.loads(req.response.body)
+                    ret.update(self.parseResult(rj))
+        return ret
 
     def parseResult(self, result_json):
         """
@@ -376,7 +394,7 @@ class Data:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.WARN)
+    logging.basicConfig(level=logging.INFO)
 
     # Temporary hack. Can't seem to get docker-compose depends-on / wait working
     time.sleep(10)
