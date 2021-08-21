@@ -61,6 +61,7 @@ if __name__ == "__main__":
             else:
                 logger.warning("Did not find any new data, sleeping..")
                 time.sleep(sleep)
+                d.get()
 
     if d.getAllData(data, d.casesBox, args.all):
         data.toCsv(dataset['file'])
