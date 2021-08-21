@@ -6,8 +6,45 @@ import pandas as pd
 
 file = "data/directory.csv"
 
-
 class Directory:
+    df=None
+
+    def __init__(self,df):
+        self.df=df
+
+    @staticmethod
+    def fromCsv(path):
+        return Directory(pd.read_csv(path))
+
+    def mapDataToDirectory(self,data_df):
+        nameMap={
+            'LAKE COMO K-8':'LAKE COMO SCHOOL',
+            'AUDUBON PARK K-8':'AUDUBON PARK SCHOOL',
+            'APOPKA MEMORIAL MIDDLE':'MEMORIAL MIDDLE',
+            'WHEATLEY ELEMENTARY':'PHILLIS WHEATLEY ELEMENTARY',
+            'DR. PHILLIPS HIGH': 'DR PHILLIPS HIGH',
+            'DILLARD ST. ELEMENTARY': 'DILLARD STREET ELEMENTARY',
+            'NORTHLAKE PARK COMMUNITY':'NORTHLAKE PARK COMMUNITY ELEMENTARY',
+            'WINTER PARK 9TH GRADE CENTER':'WINTER PARK HIGH 9TH GRADE CENTER'
+        }
+        def mapDirNames(name):
+            name = name.upper()
+            name = name.replace('(','')
+            name = name.replace(')','')
+            name = name.replace(" SCHOOL","")
+            name = name.replace("’","")
+
+            if name in nameMap:
+                return nameMap[name]
+            
+            return name.strip()
+
+        data_df.location = data_df.location.apply(lambda x: mapDirNames(x))
+
+        return data_df.merge(self.df,how='left',on='location')
+        
+
+class DirectoryParser:
     elem_cb = None
     mid_cb = None
     high_cb = None
@@ -32,6 +69,7 @@ class Directory:
 
         print("Getting url %s" % (self.url))
         self.driver.get(self.url)
+
 
     def refreshElements(self):
         self.elem_cb = self.driver.find_element_by_xpath(
@@ -97,20 +135,19 @@ class Directory:
         rows = rows[:-1]
         for row in rows:
             re = row.find_elements_by_xpath("td/table/tbody/tr")
-            name = re[0].text
+            location = re[0].text
             addr = "%s %s" % (re[1].text, re[2].text)
-            ret.append({'name': name, 'addr': addr, 'type': type})
+            ret.append({'location': location, 'addr': addr, 'level': type})
         return ret
 
     def getAll(self):
         all = []
         for type in ['Elementary', 'Middle', 'High']:
             all.extend(self.parsePages(type))
-        df = pd.DataFrame(all)
-        df = df.sort_values(by=['type', 'name'])
-        df.to_csv(file)
-
+        self.df = pd.DataFrame(all)
+        self.df = self.df.sort_values(by=['type', 'location'])
+        self.df.to_csv(file)
 
 if __name__ == "__main__":
-    d = Directory()
+    d = DirectoryParser()
     d.getAll()
