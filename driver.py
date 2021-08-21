@@ -1,26 +1,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-import pandas as pd
+from selenium.common.exceptions import NoSuchElementException
 import time
 import json
 import logging
-import argparse
-import sys
 from datetime import datetime
 from seleniumwire import webdriver  # Import from seleniumwire
 
-
-logger = logging.getLogger(__name__)
-
-# File = the input/output csv file.
-# url = The public url for the dataset
-# cuttoff = The webelements on the page did not specify a year, this was a way to know what month/day mapped to what year
-d20212022 = {'file': 'data/2021-2022-cases.csv', 'url': "http://bit.ly/COVIDdashboardOCPS",
-             'cutoff': datetime.strptime("2021 August 2", "%Y %B %d")}
-d20202021 = {'file': 'data/2020-2021-cases.csv', 'url': "https://app.powerbi.com/view?r=eyJrIjoiMDcyNjNlMmMtMDM1ZS00Mjg3LWI4N2MtYTFjNTJjMzhkYTc2IiwidCI6IjMwYTczNzMxLTdkNWEtNDY5My1hNGFmLTFmNWQ0ZTc0Y2E5MyIsImMiOjF9",
-             'cutoff': datetime.strptime("2020 August 21", "%Y %B %d")}
+logger = logging.getLogger("ocps-covid-csv")
 
 
 class Driver:
@@ -58,11 +46,13 @@ class Driver:
             # Address of the machine running Selenium Wire. Explicitly use 127.0.0.1 rather than localhost if remote session is running locally.
             'addr': 'ocps-covid'
         }
+        logger.info("Initializing driver")
         self.driver = webdriver.Remote(
             command_executor='http://selenium-remote:4444/wd/hub',
             seleniumwire_options=options,
             desired_capabilities=DesiredCapabilities.CHROME
         )
+        logger.info("Initializing driver complete")
         # Some elements were so tiny we couldn't click on them. This is probably a temporary hack
         self.driver.set_window_size(2000, 2000)
 
@@ -70,7 +60,10 @@ class Driver:
         """
         Load the initial dataset url
         """
-        self.driver.get(self.dataset['url'])
+        url = self.dataset['url']
+        logger.info("fetching url: %s" % (url))
+        self.driver.get(url)
+        logger.info("finished fetching url: %s" % (url))
         self.wait()
 
     def wait(self, timeout=30):
@@ -78,6 +71,7 @@ class Driver:
         This watches the page for 'loading' elements and waits until they're 
         all gone, or we hit the timeout
         """
+        logger.debug("waiting for page elements to fully load..")
         time.sleep(1)
         while len(self.driver.find_elements_by_class_name("circle")) != 0:
             time.sleep(1)
@@ -119,15 +113,18 @@ class Driver:
                 element).click().perform()
 
     def clickSeeDetails(self):
+        logger.debug("click see details")
         b = self.driver.find_element_by_xpath(
             "//span[@class='button-text' and text()='See Details']")
         self.driverMoveTo(b, False)
         self.wait()
 
     def clearRequests(self):
+        logger.debug("clearing requests")
         del self.driver.requests
 
     def clickBack(self):
+        logger.debug("click back")
         e = self.driver.find_element_by_xpath("//i[@title='Previous Page']")
         self.driverMoveTo(e, False)
         self.wait()
@@ -278,6 +275,7 @@ class Driver:
         """
         Only request data for the dates / type that we do not have.
         """
+        logger.debug("getting new data in view")
         rectMap = self.getAllRectsInView(box)
         values = []
         for dRects in rectMap.values():
@@ -300,6 +298,7 @@ class Driver:
         """
 
         if all:
+            logger.debug("Clearing all data")
             # Empty out the dataframe, but keep the columns
             data.df = data.df[0:0]
 
@@ -316,6 +315,7 @@ class Driver:
         Look through all the querydata responses
         Try to parse each and return the result
         """
+        logger.debug("parseing results")
         ret = {}
         for req in self.driver.requests:
             if req.path == "/public/reports/querydata":
@@ -345,107 +345,3 @@ class Driver:
                                     count = c[1]
                                 ret[c[0]] = count
         return ret
-
-
-class Data:
-    """The Data class is responsible for reading and writing the data files and
-    for all the data queries"""
-
-    def __init__(self, df):
-        self.df = df
-
-    @staticmethod
-    def dfFromDriver(data):
-        """
-        Translate driver data (a python list of dictionary values)
-        into a pandas dataframe and return it
-        """
-        df = pd.DataFrame(data)
-        df['count'] = df['count'].apply(pd.to_numeric)
-        return df
-
-    @staticmethod
-    def fromCsv(path):
-        """
-        Read provided csv file at path, translate columns to their respective types,
-        and return a Data object
-        """
-        df = pd.read_csv(path)
-        df['date'] = df['date'].apply(pd.to_datetime)
-        df['count'] = df['count'].apply(pd.to_numeric)
-        return Data(df)
-
-    def newDates(self, data):
-        df2 = pd.DataFrame(data, columns=['date'])
-        dfnew = df2.date[~df2.date.isin(self.df.date)]
-        return pd.to_datetime(dfnew.values).tolist()
-
-    def haveDataFor(self, date, typ):
-        """
-        Do we already have data for the given date and type?
-        """
-        return len(self.df[(self.df['type'] == typ) & (self.df['date'] == date)]) > 0
-
-    def toCsv(self, path):
-        """
-        Save the csv to path
-        """
-        df = self.df
-        df = self.df.dropna().reset_index(drop=True)
-        df = self.df.sort_values(
-            by=['date', 'type', 'location'], ascending=False)
-        df.to_csv(path, index=False)
-
-    def addNewData(self, data):
-        """
-        Append the given data from the driver to the data we already have
-        """
-        if len(data) > 0:
-            newdata = Data.dfFromDriver(data)
-            self.df = self.df.append(newdata)
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--check", help="Only check for and return any new dates", action='store_true')
-    parser.add_argument(
-        "--all", help="Refetch all data. By default only get new dates/types", action='store_true')
-    parser.add_argument(
-        "--nightly", help="Start a nightly run. Keep trying until we find new data", action='store_true')
-    args = parser.parse_args()
-
-    dataset = d20212022
-    d = Driver(dataset)
-    d.get()
-    d.wait()
-    data = Data.fromCsv(dataset['file'])
-
-    if args.check:
-        sh = logging.StreamHandler()
-        sh.setLevel(logging.ERROR)
-        logger.addHandler(sh)
-        logger.setLevel(logging.ERROR)
-        for date in d.getNewDates(data, d.casesBox):
-            print(date.strftime("%Y-%m-%d"))
-        sys.exit()
-
-    sh = logging.StreamHandler()
-    sh.setLevel(logging.INFO)
-    logger.addHandler(sh)
-    logger.setLevel(logging.INFO)
-
-    sleep = 3*60
-
-    if args.nightly:
-        while True:
-            if len(d.getNewDates(data, d.casesBox)) > 0:
-                d.getAllData(data, d.casesBox, args.all)
-                data.toCsv(dataset['file'])
-                sys.exit()
-            else:
-                logger.warning("Did not find any new data, sleeping..")
-                time.sleep(sleep)
-
-    if d.getAllData(data, d.casesBox, args.all):
-        data.toCsv(dataset['file'])

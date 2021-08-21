@@ -10,7 +10,7 @@ services:
     build: 
       context: .
       dockerfile: "Dockerfile"
-    entrypoint: "/bin/sh -c 'sleep 10; python3 ocps.py'"
+    entrypoint: "/bin/sh -c 'sleep 10; python3 main.py'"
     environment:
       TZ: "America/New_York"
     volumes:
