@@ -194,7 +194,7 @@ class Driver:
         """
         cutoff = self.dataset['cutoff']
         if s == '(Blank)':
-            return "1900 January 01"
+            return datetime(1900,1,1)
 
         day = datetime.strptime(s, "%B %d")
         monthdaycutoff = datetime(day.year, cutoff.month, cutoff.day)

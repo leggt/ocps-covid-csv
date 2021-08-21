@@ -6,7 +6,8 @@ class Data:
     """The Data class is responsible for reading and writing the data files and
     for all the data queries"""
 
-    def __init__(self, df):
+    def __init__(self, df, dataset):
+        self.dataset = dataset
         self.df = df
 
     @staticmethod
@@ -20,7 +21,7 @@ class Data:
         return df
 
     @staticmethod
-    def fromCsv(path):
+    def fromCsv(path, dataset):
         """
         Read provided csv file at path, translate columns to their respective types,
         and return a Data object
@@ -28,12 +29,13 @@ class Data:
         df = pd.read_csv(path)
         df['date'] = df['date'].apply(pd.to_datetime)
         df['count'] = df['count'].apply(pd.to_numeric)
-        return Data(df)
+        return Data(df, dataset)
 
     def newDates(self, data):
         df2 = pd.DataFrame(data, columns=['date'])
-        dfnew = df2.date[~df2.date.isin(self.df.date)]
-        return pd.to_datetime(dfnew.values).tolist()
+        df2 = df2[(df2.date >= self.dataset['cutoff'])
+                  & ~df2.date.isin(self.df.date)]
+        return pd.to_datetime(df2.date.values).tolist()
 
     def haveDataFor(self, date, typ):
         """

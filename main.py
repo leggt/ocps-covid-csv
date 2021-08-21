@@ -46,7 +46,7 @@ if __name__ == "__main__":
     dataset = d20212022
 
     d = Driver(dataset)
-    data = Data.fromCsv(dataset['file'])
+    data = Data.fromCsv(dataset['file'], dataset)
 
     sleep = 3*60
 
