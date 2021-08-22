@@ -1,15 +1,8 @@
-from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-import pandas as pd
 import time
-import json
 import logging
 import argparse
 import sys
 from datetime import datetime
-from seleniumwire import webdriver  # Import from seleniumwire
 
 from driver import Driver
 from data import Data
@@ -48,8 +41,6 @@ if __name__ == "__main__":
     d = Driver(dataset)
     data = Data.fromCsv(dataset['file'], dataset)
 
-    sleep = 3*60
-
     if args.nightly:
         logger.info("nightly run. Loop until new data")
         while True:
@@ -61,8 +52,13 @@ if __name__ == "__main__":
                 data.toCsv(dataset['file'])
                 sys.exit()
             else:
-                logger.warning("Did not find any new data, sleeping..")
-                time.sleep(sleep)
+                if datetime.hour >= 1:
+                    sleep = 5
+                else: 
+                    sleep = 30
+                logger.warning("Did not find any new data, sleeping for %s minutes.."%(sleep))
+                time.sleep(sleep*60)
+                
 
     if d.getAllData(data, d.casesBox, args.all):
         data.toCsv(dataset['file'])
