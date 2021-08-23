@@ -1,11 +1,12 @@
-from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import NoSuchElementException
-import time
 import json
 import logging
+import time
 from datetime import datetime
+
+from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from seleniumwire import webdriver  # Import from seleniumwire
 
 logger = logging.getLogger("ocps-covid-csv")
@@ -194,7 +195,7 @@ class Driver:
         """
         cutoff = self.dataset['cutoff']
         if s == '(Blank)':
-            return datetime(1900,1,1)
+            return datetime(1900, 1, 1)
 
         day = datetime.strptime(s, "%B %d")
         monthdaycutoff = datetime(day.year, cutoff.month, cutoff.day)
@@ -214,24 +215,29 @@ class Driver:
         except NoSuchElementException:
             return False
 
-    def eachView(self, box):
-        """
-        Iterate through each view. Returns nothing but sets up the driver to be in a state such that it shows each
-        successive view within the box
-        """
+    def refreshView(self, box):
+        """Need to call this to get a fresh set of elements anytime the view changes 
+        (e.g. clicking to the details and back, or scrolling the view"""
         overlay = self.driver.find_element_by_xpath(
             "//div[starts-with(@aria-label, '%s')]//*[local-name()='rect' and @class='overlay']" % (box['title']))
 
         selection = self.driver.find_element_by_xpath(
             "//div[starts-with(@aria-label, '%s')]//*[local-name()='rect' and @class='selection']" % (box['title']))
         curX = selection.get_attribute("x")
+        return overlay, curX
 
+    def eachView(self, box):
+        """
+        Iterate through each view. Returns nothing but sets up the driver to be in a state such that it shows each
+        successive view within the box
+        """
         # Reset to the left
         while True:
+            overlay, curX = self.refreshView(box)
             ActionChains(self.driver).move_to_element_with_offset(
                 overlay, 1, 1).click().perform()
             self.wait()
-            newX = selection.get_attribute("x")
+            _, newX = self.refreshView(box)
             if curX == newX:
                 break
             else:
@@ -240,17 +246,23 @@ class Driver:
         yield  # Yield the first view
 
         # Yield on each view after until we hit the end of the scrollbar
-        curX = selection.get_attribute("x")
+        _, curX = self.refreshView(box)
         while True:
-            ActionChains(self.driver).move_to_element_with_offset(
-                overlay, overlay.size['width'], 1).click().perform()
+            overlay, _ = self.refreshView(box)
+            self.scrollRightOne(box)
             self.wait()
             yield
-            newX = selection.get_attribute("x")
+            _, newX = self.refreshView(box)
             if curX == newX:
                 break
             else:
                 curX = newX
+
+    def scrollRightOne(self, box):
+        """Inside of box, find the slider, and scroll right by one page"""
+        overlay, _ = self.refreshView(box)
+        ActionChains(self.driver).move_to_element_with_offset(
+            overlay, overlay.size['width']-1, overlay.size['height']-1).click().perform()
 
     def getAllRectsInView(self, box):
         """
@@ -268,6 +280,8 @@ class Driver:
         return self.mapDateToRectsInView(dates, students, employees, volunteers)
 
     def getRectFor(self, date, t, box):
+        while date not in self.getDatesInView(box):
+            self.scrollRightOne(box)
         series = self.getAllRectsInView(box)[date]
         return [d for d in series if d['type'] == t][0]['rect']
 
@@ -309,6 +323,7 @@ class Driver:
             for _ in self.eachView(box):
                 new = self.getNewDataInView(data, box)
                 data.addNewData(new)
+                pass
 
     def getResponse(self):
         """

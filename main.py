@@ -1,11 +1,11 @@
-import time
-import logging
 import argparse
+import logging
 import sys
+import time
 from datetime import datetime
 
-from driver import Driver
 from data import Data
+from driver import Driver
 
 # File = the input/output csv file.
 # url = The public url for the dataset
@@ -52,13 +52,13 @@ if __name__ == "__main__":
                 data.toCsv(dataset['file'])
                 sys.exit()
             else:
-                if datetime.hour >= 1:
+                if datetime.now().hour >= 1:
                     sleep = 5
-                else: 
+                else:
                     sleep = 30
-                logger.warning("Did not find any new data, sleeping for %s minutes.."%(sleep))
+                logger.warning(
+                    "Did not find any new data, sleeping for %s minutes.." % (sleep))
                 time.sleep(sleep*60)
-                
 
     if d.getAllData(data, d.casesBox, args.all):
         data.toCsv(dataset['file'])

@@ -1,48 +1,50 @@
-from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from selenium.webdriver.common.action_chains import ActionChains
-from seleniumwire import webdriver  # Import from seleniumwire
 import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from seleniumwire import webdriver  # Import from seleniumwire
 
 file = "data/directory.csv"
 
-class Directory:
-    df=None
 
-    def __init__(self,df):
-        self.df=df
+class Directory:
+    df = None
+
+    def __init__(self, df):
+        self.df = df
 
     @staticmethod
     def fromCsv(path):
         return Directory(pd.read_csv(path))
 
-    def mapDataToDirectory(self,data_df):
-        nameMap={
-            'LAKE COMO K-8':'LAKE COMO SCHOOL',
-            'AUDUBON PARK K-8':'AUDUBON PARK SCHOOL',
-            'APOPKA MEMORIAL MIDDLE':'MEMORIAL MIDDLE',
-            'WHEATLEY ELEMENTARY':'PHILLIS WHEATLEY ELEMENTARY',
+    def mapDataToDirectory(self, data_df):
+        nameMap = {
+            'LAKE COMO K-8': 'LAKE COMO SCHOOL',
+            'AUDUBON PARK K-8': 'AUDUBON PARK SCHOOL',
+            'APOPKA MEMORIAL MIDDLE': 'MEMORIAL MIDDLE',
+            'WHEATLEY ELEMENTARY': 'PHILLIS WHEATLEY ELEMENTARY',
             'DR. PHILLIPS HIGH': 'DR PHILLIPS HIGH',
             'DILLARD ST. ELEMENTARY': 'DILLARD STREET ELEMENTARY',
-            'NORTHLAKE PARK COMMUNITY':'NORTHLAKE PARK COMMUNITY ELEMENTARY',
-            'WINTER PARK 9TH GRADE CENTER':'WINTER PARK HIGH 9TH GRADE CENTER'
+            'NORTHLAKE PARK COMMUNITY': 'NORTHLAKE PARK COMMUNITY ELEMENTARY',
+            'WINTER PARK 9TH GRADE CENTER': 'WINTER PARK HIGH 9TH GRADE CENTER'
         }
+
         def mapDirNames(name):
             name = name.upper()
-            name = name.replace('(','')
-            name = name.replace(')','')
-            name = name.replace(" SCHOOL","")
-            name = name.replace("’","")
+            name = name.replace('(', '')
+            name = name.replace(')', '')
+            name = name.replace(" SCHOOL", "")
+            name = name.replace("’", "")
 
             if name in nameMap:
                 return nameMap[name]
-            
+
             return name.strip()
 
         data_df.location = data_df.location.apply(lambda x: mapDirNames(x))
 
-        return data_df.merge(self.df,how='left',on='location')
-        
+        return data_df.merge(self.df, how='left', on='location')
+
 
 class DirectoryParser:
     elem_cb = None
@@ -70,8 +72,9 @@ class DirectoryParser:
         print("Getting url %s" % (self.url))
         self.driver.get(self.url)
 
-
     def refreshElements(self):
+        """ Need to call this each time the page changes 
+        (e.g. clicking on the all button or going to the next page)"""
         self.elem_cb = self.driver.find_element_by_xpath(
             '//*[@id="CheckBoxListLevel_0"]')
         self.mid_cb = self.driver.find_element_by_xpath(
@@ -88,14 +91,17 @@ class DirectoryParser:
         self.go_b = self.driver.find_element_by_xpath('//*[@id="ButtonGo"]')
 
     def click(self, element):
+        """Click the element on the page"""
         ActionChains(self.driver).click(element).perform()
 
     def uncheckAll(self):
+        """Uncheck all of the school level boxes (Elementary, Middle, High, Other)"""
         for e in self.checkbox_map.values():
             if e.get_attribute("checked"):
                 self.click(e)
 
     def refreshNext(self, type):
+        """Refresh elements and click go"""
         self.refreshElements()
         cb = self.checkbox_map[type]
         self.uncheckAll()
@@ -104,6 +110,7 @@ class DirectoryParser:
         self.click(self.go_b)
 
     def parsePages(self, type):
+        """Loop through all the pages for the given type and parse each one"""
         processed = []
         ret = []
         while True:
@@ -128,6 +135,7 @@ class DirectoryParser:
                 return ret
 
     def parsePage(self, type):
+        """Parse a single page return a list of dicts for each school displayed on the page"""
         ret = []
         rows = self.driver.find_elements_by_xpath(
             "//table[@id='gdvSchools']/tbody/tr")
@@ -141,12 +149,14 @@ class DirectoryParser:
         return ret
 
     def getAll(self):
+        """Get everything and save csv to file"""
         all = []
         for type in ['Elementary', 'Middle', 'High']:
             all.extend(self.parsePages(type))
         self.df = pd.DataFrame(all)
-        self.df = self.df.sort_values(by=['type', 'location'])
+        self.df = self.df.sort_values(by=['level', 'location'])
         self.df.to_csv(file)
+
 
 if __name__ == "__main__":
     d = DirectoryParser()
