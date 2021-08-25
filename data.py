@@ -38,6 +38,9 @@ class Data:
                   & ~df2.date.isin(self.df.date)]
         return pd.to_datetime(df2.date.values).tolist()
 
+    def removeDates(self,dates):
+        self.df = self.df[~(self.df['date'].isin(pd.to_datetime(dates)))]
+
     def haveDataFor(self, date, typ):
         """
         Do we already have data for the given date and type?

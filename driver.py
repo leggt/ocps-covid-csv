@@ -193,16 +193,20 @@ class Driver:
         Translate the date the web element gives us (e.g. 'August 12')
         into a datetime. Wrap the year around the 'cutoff' in the dataset.
         """
-        cutoff = self.dataset['cutoff']
         if s == '(Blank)':
             return datetime(1900, 1, 1)
 
         day = datetime.strptime(s, "%B %d")
+        return Driver.applyCuttoff(self.dataset,day)
+
+    @staticmethod
+    def applyCuttoff(dataset,day):
+        cutoff = dataset['cutoff']
         monthdaycutoff = datetime(day.year, cutoff.month, cutoff.day)
         if day >= monthdaycutoff:
-            return datetime.strptime("%s %s" % (cutoff.year, s), "%Y %B %d")
+            return datetime(cutoff.year,day.month,day.day)
         else:
-            return datetime.strptime("%s %s" % (cutoff.year+1, s), "%Y %B %d")
+            return datetime(cutoff.year+1,day.month,day.day)
 
     def hasSlider(self, box):
         """
@@ -323,7 +327,6 @@ class Driver:
             for _ in self.eachView(box):
                 new = self.getNewDataInView(data, box)
                 data.addNewData(new)
-                pass
 
     def getResponse(self):
         """
@@ -348,15 +351,17 @@ class Driver:
         for result in result_json['results']:
             data = result['result']['data']
             dsr = data['dsr']
+            last_c=0
             for ds in dsr['DS']:
                 for ph in ds['PH']:
                     if 'DM1' in ph.keys():
                         for dm1 in ph['DM1']:
                             if 'C' in dm1.keys():
-                                # It seems like they don't return a count, if the count is 1
                                 c = dm1['C']
-                                count = 1
+                                # They only include a count if it's different than the one before
                                 if len(c) > 1:
-                                    count = c[1]
-                                ret[c[0]] = count
+                                    ret[c[0]] = c[1]
+                                    last_c=c[1]
+                                else: 
+                                    ret[c[0]] = last_c
         return ret

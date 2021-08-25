@@ -3,6 +3,7 @@ import logging
 import sys
 import time
 from datetime import datetime
+import pandas as pd
 
 from data import Data
 from driver import Driver
@@ -23,9 +24,15 @@ if __name__ == "__main__":
         "--all", help="Refetch all data. By default only get new dates/types", action='store_true')
     parser.add_argument(
         "--nightly", help="Start a nightly run. Keep trying until we find new data", action='store_true')
+    parser.add_argument(
+        "--dates", nargs="+",help="Only process select dates. (e.g. '--dates 8-24 8-23 8-22'" )
     parser.add_argument('-v', action='count', default=0,
                         help="Increase verbosity. -v -vv supported")
     args = parser.parse_args()
+
+
+    dataset = d20212022
+
 
     verbosity_map = {0: logging.WARN, 1: logging.INFO, 2: logging.DEBUG}
     log_level = verbosity_map[args.v if args.v <= 2 else 2]
@@ -36,9 +43,17 @@ if __name__ == "__main__":
     logger.addHandler(log_handler)
     logger.setLevel(log_level)
 
-    dataset = d20212022
 
     data = Data.fromCsv(dataset['file'], dataset)
+
+    if args.dates:
+        dates = []
+        for d in args.dates:
+            date = datetime.strptime(d,"%m-%d")
+            date = Driver.applyCuttoff(dataset,date)
+            # date = pd.to_datetime(date)
+            dates.append(date)
+        data.removeDates(dates)
 
     if args.nightly:
         logger.info("nightly run. Loop until new data")
@@ -62,5 +77,7 @@ if __name__ == "__main__":
                 time.sleep(sleep*60)
 
     d = Driver(dataset)
-    if d.getAllData(data, d.casesBox, args.all):
-        data.toCsv(dataset['file'])
+    d.get()
+    d.wait()
+    d.getAllData(data, d.casesBox, args.all)
+    data.toCsv(dataset['file'])
