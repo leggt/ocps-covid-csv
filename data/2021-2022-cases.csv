@@ -1,4 +1,68 @@
 date,type,location,count
+2021-08-24,Students,Wolf Lake Middle,2
+2021-08-24,Students,Winegard Elementary,1
+2021-08-24,Students,Windy Ridge School (K-8),3
+2021-08-24,Students,Wetherbee Elementary,2
+2021-08-24,Students,West Orange High,1
+2021-08-24,Students,Water Spring Elementary,2
+2021-08-24,Students,Vista Lakes Elementary,3
+2021-08-24,Students,Village Park Elementary,1
+2021-08-24,Students,Timber Creek High,3
+2021-08-24,Students,Sunset Park Elementary,2
+2021-08-24,Students,Sunridge Elementary,1
+2021-08-24,Students,Summerlake Elementary,2
+2021-08-24,Students,Southwood Elementary,1
+2021-08-24,Students,Shenandoah Elementary,1
+2021-08-24,Students,Sally Ride Elementary,1
+2021-08-24,Students,Sadler Elementary,4
+2021-08-24,Students,Rolling Hills Elementary,1
+2021-08-24,Students,Robinswood Middle,5
+2021-08-24,Students,Princeton Elementary,1
+2021-08-24,Students,Pinewood Elementary,1
+2021-08-24,Students,Piedmont Lakes Middle,6
+2021-08-24,Students,Odyssey Middle,1
+2021-08-24,Students,Ocoee High,2
+2021-08-24,Students,Ocoee Elementary,1
+2021-08-24,Students,NorthLake Park Community School,3
+2021-08-24,Students,Moss Park Elementary,1
+2021-08-24,Students,Liberty Middle,2
+2021-08-24,Students,Lawton Chiles Elementary,1
+2021-08-24,Students,Laureate Park Elementary,5
+2021-08-24,Students,Lancaster Elementary,1
+2021-08-24,Students,Lakemont Elementary,1
+2021-08-24,Students,Lake Nona High,3
+2021-08-24,Students,Lake George Elementary,1
+2021-08-24,Students,Lake Como School (K-8),1
+2021-08-24,Students,Independence Elementary,1
+2021-08-24,Students,Howard Middle,1
+2021-08-24,Students,Horizon West Middle,1
+2021-08-24,Students,Gotha Middle,1
+2021-08-24,Students,Evans High,1
+2021-08-24,Students,Edgewater High,1
+2021-08-24,Students,Eagle Creek Elementary,3
+2021-08-24,Students,Dream Lake Elementary,2
+2021-08-24,Students,Dr. Phillips Elementary,1
+2021-08-24,Students,Cypress Creek High,4
+2021-08-24,Students,College Park Middle,1
+2021-08-24,Students,Clay Springs Elementary,2
+2021-08-24,Students,Boone High,3
+2021-08-24,Students,Avalon Middle,1
+2021-08-24,Students,Avalon Elementary,1
+2021-08-24,Students,Audubon Park School (K-8),4
+2021-08-24,Students,Arbor Ridge School (K-8),1
+2021-08-24,Students,Apopka Memorial Middle,2
+2021-08-24,Students,Acceleration West,1
+2021-08-24,Employees,Windy Ridge School (K-8),1
+2021-08-24,Employees,Sally Ride Elementary,1
+2021-08-24,Employees,Palmetto Elementary,1
+2021-08-24,Employees,Operations,1
+2021-08-24,Employees,MetroWest Elementary,2
+2021-08-24,Employees,Howard Middle,1
+2021-08-24,Employees,Dream Lake Elementary,2
+2021-08-24,Employees,Dover Shores Elementary,1
+2021-08-24,Employees,Discovery Middle,1
+2021-08-24,Employees,Boone High,1
+2021-08-24,Employees,Apopka Memorial Middle,1
 2021-08-23,Volunteers,Vista Lakes Elementary,1
 2021-08-23,Volunteers,Deerwood Elementary,1
 2021-08-23,Volunteers,Corner Lake Middle,1
@@ -23,6 +87,7 @@ date,type,location,count
 2021-08-23,Students,Washington Shores Elementary,1
 2021-08-23,Students,Vista Pointe Elementary,1
 2021-08-23,Students,Vista Lakes Elementary,4
+2021-08-23,Students,Village Park Elementary,1
 2021-08-23,Students,Ventura Elementary,1
 2021-08-23,Students,Timber Springs Middle,3
 2021-08-23,Students,Timber Lakes Elementary,2
@@ -57,7 +122,7 @@ date,type,location,count
 2021-08-23,Students,Olympia High,4
 2021-08-23,Students,Odyssey Middle,1
 2021-08-23,Students,Ocoee Middle,3
-2021-08-23,Students,Ocoee Elementary,1
+2021-08-23,Students,Ocoee Elementary,2
 2021-08-23,Students,Oakshire Elementary,1
 2021-08-23,Students,NorthLake Park Community School,2
 2021-08-23,Students,Millennia Gardens Elementary,3
@@ -127,7 +192,6 @@ date,type,location,count
 2021-08-23,Students,Apopka Elementary,13
 2021-08-23,Students,Andover Elementary,1
 2021-08-23,Students,Aloma Elementary,1
-2021-08-23,Students,43-E-SE-2 (Lake Nona North Area/N of 417),1
 2021-08-23,Employees,Wetherbee Elementary,1
 2021-08-23,Employees,Waterbridge Elementary,1
 2021-08-23,Employees,Union Park Middle,1
@@ -277,7 +341,7 @@ date,type,location,count
 2021-08-20,Students,Hillcrest Elementary,1
 2021-08-20,Students,Hidden Oaks Elementary,1
 2021-08-20,Students,Gotha Middle,1
-2021-08-20,Students,Glenridge Middle,1
+2021-08-20,Students,Glenridge Middle,2
 2021-08-20,Students,Edgewater High,6
 2021-08-20,Students,Discovery Middle,1
 2021-08-20,Students,Deerwood Elementary,2
@@ -797,7 +861,6 @@ date,type,location,count
 2021-08-16,Employees,Apopka Memorial Middle,1
 2021-08-16,Employees,Andover Elementary,1
 2021-08-16,Employees,Alternative Education Centers,1
-2021-08-15,Volunteers,Princeton Elementary,1
 2021-08-15,Students,West Orange High,1
 2021-08-15,Students,Sunridge Elementary,1
 2021-08-15,Students,Princeton Elementary,1
@@ -815,6 +878,7 @@ date,type,location,count
 2021-08-15,Employees,Princeton Elementary,1
 2021-08-15,Employees,Pine Hills Elementary,1
 2021-08-15,Employees,Orlo Vista Elementary,1
+2021-08-15,Employees,Operations,1
 2021-08-15,Employees,Olympia High,3
 2021-08-15,Employees,Oakshire Elementary,1
 2021-08-15,Employees,OCPS Academic Center for Excellence,1
@@ -1147,7 +1211,6 @@ date,type,location,count
 2021-08-08,Employees,Thornebrooke Elementary,1
 2021-08-08,Employees,Sally Ride Elementary,1
 2021-08-08,Employees,Ridgewood Park Elementary,1
-2021-08-08,Employees,Operations,1
 2021-08-08,Employees,Liberty Middle,1
 2021-08-08,Employees,Freedom Middle,1
 2021-08-08,Employees,Dr. Phillips High,1
@@ -1266,4 +1329,3 @@ date,type,location,count
 2021-08-02,Employees,Cheney Elementary,1
 2021-08-02,Employees,Catalina Elementary,2
 2021-08-02,Employees,Bay Lake Elementary,1
-1900-01-01,Students,Ocoee Elementary,1
