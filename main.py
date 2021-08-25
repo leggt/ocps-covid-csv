@@ -38,12 +38,12 @@ if __name__ == "__main__":
 
     dataset = d20212022
 
-    d = Driver(dataset)
     data = Data.fromCsv(dataset['file'], dataset)
 
     if args.nightly:
         logger.info("nightly run. Loop until new data")
         while True:
+            d = Driver(dataset)
             d.get()
             d.wait()
             if len(d.getNewDates(data, d.casesBox)) > 0:
@@ -58,7 +58,9 @@ if __name__ == "__main__":
                     sleep = 30
                 logger.warning(
                     "Did not find any new data, sleeping for %s minutes.." % (sleep))
+                d.driver.quit()
                 time.sleep(sleep*60)
 
+    d = Driver(dataset)
     if d.getAllData(data, d.casesBox, args.all):
         data.toCsv(dataset['file'])
