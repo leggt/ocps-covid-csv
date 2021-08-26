@@ -1,3 +1,1 @@
 pandas
-selenium
-selenium-wire

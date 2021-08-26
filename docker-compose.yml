@@ -2,15 +2,11 @@
 version: '3.4'
 
 services:
-  selenium-remote:
-    image: selenium/standalone-chrome
-    shm_size: 2gb
-
   ocps-covid:
     build: 
       context: .
       dockerfile: "Dockerfile"
-    entrypoint: "/bin/sh -c 'sleep 10; python3 main.py --all -v'"
+    entrypoint: "/bin/sh -c 'python3 main.py --all -v'"
     environment:
       TZ: "America/New_York"
     volumes:

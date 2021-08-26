@@ -7,39 +7,28 @@ class Data:
     """The Data class is responsible for reading and writing the data files and
     for all the data queries"""
 
-    def __init__(self, df, dataset):
+    def __init__(self, dataset):
         self.dataset = dataset
-        self.df = df
-
-    @staticmethod
-    def dfFromDriver(data):
-        """
-        Translate driver data (a python list of dictionary values)
-        into a pandas dataframe and return it
-        """
-        df = pd.DataFrame(data)
-        df['count'] = df['count'].apply(pd.to_numeric)
-        return df
-
-    @staticmethod
-    def fromCsv(path, dataset):
-        """
-        Read provided csv file at path, translate columns to their respective types,
-        and return a Data object
-        """
-        df = pd.read_csv(path)
+        df = pd.read_csv(dataset['file'])
         df['date'] = df['date'].apply(pd.to_datetime)
         df['count'] = df['count'].apply(pd.to_numeric)
-        return Data(df, dataset)
+        self.df = df
 
-    def newDates(self, data):
-        df2 = pd.DataFrame(data, columns=['date'])
-        df2 = df2[(df2.date >= self.dataset['cutoff'])
-                  & ~df2.date.isin(self.df.date)]
-        return pd.to_datetime(df2.date.values).tolist()
+    def clearAll(self):
+        self.df.drop(self.df.index, inplace=True)
 
-    def removeDates(self,dates):
+    def getLatestDate(self):
+        return self.df.date.max().date()
+
+    def removeDates(self, dates):
         self.df = self.df[~(self.df['date'].isin(pd.to_datetime(dates)))]
+
+    def removeDateTypes(self, *dts):
+        for dt in dts:
+            date = pd.to_datetime(dt['date'])
+            t = dt['type']
+            index = self.df[(self.df.date == date) & (self.df.type == t)].index
+            self.df.drop(index, inplace=True)
 
     def haveDataFor(self, date, typ):
         """
@@ -57,10 +46,15 @@ class Data:
             by=['date', 'type', 'location'], ascending=False)
         df.to_csv(path, index=False)
 
-    def addNewData(self, data):
+    def to_df(self, data):
+        df = pd.DataFrame(data)
+        df['count'] = df['count'].apply(pd.to_numeric)
+        return df
+
+    def append(self, data):
         """
         Append the given data from the driver to the data we already have
         """
         if len(data) > 0:
-            newdata = Data.dfFromDriver(data)
-            self.df = self.df.append(newdata)
+            df = self.to_df(data)
+            self.df = self.df.append(df)
