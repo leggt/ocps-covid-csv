@@ -24,6 +24,7 @@ d20202021 = {
     'templates': 'templates/d20202021/',
     'dashboard_url': "https://app.powerbi.com/view?r=eyJrIjoiMDcyNjNlMmMtMDM1ZS00Mjg3LWI4N2MtYTFjNTJjMzhkYTc2IiwidCI6IjMwYTczNzMxLTdkNWEtNDY5My1hNGFmLTFmNWQ0ZTc0Y2E5MyIsImMiOjF9",
     'request_url': 'https://wabi-us-east2-api.analysis.windows.net/public/reports/querydata?synchronous=true',
+    'start_date': datetime(2021, 8, 1),
     'cutoff': datetime(2020, 8, 21)
 }
 
@@ -39,8 +40,8 @@ if __name__ == "__main__":
                         help="Increase verbosity. -v -vv supported")
     args = parser.parse_args()
 
-    dataset = d20212022
-    # dataset = d20202021
+    # dataset = d20212022
+    dataset = d20202021
 
     verbosity_map = {0: logging.WARN, 1: logging.INFO, 2: logging.DEBUG}
     log_level = verbosity_map[args.v if args.v <= 2 else 2]

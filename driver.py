@@ -52,9 +52,12 @@ class Driver:
         self.data.toCsv(self.dataset['file'])
 
     def iterAllDateTypes(self):
+        if "start_date" in self.dataset:
+            start_date = self.dataset['start_date']
+        else:
+            start_date = datetime.today()
         for pt in person_types:
-            day = datetime.today()
-            day = datetime(day.year, day.month, day.day)
+            day = datetime(start_date.year, start_date.month, start_date.day)
             while day >= self.dataset['cutoff']:
                 date = datetime(day.year, day.month, day.day)
                 yield {'date': date, 'type': pt}
