@@ -49,6 +49,8 @@ class Driver:
             else:
                 self.data.append(data)
 
+        self.data.toCsv(self.dataset['file'])
+
     def iterAllDateTypes(self):
         for pt in person_types:
             day = datetime.today()

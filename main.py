@@ -69,4 +69,3 @@ if __name__ == "__main__":
                 time.sleep(sleep*60)
 
     d.go(args.all)
-    data.toCsv(dataset['file'])
