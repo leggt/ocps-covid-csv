@@ -22,7 +22,7 @@ date,type,location,count
 2021-08-25,Student,Sunshine Elementary,1
 2021-08-25,Student,SunRidge Middle,2
 2021-08-25,Student,Sun Blaze Elementary,1
-2021-08-25,Student,Stone Lakes Elementary,1
+2021-08-25,Student,Stone Lakes Elementary,2
 2021-08-25,Student,Southwood Elementary,1
 2021-08-25,Student,Southwest Middle,1
 2021-08-25,Student,Shingle Creek Elementary,4
@@ -72,7 +72,7 @@ date,type,location,count
 2021-08-25,Student,Evans High,3
 2021-08-25,Student,Engelwood Elementary,1
 2021-08-25,Student,Edgewater High,4
-2021-08-25,Student,Eccleston Elementary,1
+2021-08-25,Student,Eccleston Elementary,2
 2021-08-25,Student,East River High,3
 2021-08-25,Student,Eagle’s Nest Elementary,2
 2021-08-25,Student,Dream Lake Elementary,4
@@ -82,6 +82,7 @@ date,type,location,count
 2021-08-25,Student,Cypress Springs Elementary,1
 2021-08-25,Student,Cypress Creek High,2
 2021-08-25,Student,Corner Lake Middle,1
+2021-08-25,Student,Columbia Elementary,1
 2021-08-25,Student,Colonial High 9th Grade Center,1
 2021-08-25,Student,Colonial High,14
 2021-08-25,Student,College Park Middle,3
@@ -107,7 +108,7 @@ date,type,location,count
 2021-08-25,Employee,Shingle Creek Elementary,2
 2021-08-25,Employee,Pinar Elementary,1
 2021-08-25,Employee,Orange County Virtual School,1
-2021-08-25,Employee,Operations,1
+2021-08-25,Employee,Operations,2
 2021-08-25,Employee,Mollie Ray Elementary,1
 2021-08-25,Employee,Meadow Woods Elementary,1
 2021-08-25,Employee,Magnolia School,1

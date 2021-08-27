@@ -1,49 +1,11 @@
-import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from seleniumwire import webdriver  # Import from seleniumwire
 
-file = "data/directory.csv"
-
-
-class Directory:
-    df = None
-
-    def __init__(self, df):
-        self.df = df
-
-    @staticmethod
-    def fromCsv(path):
-        return Directory(pd.read_csv(path))
-
-    def mapDataToDirectory(self, data_df):
-        nameMap = {
-            'LAKE COMO K-8': 'LAKE COMO SCHOOL',
-            'AUDUBON PARK K-8': 'AUDUBON PARK SCHOOL',
-            'APOPKA MEMORIAL MIDDLE': 'MEMORIAL MIDDLE',
-            'WHEATLEY ELEMENTARY': 'PHILLIS WHEATLEY ELEMENTARY',
-            'DR. PHILLIPS HIGH': 'DR PHILLIPS HIGH',
-            'DILLARD ST. ELEMENTARY': 'DILLARD STREET ELEMENTARY',
-            'NORTHLAKE PARK COMMUNITY': 'NORTHLAKE PARK COMMUNITY ELEMENTARY',
-            'WINTER PARK 9TH GRADE CENTER': 'WINTER PARK HIGH 9TH GRADE CENTER'
-        }
-
-        def mapDirNames(name):
-            name = name.upper()
-            name = name.replace('(', '')
-            name = name.replace(')', '')
-            name = name.replace(" SCHOOL", "")
-            name = name.replace("’", "")
-
-            if name in nameMap:
-                return nameMap[name]
-
-            return name.strip()
-
-        data_df.location = data_df.location.apply(lambda x: mapDirNames(x))
-
-        return data_df.merge(self.df, how='left', on='location')
+# Note this was a one use class to scrape the school directory and get a list of school names to school level
+# It requires a selenium driver which used to be part of this project as a docker file requirement.
+# To run it again will require starting up an instance of selenium
 
 
 class DirectoryParser:

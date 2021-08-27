@@ -58,3 +58,44 @@ class Data:
         if len(data) > 0:
             df = self.to_df(data)
             self.df = self.df.append(df)
+
+
+class Directory:
+    df = None
+
+    nameMap = {
+        'LAKE COMO K-8': 'LAKE COMO SCHOOL',
+        'AUDUBON PARK K-8': 'AUDUBON PARK SCHOOL',
+        'APOPKA MEMORIAL MIDDLE': 'MEMORIAL MIDDLE',
+        'WHEATLEY ELEMENTARY': 'PHILLIS WHEATLEY ELEMENTARY',
+        'DR. PHILLIPS HIGH': 'DR PHILLIPS HIGH',
+        'DILLARD ST. ELEMENTARY': 'DILLARD STREET ELEMENTARY',
+        'NORTHLAKE PARK COMMUNITY': 'NORTHLAKE PARK COMMUNITY ELEMENTARY',
+        'WINTER PARK 9TH GRADE CENTER': 'WINTER PARK HIGH 9TH GRADE CENTER'
+    }
+
+    def __init__(self, dataset, data=None):
+        if data is None:
+            data = Data(dataset)
+        self.dataset = dataset
+        self.data = data
+        df = pd.read_csv(dataset['directory'])
+        self.df = self.mapDataToDirectory(df)
+
+    def mapDataToDirectory(self, data_df):
+        data_df.location = data_df.location.apply(
+            lambda x: self.mapDirNames(x))
+
+        return data_df.merge(self.data.df, how='left', on='location')
+
+    def mapDirNames(self, name):
+        name = name.upper()
+        name = name.replace('(', '')
+        name = name.replace(')', '')
+        name = name.replace(" SCHOOL", "")
+        name = name.replace("’", "")
+
+        if name in self.nameMap:
+            return self.nameMap[name]
+
+        return name.strip()
