@@ -41,6 +41,11 @@ class Driver:
         if all:
             self.data.clearAll()
         for dt in self.iterAllDateTypes():
+            if self.data.haveDataFor(dt):
+                logger.debug("Already have the data for %s %s .. skipping" % (
+                    dt['date'], dt['type']))
+                continue
+
             logger.info("Getting data for %s %s" % (dt['date'], dt['type']))
             data = self.getDataFor(dt)
             if len(data) == 0:

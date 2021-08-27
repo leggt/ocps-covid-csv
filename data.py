@@ -30,11 +30,11 @@ class Data:
             index = self.df[(self.df.date == date) & (self.df.type == t)].index
             self.df.drop(index, inplace=True)
 
-    def haveDataFor(self, date, typ):
+    def haveDataFor(self, dt):
         """
         Do we already have data for the given date and type?
         """
-        return len(self.df[(self.df['type'] == typ) & (self.df['date'] == date)]) > 0
+        return len(self.df[(self.df['type'] == dt['type']) & (self.df['date'] == dt['date'])]) > 0
 
     def toCsv(self, path):
         """
