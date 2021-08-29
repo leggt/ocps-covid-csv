@@ -1,4 +1,13 @@
 date,type,location,count
+2021-08-28,Student,Vista Pointe Elementary,2
+2021-08-28,Student,Union Park Elementary,1
+2021-08-28,Student,Killarney Elementary,1
+2021-08-28,Student,Independence Elementary,1
+2021-08-28,Student,Edgewater High,8
+2021-08-28,Student,Eccleston Elementary,1
+2021-08-28,Student,Colonial High 9th Grade Center,1
+2021-08-28,Employee,Pineloch Elementary,1
+2021-08-28,Employee,Pine Hills Elementary,2
 2021-08-27,Vendor/Visitor,Rosemont Elementary,1
 2021-08-27,Vendor/Visitor,Meadowbrook Middle,1
 2021-08-27,Student,Zellwood Elementary,1
@@ -66,7 +75,7 @@ date,type,location,count
 2021-08-27,Student,Horizon West Middle,2
 2021-08-27,Student,Hidden Oaks Elementary,1
 2021-08-27,Student,Gotha Middle,2
-2021-08-27,Student,Frangus Elementary,3
+2021-08-27,Student,Frangus Elementary,4
 2021-08-27,Student,Forsyth Woods Elementary,1
 2021-08-27,Student,Evans High,8
 2021-08-27,Student,Endeavor Elementary,1
@@ -155,7 +164,7 @@ date,type,location,count
 2021-08-26,Student,Pinewood Elementary,1
 2021-08-26,Student,Pine Hills Elementary,2
 2021-08-26,Student,Pinar Elementary,1
-2021-08-26,Student,Piedmont Lakes Middle,2
+2021-08-26,Student,Piedmont Lakes Middle,3
 2021-08-26,Student,Pershing School (K-8),1
 2021-08-26,Student,Orange Technical College - Mid Florida,1
 2021-08-26,Student,Olympia High,2
