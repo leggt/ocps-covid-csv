@@ -1,4 +1,124 @@
 date,type,location,count
+2021-08-30,Student,Zellwood Elementary,3
+2021-08-30,Student,Wyndham Lakes Elementary,1
+2021-08-30,Student,Wolf Lake Middle,1
+2021-08-30,Student,Wolf Lake Elementary,1
+2021-08-30,Student,Winter Park High,2
+2021-08-30,Student,Winter Park 9th Grade Center,2
+2021-08-30,Student,Windy Ridge School (K-8),2
+2021-08-30,Student,Windermere High,2
+2021-08-30,Student,Whispering Oak Elementary,2
+2021-08-30,Student,Wetherbee Elementary,2
+2021-08-30,Student,Westridge Middle,6
+2021-08-30,Student,Westpointe Elementary,1
+2021-08-30,Student,West Orange High,1
+2021-08-30,Student,West Oaks Elementary,1
+2021-08-30,Student,West Creek Elementary,1
+2021-08-30,Student,Wedgefield School (K-8),4
+2021-08-30,Student,Waterford Elementary,1
+2021-08-30,Student,Waterbridge Elementary,1
+2021-08-30,Student,Water Spring Elementary,5
+2021-08-30,Student,Washington Shores Elementary,1
+2021-08-30,Student,Vista Lakes Elementary,3
+2021-08-30,Student,University High,3
+2021-08-30,Student,Timber Springs Middle,5
+2021-08-30,Student,Timber Creek High,1
+2021-08-30,Student,Tildenville Elementary,1
+2021-08-30,Student,Thornebrooke Elementary,1
+2021-08-30,Student,Tangelo Park Elementary,1
+2021-08-30,Student,SunRidge Middle,3
+2021-08-30,Student,Summerlake Elementary,1
+2021-08-30,Student,Stone Lakes Elementary,3
+2021-08-30,Student,Southwest Middle,5
+2021-08-30,Student,Shingle Creek Elementary,2
+2021-08-30,Student,Sadler Elementary,1
+2021-08-30,Student,Rosemont Elementary,2
+2021-08-30,Student,Rock Springs Elementary,1
+2021-08-30,Student,Robinswood Middle,3
+2021-08-30,Student,Roberto Clemente Middle,1
+2021-08-30,Student,Riverdale Elementary,1
+2021-08-30,Student,Princeton Elementary,1
+2021-08-30,Student,Prairie Lake Elementary,4
+2021-08-30,Student,Positive Pathways Transition Center,1
+2021-08-30,Student,Pinewood Elementary,2
+2021-08-30,Student,Pineloch Elementary,2
+2021-08-30,Student,Pine Hills Elementary,2
+2021-08-30,Student,Pershing School (K-8),1
+2021-08-30,Student,Palm Lake Elementary,1
+2021-08-30,Student,Orlo Vista Elementary,2
+2021-08-30,Student,Orlando Gifted Academy,1
+2021-08-30,Student,Orange Technical College - Westside,1
+2021-08-30,Student,Olympia High,12
+2021-08-30,Student,Odyssey Middle,5
+2021-08-30,Student,Ocoee Middle,2
+2021-08-30,Student,Ocoee High,3
+2021-08-30,Student,Oak Ridge High,4
+2021-08-30,Student,Oak Hill Elementary,3
+2021-08-30,Student,OCPS Academic Center for Excellence,1
+2021-08-30,Student,NorthLake Park Community School,1
+2021-08-30,Student,Moss Park Elementary,3
+2021-08-30,Student,Mollie Ray Elementary,2
+2021-08-30,Student,Millennia Elementary,1
+2021-08-30,Student,Meadow Woods Elementary,2
+2021-08-30,Student,McCoy Elementary,2
+2021-08-30,Student,Lovell Elementary,2
+2021-08-30,Student,Lawton Chiles Elementary,1
+2021-08-30,Student,Laureate Park Elementary,2
+2021-08-30,Student,Lakeville Elementary,2
+2021-08-30,Student,Lakeview Middle,1
+2021-08-30,Student,Lakemont Elementary,1
+2021-08-30,Student,Lake Sybelia Elementary,1
+2021-08-30,Student,Lake Silver Elementary,1
+2021-08-30,Student,Lake Nona Middle,4
+2021-08-30,Student,Lake Nona High,2
+2021-08-30,Student,Lake Como School (K-8),1
+2021-08-30,Student,Killarney Elementary,3
+2021-08-30,Student,John Young Elementary,6
+2021-08-30,Student,Ivey Lane Elementary,1
+2021-08-30,Student,Innovation Middle,1
+2021-08-30,Student,Hunter’s Creek Middle,2
+2021-08-30,Student,Howard Middle,2
+2021-08-30,Student,Horizon West Middle,2
+2021-08-30,Student,Hillcrest Elementary,4
+2021-08-30,Student,Hidden Oaks Elementary,1
+2021-08-30,Student,Hiawassee Elementary,1
+2021-08-30,Student,Gotha Middle,2
+2021-08-30,Student,Glenridge Middle,1
+2021-08-30,Student,Evans High,9
+2021-08-30,Student,Engelwood Elementary,2
+2021-08-30,Student,Endeavor Elementary,2
+2021-08-30,Student,Eccleston Elementary,1
+2021-08-30,Student,East River High,1
+2021-08-30,Student,East Lake Elementary,2
+2021-08-30,Student,Eagle’s Nest Elementary,1
+2021-08-30,Student,Eagle Creek Elementary,3
+2021-08-30,Student,Dream Lake Elementary,1
+2021-08-30,Student,Dover Shores Elementary,2
+2021-08-30,Student,Dommerich Elementary,1
+2021-08-30,Student,Discovery Middle,1
+2021-08-30,Student,Deerwood Elementary,1
+2021-08-30,Student,Cypress Springs Elementary,6
+2021-08-30,Student,Cypress Creek High,1
+2021-08-30,Student,Corner Lake Middle,1
+2021-08-30,Student,Colonial High,4
+2021-08-30,Student,Cheney Elementary,5
+2021-08-30,Student,Camelot Elementary,1
+2021-08-30,Student,Brookshire Elementary,1
+2021-08-30,Student,Bridgewater Middle,2
+2021-08-30,Student,Boone High,2
+2021-08-30,Student,Bonneville Elementary,1
+2021-08-30,Student,Blankner School (K-8),2
+2021-08-30,Student,Bay Meadows Elementary,2
+2021-08-30,Student,Bay Lake Elementary,1
+2021-08-30,Student,Baldwin Park Elementary,2
+2021-08-30,Student,Avalon Elementary,1
+2021-08-30,Student,Arbor Ridge School (K-8),3
+2021-08-30,Student,Apopka Memorial Middle,8
+2021-08-30,Student,Apopka High,1
+2021-08-30,Student,Apopka Elementary,4
+2021-08-30,Student,Alternative Education Centers,1
+2021-08-30,Student,Aloma Elementary,2
+2021-08-30,Student,Acceleration West,1
 2021-08-30,Vendor/Visitor,Riverdale Elementary,1
 2021-08-30,Employee,Wolf Lake Elementary,2
 2021-08-30,Employee,West Oaks Elementary,1
