@@ -1,4 +1,5 @@
 date,type,location,count
+2021-08-30,Vendor/Visitor,Riverdale Elementary,1
 2021-08-30,Student,Zellwood Elementary,3
 2021-08-30,Student,Wyndham Lakes Elementary,1
 2021-08-30,Student,Wolf Lake Middle,1
@@ -119,7 +120,6 @@ date,type,location,count
 2021-08-30,Student,Alternative Education Centers,1
 2021-08-30,Student,Aloma Elementary,2
 2021-08-30,Student,Acceleration West,1
-2021-08-30,Vendor/Visitor,Riverdale Elementary,1
 2021-08-30,Employee,Wolf Lake Elementary,2
 2021-08-30,Employee,West Oaks Elementary,1
 2021-08-30,Employee,Wedgefield School (K-8),1
