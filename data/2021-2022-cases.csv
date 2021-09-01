@@ -1,4 +1,146 @@
 date,type,location,count
+2021-08-31,Vendor/Visitor,Magnolia School,1
+2021-08-31,Student,Wyndham Lakes Elementary,1
+2021-08-31,Student,Wolf Lake Middle,5
+2021-08-31,Student,Wolf Lake Elementary,8
+2021-08-31,Student,Windermere High,2
+2021-08-31,Student,Whispering Oak Elementary,1
+2021-08-31,Student,Wetherbee Elementary,1
+2021-08-31,Student,Westpointe Elementary,3
+2021-08-31,Student,West Creek Elementary,5
+2021-08-31,Student,Wekiva High,2
+2021-08-31,Student,Wedgefield School (K-8),1
+2021-08-31,Student,Water Spring Elementary,3
+2021-08-31,Student,Washington Shores Elementary,2
+2021-08-31,Student,Walker Middle,1
+2021-08-31,Student,Vista Lakes Elementary,3
+2021-08-31,Student,Village Park Elementary,1
+2021-08-31,Student,Ventura Elementary,1
+2021-08-31,Student,University High,3
+2021-08-31,Student,Timber Springs Middle,1
+2021-08-31,Student,Timber Lakes Elementary,1
+2021-08-31,Student,Timber Creek High,2
+2021-08-31,Student,Sunshine Elementary,1
+2021-08-31,Student,Sunset Park Elementary,2
+2021-08-31,Student,Sunrise Elementary,1
+2021-08-31,Student,Sun Blaze Elementary,1
+2021-08-31,Student,Stone Lakes Elementary,1
+2021-08-31,Student,Spring Lake Elementary,1
+2021-08-31,Student,Southwood Elementary,1
+2021-08-31,Student,Southwest Middle,5
+2021-08-31,Student,South Creek Middle,2
+2021-08-31,Student,Rolling Hills Elementary,1
+2021-08-31,Student,Rock Springs Elementary,1
+2021-08-31,Student,Robinswood Middle,1
+2021-08-31,Student,Riverside Elementary,2
+2021-08-31,Student,Riverdale Elementary,7
+2021-08-31,Student,Pine Hills Elementary,1
+2021-08-31,Student,Pinar Elementary,1
+2021-08-31,Student,Orlando Gifted Academy,2
+2021-08-31,Student,Orange Technical College - Westside,1
+2021-08-31,Student,Orange Technical College - Mid Florida,1
+2021-08-31,Student,Olympia High,3
+2021-08-31,Student,Odyssey Middle,2
+2021-08-31,Student,Ocoee Middle,3
+2021-08-31,Student,Ocoee Elementary,3
+2021-08-31,Student,OCPS Academic Center for Excellence,4
+2021-08-31,Student,Mollie Ray Elementary,3
+2021-08-31,Student,Millennia Gardens Elementary,1
+2021-08-31,Student,Millennia Elementary,1
+2021-08-31,Student,Memorial Middle,1
+2021-08-31,Student,Meadow Woods Middle,2
+2021-08-31,Student,Meadow Woods Elementary,3
+2021-08-31,Student,McCoy Elementary,1
+2021-08-31,Student,Maxey Elementary,2
+2021-08-31,Student,Maitland Middle,2
+2021-08-31,Student,Magnolia School,1
+2021-08-31,Student,Lovell Elementary,5
+2021-08-31,Student,Lockhart Middle,1
+2021-08-31,Student,Liberty Middle,4
+2021-08-31,Student,Lawton Chiles Elementary,1
+2021-08-31,Student,Laureate Park Elementary,1
+2021-08-31,Student,Lakeview Middle,1
+2021-08-31,Student,Lakemont Elementary,4
+2021-08-31,Student,Lake Weston Elementary,2
+2021-08-31,Student,Lake Nona Middle,1
+2021-08-31,Student,Lake Nona High,2
+2021-08-31,Student,Lake Como School (K-8),3
+2021-08-31,Student,Jones High,8
+2021-08-31,Student,John Young Elementary,3
+2021-08-31,Student,Ivey Lane Elementary,2
+2021-08-31,Student,Innovation Middle,1
+2021-08-31,Student,Independence Elementary,2
+2021-08-31,Student,Hunter’s Creek Middle,1
+2021-08-31,Student,Hunter’s Creek Elementary,1
+2021-08-31,Student,Howard Middle,1
+2021-08-31,Student,Horizon West Middle,1
+2021-08-31,Student,Horizon High,2
+2021-08-31,Student,Hillcrest Elementary,2
+2021-08-31,Student,Gotha Middle,2
+2021-08-31,Student,Freedom Middle,1
+2021-08-31,Student,Forsyth Woods Elementary,1
+2021-08-31,Student,Evans High,9
+2021-08-31,Student,Edgewater High,8
+2021-08-31,Student,East River High,5
+2021-08-31,Student,Eagle’s Nest Elementary,1
+2021-08-31,Student,Eagle Creek Elementary,1
+2021-08-31,Student,Dream Lake Elementary,1
+2021-08-31,Student,Dr. Phillips High,25
+2021-08-31,Student,Discovery Middle,1
+2021-08-31,Student,Cypress Creek High,7
+2021-08-31,Student,Corner Lake Middle,2
+2021-08-31,Student,Conway Middle,1
+2021-08-31,Student,Conway Elementary,1
+2021-08-31,Student,Columbia Elementary,2
+2021-08-31,Student,Colonial High 9th Grade Center,1
+2021-08-31,Student,Colonial High,2
+2021-08-31,Student,Chickasaw Elementary,2
+2021-08-31,Student,Cheney Elementary,1
+2021-08-31,Student,Chain of Lakes Middle,1
+2021-08-31,Student,Castle Creek Elementary,1
+2021-08-31,Student,Bridgewater Middle,1
+2021-08-31,Student,Boone High,9
+2021-08-31,Student,Bonneville Elementary,1
+2021-08-31,Student,Blankner School (K-8),2
+2021-08-31,Student,Baldwin Park Elementary,1
+2021-08-31,Student,Azalea Park Elementary,1
+2021-08-31,Student,Avalon Middle,1
+2021-08-31,Student,Avalon Elementary,1
+2021-08-31,Student,Arbor Ridge School (K-8),2
+2021-08-31,Student,Apopka Memorial Middle,2
+2021-08-31,Student,Apopka High,17
+2021-08-31,Student,Apopka Elementary,4
+2021-08-31,Student,Andover Elementary,3
+2021-08-31,Employee,Winter Park High,1
+2021-08-31,Employee,Stone Lakes Elementary,1
+2021-08-31,Employee,Rolling Hills Elementary,1
+2021-08-31,Employee,Rock Springs Elementary,1
+2021-08-31,Employee,Riverdale Elementary,1
+2021-08-31,Employee,Pinewood Elementary,1
+2021-08-31,Employee,Palmetto Elementary,1
+2021-08-31,Employee,Orange Technical College - Orlando,1
+2021-08-31,Employee,Operations,3
+2021-08-31,Employee,OCPS Academic Center for Excellence,1
+2021-08-31,Employee,Meadowbrook Middle,1
+2021-08-31,Employee,Magnolia School,1
+2021-08-31,Employee,Lovell Elementary,1
+2021-08-31,Employee,Lake Weston Elementary,1
+2021-08-31,Employee,Keene’s Crossing Elementary,1
+2021-08-31,Employee,John Young Elementary,1
+2021-08-31,Employee,Freedom High,4
+2021-08-31,Employee,Facilities Services,1
+2021-08-31,Employee,Evans High,1
+2021-08-31,Employee,Eagle’s Nest Elementary,1
+2021-08-31,Employee,Dream Lake Elementary,1
+2021-08-31,Employee,Cypress Creek High,2
+2021-08-31,Employee,Colonial High 9th Grade Center,1
+2021-08-31,Employee,Chain of Lakes Middle,1
+2021-08-31,Employee,Bridgewater Middle,1
+2021-08-31,Employee,Boone High,1
+2021-08-31,Employee,Blankner School (K-8),2
+2021-08-31,Employee,Audubon Park School (K-8),1
+2021-08-31,Employee,Apopka High,1
+2021-08-31,Employee,Apopka Elementary,1
 2021-08-30,Vendor/Visitor,Riverdale Elementary,1
 2021-08-30,Student,Zellwood Elementary,3
 2021-08-30,Student,Wyndham Lakes Elementary,1
@@ -134,6 +276,7 @@ date,type,location,count
 2021-08-30,Employee,Ocoee High,1
 2021-08-30,Employee,Moss Park Elementary,1
 2021-08-30,Employee,Millennia Elementary,1
+2021-08-30,Employee,Magnolia School,1
 2021-08-30,Employee,Lockhart Elementary,1
 2021-08-30,Employee,Laureate Park Elementary,1
 2021-08-30,Employee,Lakeview Middle,1
