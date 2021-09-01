@@ -1,2 +1,7 @@
 pandas
 requests
+
+# Below are necessary for one time use scripts (directory and demographics parsers)
+#pdfminer.six
+#selenium
+#selenium-wire
