@@ -1,4 +1,106 @@
 date,type,location,count
+2021-09-01,Vendor/Visitor,Operations,1
+2021-09-01,Vendor/Visitor,Hungerford Elementary,1
+2021-09-01,Student,Zellwood Elementary,1
+2021-09-01,Student,Wyndham Lakes Elementary,1
+2021-09-01,Student,Wolf Lake Middle,2
+2021-09-01,Student,Wolf Lake Elementary,1
+2021-09-01,Student,Winter Park 9th Grade Center,1
+2021-09-01,Student,Windermere High,2
+2021-09-01,Student,Windermere Elementary,1
+2021-09-01,Student,Westridge Middle,2
+2021-09-01,Student,Westbrooke Elementary,1
+2021-09-01,Student,West Oaks Elementary,1
+2021-09-01,Student,Wekiva High,1
+2021-09-01,Student,Wedgefield School (K-8),4
+2021-09-01,Student,Waterbridge Elementary,1
+2021-09-01,Student,Water Spring Elementary,1
+2021-09-01,Student,Vista Pointe Elementary,1
+2021-09-01,Student,University High,7
+2021-09-01,Student,Three Points Elementary,3
+2021-09-01,Student,Thornebrooke Elementary,1
+2021-09-01,Student,Sunridge Elementary,4
+2021-09-01,Student,SunRidge Middle,1
+2021-09-01,Student,Sun Blaze Elementary,2
+2021-09-01,Student,Spring Lake Elementary,2
+2021-09-01,Student,Southwood Elementary,1
+2021-09-01,Student,South Creek Middle,4
+2021-09-01,Student,Rosemont Elementary,1
+2021-09-01,Student,Rolling Hills Elementary,2
+2021-09-01,Student,Rock Springs Elementary,2
+2021-09-01,Student,Roberto Clemente Middle,3
+2021-09-01,Student,Riverside Elementary,1
+2021-09-01,Student,Pinewood Elementary,2
+2021-09-01,Student,Pershing School (K-8),3
+2021-09-01,Student,Orlo Vista Elementary,1
+2021-09-01,Student,Orange Technical College - Mid Florida,2
+2021-09-01,Student,Olympia High,3
+2021-09-01,Student,OCPS Academic Center for Excellence,1
+2021-09-01,Student,Meadowbrook Middle,2
+2021-09-01,Student,Meadow Woods Middle,2
+2021-09-01,Student,Maitland Middle,1
+2021-09-01,Student,Lovell Elementary,2
+2021-09-01,Student,Lockhart Middle,3
+2021-09-01,Student,Lockhart Elementary,1
+2021-09-01,Student,Liberty Middle,1
+2021-09-01,Student,Laureate Park Elementary,1
+2021-09-01,Student,Lakeview Middle,3
+2021-09-01,Student,Lakemont Elementary,2
+2021-09-01,Student,Lake Weston Elementary,1
+2021-09-01,Student,Lake Como School (K-8),1
+2021-09-01,Student,Killarney Elementary,1
+2021-09-01,Student,John Young Elementary,1
+2021-09-01,Student,Ivey Lane Elementary,2
+2021-09-01,Student,Hunter’s Creek Middle,2
+2021-09-01,Student,Gotha Middle,1
+2021-09-01,Student,Freedom Middle,2
+2021-09-01,Student,Frangus Elementary,1
+2021-09-01,Student,Forsyth Woods Elementary,2
+2021-09-01,Student,Evans High,3
+2021-09-01,Student,Eccleston Elementary,1
+2021-09-01,Student,East River High,6
+2021-09-01,Student,Dr. Phillips High,2
+2021-09-01,Student,Dover Shores Elementary,2
+2021-09-01,Student,Cypress Creek High,4
+2021-09-01,Student,Columbia Elementary,2
+2021-09-01,Student,Colonial High 9th Grade Center,1
+2021-09-01,Student,Citrus Elementary,1
+2021-09-01,Student,Cheney Elementary,1
+2021-09-01,Student,Chain of Lakes Middle,1
+2021-09-01,Student,Castleview Elementary,1
+2021-09-01,Student,Camelot Elementary,1
+2021-09-01,Student,Baldwin Park Elementary,3
+2021-09-01,Student,Avalon Middle,1
+2021-09-01,Student,Avalon Elementary,1
+2021-09-01,Student,Audubon Park School (K-8),2
+2021-09-01,Student,Apopka High,1
+2021-09-01,Student,Andover Elementary,2
+2021-09-01,Employee,Zellwood Elementary,1
+2021-09-01,Employee,Wyndham Lakes Elementary,1
+2021-09-01,Employee,Wolf Lake Middle,1
+2021-09-01,Employee,Winter Park High,1
+2021-09-01,Employee,Timber Creek High,1
+2021-09-01,Employee,Thornebrooke Elementary,1
+2021-09-01,Employee,Teaching and Learning,1
+2021-09-01,Employee,Robinswood Middle,2
+2021-09-01,Employee,Riverside Elementary,1
+2021-09-01,Employee,Pinar Elementary,1
+2021-09-01,Employee,Operations,1
+2021-09-01,Employee,Odyssey Middle,1
+2021-09-01,Employee,Meadowbrook Middle,2
+2021-09-01,Employee,Magnolia School,1
+2021-09-01,Employee,Liberty Middle,1
+2021-09-01,Employee,Laureate Park Elementary,1
+2021-09-01,Employee,Lakeview Middle,1
+2021-09-01,Employee,Lake George Elementary,1
+2021-09-01,Employee,Keene’s Crossing Elementary,2
+2021-09-01,Employee,Facilities Services,1
+2021-09-01,Employee,Edgewater High,1
+2021-09-01,Employee,East River High,1
+2021-09-01,Employee,Cypress Creek High,1
+2021-09-01,Employee,Colonial High 9th Grade Center,1
+2021-09-01,Employee,Castle Creek Elementary,1
+2021-09-01,Employee,Blankner School (K-8),1
 2021-08-31,Vendor/Visitor,Magnolia School,1
 2021-08-31,Student,Wyndham Lakes Elementary,1
 2021-08-31,Student,Wolf Lake Middle,5
