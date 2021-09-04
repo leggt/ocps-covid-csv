@@ -1,4 +1,122 @@
 date,type,location,count
+2021-09-03,Vendor/Visitor,Wolf Lake Elementary,1
+2021-09-03,Student,Wyndham Lakes Elementary,3
+2021-09-03,Student,Wolf Lake Middle,1
+2021-09-03,Student,Winter Park High,1
+2021-09-03,Student,Winter Park 9th Grade Center,3
+2021-09-03,Student,Windermere High,2
+2021-09-03,Student,Whispering Oak Elementary,1
+2021-09-03,Student,Wetherbee Elementary,2
+2021-09-03,Student,Westridge Middle,2
+2021-09-03,Student,Westpointe Elementary,1
+2021-09-03,Student,West Orange High,2
+2021-09-03,Student,Wekiva High,2
+2021-09-03,Student,Wedgefield School (K-8),1
+2021-09-03,Student,Walker Middle,2
+2021-09-03,Student,Vista Lakes Elementary,3
+2021-09-03,Student,Village Park Elementary,1
+2021-09-03,Student,Union Park Elementary,2
+2021-09-03,Student,Timber Springs Middle,1
+2021-09-03,Student,Timber Lakes Elementary,1
+2021-09-03,Student,Timber Creek High,2
+2021-09-03,Student,Tildenville Elementary,3
+2021-09-03,Student,Sunshine Elementary,3
+2021-09-03,Student,Sunridge Elementary,1
+2021-09-03,Student,SunRidge Middle,3
+2021-09-03,Student,Sun Blaze Elementary,2
+2021-09-03,Student,Summerlake Elementary,1
+2021-09-03,Student,Southwest Middle,2
+2021-09-03,Student,South Creek Middle,2
+2021-09-03,Student,Robinswood Middle,1
+2021-09-03,Student,Riverside Elementary,1
+2021-09-03,Student,Ridgewood Park Elementary,1
+2021-09-03,Student,Princeton Elementary,1
+2021-09-03,Student,Pinewood Elementary,2
+2021-09-03,Student,Piedmont Lakes Middle,2
+2021-09-03,Student,Orlando Gifted Academy,1
+2021-09-03,Student,Olympia High,4
+2021-09-03,Student,Ocoee Middle,2
+2021-09-03,Student,Ocoee High,1
+2021-09-03,Student,OCPS Academic Center for Excellence,1
+2021-09-03,Student,Meadowbrook Middle,1
+2021-09-03,Student,Meadow Woods Elementary,1
+2021-09-03,Student,Lockhart Elementary,1
+2021-09-03,Student,Little River Elementary,1
+2021-09-03,Student,Liberty Middle,1
+2021-09-03,Student,Lawton Chiles Elementary,1
+2021-09-03,Student,Lancaster Elementary,1
+2021-09-03,Student,Lakeview Middle,1
+2021-09-03,Student,Lake Sybelia Elementary,2
+2021-09-03,Student,Lake Nona Middle,1
+2021-09-03,Student,Lake Nona High,5
+2021-09-03,Student,Lake Buena Vista High,2
+2021-09-03,Student,John Young Elementary,1
+2021-09-03,Student,Innovation Middle,2
+2021-09-03,Student,Independence Elementary,2
+2021-09-03,Student,Hunter’s Creek Middle,1
+2021-09-03,Student,Hiawassee Elementary,3
+2021-09-03,Student,Gotha Middle,1
+2021-09-03,Student,Glenridge Middle,1
+2021-09-03,Student,Evans High,1
+2021-09-03,Student,Endeavor Elementary,1
+2021-09-03,Student,Edgewater High,9
+2021-09-03,Student,East Lake Elementary,1
+2021-09-03,Student,Eagle Creek Elementary,2
+2021-09-03,Student,Dr. Phillips High,1
+2021-09-03,Student,Dr. Phillips Elementary,1
+2021-09-03,Student,Cypress Springs Elementary,1
+2021-09-03,Student,Cypress Creek High,3
+2021-09-03,Student,Corner Lake Middle,1
+2021-09-03,Student,Columbia Elementary,2
+2021-09-03,Student,Chickasaw Elementary,1
+2021-09-03,Student,Camelot Elementary,2
+2021-09-03,Student,Brookshire Elementary,2
+2021-09-03,Student,Bridgewater Middle,1
+2021-09-03,Student,Boone High,6
+2021-09-03,Student,Blankner School (K-8),1
+2021-09-03,Student,Bay Lake Elementary,2
+2021-09-03,Student,Avalon Middle,1
+2021-09-03,Student,Audubon Park School (K-8),1
+2021-09-03,Student,Apopka Memorial Middle,2
+2021-09-03,Employee,Wyndham Lakes Elementary,1
+2021-09-03,Employee,Winegard Elementary,1
+2021-09-03,Employee,West Orange High,2
+2021-09-03,Employee,Wekiva High,1
+2021-09-03,Employee,University High,1
+2021-09-03,Employee,Timber Springs Middle,1
+2021-09-03,Employee,Three Points Elementary,1
+2021-09-03,Employee,Tangelo Park Elementary,1
+2021-09-03,Employee,Sunshine Elementary,1
+2021-09-03,Employee,SunRidge Middle,1
+2021-09-03,Employee,South Creek Middle,1
+2021-09-03,Employee,Robinswood Middle,2
+2021-09-03,Employee,Pine Hills Elementary,1
+2021-09-03,Employee,Palmetto Elementary,1
+2021-09-03,Employee,Palm Lake Elementary,1
+2021-09-03,Employee,Orlando Gifted Academy,1
+2021-09-03,Employee,Orange Technical College - Avalon,1
+2021-09-03,Employee,Orange County Virtual School,2
+2021-09-03,Employee,Operations,3
+2021-09-03,Employee,Ocoee Middle,1
+2021-09-03,Employee,Mollie Ray Elementary,2
+2021-09-03,Employee,Meadow Woods Elementary,1
+2021-09-03,Employee,Maitland Middle,1
+2021-09-03,Employee,Magnolia School,2
+2021-09-03,Employee,Lake Como School (K-8),1
+2021-09-03,Employee,Glenridge Middle,2
+2021-09-03,Employee,Evans High,1
+2021-09-03,Employee,Engelwood Elementary,1
+2021-09-03,Employee,Edgewater High,1
+2021-09-03,Employee,Eccleston Elementary,1
+2021-09-03,Employee,East Lake Elementary,1
+2021-09-03,Employee,Eagle Creek Elementary,1
+2021-09-03,Employee,Conway Elementary,1
+2021-09-03,Employee,Colonial High,1
+2021-09-03,Employee,Castle Creek Elementary,1
+2021-09-03,Employee,Carver Middle,1
+2021-09-03,Employee,Baldwin Park Elementary,1
+2021-09-03,Employee,Apopka High,1
+2021-09-03,Employee,Andover Elementary,2
 2021-09-02,Student,Wyndham Lakes Elementary,4
 2021-09-02,Student,Wolf Lake Middle,3
 2021-09-02,Student,Wolf Lake Elementary,1
@@ -17,7 +135,7 @@ date,type,location,count
 2021-09-02,Student,Union Park Elementary,1
 2021-09-02,Student,Timber Springs Middle,1
 2021-09-02,Student,Timber Lakes Elementary,1
-2021-09-02,Student,Timber Creek High,3
+2021-09-02,Student,Timber Creek High,5
 2021-09-02,Student,Tangelo Park Elementary,1
 2021-09-02,Student,Sunshine Elementary,1
 2021-09-02,Student,Sunset Park Elementary,1
@@ -61,7 +179,7 @@ date,type,location,count
 2021-09-02,Student,Horizon High,2
 2021-09-02,Student,Hillcrest Elementary,1
 2021-09-02,Student,Hiawassee Elementary,1
-2021-09-02,Student,Gotha Middle,2
+2021-09-02,Student,Gotha Middle,3
 2021-09-02,Student,Frangus Elementary,1
 2021-09-02,Student,Forsyth Woods Elementary,1
 2021-09-02,Student,Engelwood Elementary,1
@@ -469,7 +587,7 @@ date,type,location,count
 2021-08-30,Student,Baldwin Park Elementary,2
 2021-08-30,Student,Avalon Elementary,1
 2021-08-30,Student,Arbor Ridge School (K-8),3
-2021-08-30,Student,Apopka Memorial Middle,8
+2021-08-30,Student,Apopka Memorial Middle,7
 2021-08-30,Student,Apopka High,1
 2021-08-30,Student,Apopka Elementary,4
 2021-08-30,Student,Alternative Education Centers,1
