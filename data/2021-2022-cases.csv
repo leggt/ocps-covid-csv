@@ -1,4 +1,19 @@
 date,type,location,count
+2021-09-06,Student,Palm Lake Elementary,1
+2021-09-06,Student,Oakshire Elementary,1
+2021-09-06,Student,Laureate Park Elementary,2
+2021-09-06,Student,Lake Como School (K-8),4
+2021-09-06,Student,Engelwood Elementary,2
+2021-09-06,Student,Castle Creek Elementary,1
+2021-09-06,Student,Blankner School (K-8),1
+2021-09-06,Employee,Ocoee Middle,1
+2021-09-06,Employee,Meadow Woods Elementary,1
+2021-09-06,Employee,Laureate Park Elementary,1
+2021-09-06,Employee,Lake Weston Elementary,1
+2021-09-06,Employee,Lake Como School (K-8),1
+2021-09-06,Employee,Hillcrest Elementary,1
+2021-09-06,Employee,Engelwood Elementary,3
+2021-09-06,Employee,Castle Creek Elementary,1
 2021-09-05,Student,Zellwood Elementary,4
 2021-09-05,Student,Westbrooke Elementary,1
 2021-09-05,Student,Pine Hills Elementary,1
@@ -30,7 +45,7 @@ date,type,location,count
 2021-09-03,Student,Walker Middle,2
 2021-09-03,Student,Vista Lakes Elementary,3
 2021-09-03,Student,Village Park Elementary,1
-2021-09-03,Student,Union Park Elementary,2
+2021-09-03,Student,Union Park Elementary,3
 2021-09-03,Student,Timber Springs Middle,1
 2021-09-03,Student,Timber Lakes Elementary,1
 2021-09-03,Student,Timber Creek High,2
@@ -44,6 +59,7 @@ date,type,location,count
 2021-09-03,Student,South Creek Middle,2
 2021-09-03,Student,Robinswood Middle,1
 2021-09-03,Student,Riverside Elementary,1
+2021-09-03,Student,Riverdale Elementary,1
 2021-09-03,Student,Ridgewood Park Elementary,1
 2021-09-03,Student,Princeton Elementary,1
 2021-09-03,Student,Pinewood Elementary,2
@@ -87,7 +103,7 @@ date,type,location,count
 2021-09-03,Student,Camelot Elementary,2
 2021-09-03,Student,Brookshire Elementary,2
 2021-09-03,Student,Bridgewater Middle,1
-2021-09-03,Student,Boone High,6
+2021-09-03,Student,Boone High,7
 2021-09-03,Student,Blankner School (K-8),1
 2021-09-03,Student,Bay Lake Elementary,2
 2021-09-03,Student,Avalon Middle,1
