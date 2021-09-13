@@ -1,4 +1,19 @@
 date,type,location,count
+2021-09-12,Student,Windermere High,1
+2021-09-12,Student,Wheatley Elementary,1
+2021-09-12,Student,Sunshine Elementary,1
+2021-09-12,Student,Sunridge Elementary,1
+2021-09-12,Student,Rolling Hills Elementary,1
+2021-09-12,Student,Oakshire Elementary,1
+2021-09-12,Student,Lakeview Middle,2
+2021-09-12,Student,Lake Como School (K-8),1
+2021-09-12,Student,Hillcrest Elementary,1
+2021-09-12,Student,Hidden Oaks Elementary,4
+2021-09-12,Student,Conway Middle,1
+2021-09-12,Employee,Pineloch Elementary,1
+2021-09-12,Employee,Meadow Woods Elementary,1
+2021-09-12,Employee,Howard Middle,1
+2021-09-12,Employee,Bridgewater Middle,1
 2021-09-11,Student,Sunridge Elementary,3
 2021-09-11,Student,Oakshire Elementary,1
 2021-09-11,Student,Moss Park Elementary,1
@@ -102,7 +117,7 @@ date,type,location,count
 2021-09-09,Student,Tildenville Elementary,1
 2021-09-09,Student,Three Points Elementary,1
 2021-09-09,Student,Tangelo Park Elementary,4
-2021-09-09,Student,Sunshine Elementary,3
+2021-09-09,Student,Sunshine Elementary,2
 2021-09-09,Student,Sunrise Elementary,1
 2021-09-09,Student,Sunridge Elementary,1
 2021-09-09,Student,SunRidge Middle,2
@@ -358,7 +373,7 @@ date,type,location,count
 2021-09-07,Student,Lake Weston Elementary,1
 2021-09-07,Student,Lake Sybelia Elementary,2
 2021-09-07,Student,Lake Nona Middle,1
-2021-09-07,Student,Lake Nona High,8
+2021-09-07,Student,Lake Nona High,7
 2021-09-07,Student,Lake George Elementary,2
 2021-09-07,Student,Lake Como School (K-8),2
 2021-09-07,Student,Lake Buena Vista High,1
