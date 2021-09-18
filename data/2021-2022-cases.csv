@@ -1,4 +1,70 @@
 date,type,location,count
+2021-09-17,Student,Winter Park High,3
+2021-09-17,Student,Windy Ridge School (K-8),1
+2021-09-17,Student,Windermere High,1
+2021-09-17,Student,Westridge Middle,1
+2021-09-17,Student,West Oaks Elementary,1
+2021-09-17,Student,Wekiva High,3
+2021-09-17,Student,Vista Lakes Elementary,1
+2021-09-17,Student,Ventura Elementary,1
+2021-09-17,Student,University High,5
+2021-09-17,Student,Timber Creek High,1
+2021-09-17,Student,Spring Lake Elementary,1
+2021-09-17,Student,Rolling Hills Elementary,2
+2021-09-17,Student,Rock Springs Elementary,1
+2021-09-17,Student,Prairie Lake Elementary,4
+2021-09-17,Student,Pinewood Elementary,1
+2021-09-17,Student,Palmetto Elementary,1
+2021-09-17,Student,Palm Lake Elementary,1
+2021-09-17,Student,Orlo Vista Elementary,1
+2021-09-17,Student,Odyssey Middle,4
+2021-09-17,Student,Ocoee Middle,2
+2021-09-17,Student,Oakshire Elementary,2
+2021-09-17,Student,Oak Hill Elementary,1
+2021-09-17,Student,OCPS Academic Center for Excellence,2
+2021-09-17,Student,Mollie Ray Elementary,1
+2021-09-17,Student,Millennia Gardens Elementary,1
+2021-09-17,Student,Millennia Elementary,1
+2021-09-17,Student,MetroWest Elementary,1
+2021-09-17,Student,Little River Elementary,1
+2021-09-17,Student,Lawton Chiles Elementary,1
+2021-09-17,Student,Lakeville Elementary,1
+2021-09-17,Student,Lakeview Middle,1
+2021-09-17,Student,Lakemont Elementary,1
+2021-09-17,Student,Killarney Elementary,1
+2021-09-17,Student,Keene’s Crossing Elementary,1
+2021-09-17,Student,Innovation Middle,1
+2021-09-17,Student,Hunter’s Creek Middle,1
+2021-09-17,Student,Gotha Middle,1
+2021-09-17,Student,Glenridge Middle,1
+2021-09-17,Student,Freedom Middle,3
+2021-09-17,Student,Frangus Elementary,1
+2021-09-17,Student,Evans High,2
+2021-09-17,Student,Edgewater High,1
+2021-09-17,Student,East River High,2
+2021-09-17,Student,Dream Lake Elementary,1
+2021-09-17,Student,Cypress Creek High,1
+2021-09-17,Student,Corner Lake Middle,1
+2021-09-17,Student,Colonial High,4
+2021-09-17,Student,Castleview Elementary,1
+2021-09-17,Student,Carver Middle,1
+2021-09-17,Student,Blankner School (K-8),2
+2021-09-17,Student,Arbor Ridge School (K-8),2
+2021-09-17,Student,Acceleration West,1
+2021-09-17,Employee,Zellwood Elementary,1
+2021-09-17,Employee,Walker Middle,1
+2021-09-17,Employee,Pinewood Elementary,1
+2021-09-17,Employee,Orlando Gifted Academy,1
+2021-09-17,Employee,Operations,3
+2021-09-17,Employee,OCPS Academic Center for Excellence,1
+2021-09-17,Employee,Liberty Middle,1
+2021-09-17,Employee,Horizon High,1
+2021-09-17,Employee,Evans High,1
+2021-09-17,Employee,Eagle Creek Elementary,1
+2021-09-17,Employee,Dover Shores Elementary,1
+2021-09-17,Employee,Colonial High,1
+2021-09-17,Employee,Castle Creek Elementary,1
+2021-09-17,Employee,Baldwin Park Elementary,1
 2021-09-16,Student,Wyndham Lakes Elementary,1
 2021-09-16,Student,Winter Park High,4
 2021-09-16,Student,Whispering Oak Elementary,2
@@ -38,7 +104,7 @@ date,type,location,count
 2021-09-16,Student,Meadowbrook Middle,1
 2021-09-16,Student,Meadow Woods Elementary,2
 2021-09-16,Student,McCoy Elementary,2
-2021-09-16,Student,Maitland Middle,1
+2021-09-16,Student,Maitland Middle,2
 2021-09-16,Student,Lovell Elementary,1
 2021-09-16,Student,Liberty Middle,1
 2021-09-16,Student,Legacy Middle,4
