@@ -1,4 +1,66 @@
 date,type,location,count
+2021-09-28,Vendor/Visitor,Operations,1
+2021-09-28,Student,Windermere High,1
+2021-09-28,Student,Whispering Oak Elementary,1
+2021-09-28,Student,Westridge Middle,2
+2021-09-28,Student,West Creek Elementary,2
+2021-09-28,Student,Ventura Elementary,1
+2021-09-28,Student,Timber Lakes Elementary,1
+2021-09-28,Student,Tildenville Elementary,1
+2021-09-28,Student,Three Points Elementary,1
+2021-09-28,Student,Thornebrooke Elementary,1
+2021-09-28,Student,Sand Lake Elementary,1
+2021-09-28,Student,Robinswood Middle,1
+2021-09-28,Student,Pineloch Elementary,2
+2021-09-28,Student,Piedmont Lakes Middle,2
+2021-09-28,Student,Ocoee Middle,1
+2021-09-28,Student,Ocoee High,1
+2021-09-28,Student,Ocoee Elementary,3
+2021-09-28,Student,Oak Ridge High,1
+2021-09-28,Student,Millennia Gardens Elementary,1
+2021-09-28,Student,MetroWest Elementary,1
+2021-09-28,Student,Memorial Middle,1
+2021-09-28,Student,Liberty Middle,1
+2021-09-28,Student,Legacy Middle,1
+2021-09-28,Student,Lancaster Elementary,1
+2021-09-28,Student,Lakeview Middle,1
+2021-09-28,Student,Lakemont Elementary,1
+2021-09-28,Student,Lake Nona High,2
+2021-09-28,Student,Lake Como School (K-8),1
+2021-09-28,Student,Independence Elementary,2
+2021-09-28,Student,Hungerford Elementary,2
+2021-09-28,Student,Horizon West Middle,1
+2021-09-28,Student,Horizon High,2
+2021-09-28,Student,Glenridge Middle,2
+2021-09-28,Student,Freedom Middle,1
+2021-09-28,Student,Evans High,3
+2021-09-28,Student,Edgewater High,2
+2021-09-28,Student,Dream Lake Elementary,2
+2021-09-28,Student,Dr. Phillips Elementary,1
+2021-09-28,Student,Cypress Creek High,1
+2021-09-28,Student,Colonial High 9th Grade Center,1
+2021-09-28,Student,College Park Middle,2
+2021-09-28,Student,Clay Springs Elementary,1
+2021-09-28,Student,Chickasaw Elementary,1
+2021-09-28,Student,Castleview Elementary,1
+2021-09-28,Student,Camelot Elementary,1
+2021-09-28,Student,Bridgewater Middle,1
+2021-09-28,Student,Bay Meadows Elementary,1
+2021-09-28,Student,Baldwin Park Elementary,2
+2021-09-28,Student,Avalon Middle,1
+2021-09-28,Student,Audubon Park School (K-8),2
+2021-09-28,Student,Apopka Memorial Middle,1
+2021-09-28,Student,Apopka High,8
+2021-09-28,Student,Andover Elementary,1
+2021-09-28,Employee,Wyndham Lakes Elementary,2
+2021-09-28,Employee,Wolf Lake Middle,1
+2021-09-28,Employee,Three Points Elementary,1
+2021-09-28,Employee,Shingle Creek Elementary,1
+2021-09-28,Employee,Piedmont Lakes Middle,1
+2021-09-28,Employee,Oak Ridge High,1
+2021-09-28,Employee,Evans High,1
+2021-09-28,Employee,Eagle Creek Elementary,1
+2021-09-28,Employee,College Park Middle,1
 2021-09-27,Student,Winter Park High,2
 2021-09-27,Student,Winter Park 9th Grade Center,1
 2021-09-27,Student,Windermere High,1
