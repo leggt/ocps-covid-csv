@@ -1,4 +1,36 @@
 date,type,location,count
+2021-10-01,Student,Winter Park High,1
+2021-10-01,Student,Windermere High,1
+2021-10-01,Student,Whispering Oak Elementary,1
+2021-10-01,Student,Wetherbee Elementary,1
+2021-10-01,Student,West Oaks Elementary,1
+2021-10-01,Student,Wedgefield School (K-8),1
+2021-10-01,Student,Waterford Elementary,1
+2021-10-01,Student,Village Park Elementary,1
+2021-10-01,Student,Sunridge Elementary,2
+2021-10-01,Student,Southwest Middle,2
+2021-10-01,Student,Sand Lake Elementary,1
+2021-10-01,Student,Prairie Lake Elementary,1
+2021-10-01,Student,Pineloch Elementary,1
+2021-10-01,Student,Orlo Vista Elementary,2
+2021-10-01,Student,Ocoee Middle,1
+2021-10-01,Student,Millennia Gardens Elementary,1
+2021-10-01,Student,Memorial Middle,1
+2021-10-01,Student,Lake Weston Elementary,1
+2021-10-01,Student,Keene’s Crossing Elementary,2
+2021-10-01,Student,Independence Elementary,1
+2021-10-01,Student,Horizon High,1
+2021-10-01,Student,Evans High,1
+2021-10-01,Student,Dr. Phillips Elementary,1
+2021-10-01,Student,Discovery Middle,1
+2021-10-01,Student,Conway Middle,1
+2021-10-01,Student,Castleview Elementary,1
+2021-10-01,Student,Blankner School (K-8),1
+2021-10-01,Student,Bay Lake Elementary,1
+2021-10-01,Student,Arbor Ridge School (K-8),1
+2021-10-01,Employee,Operations,1
+2021-10-01,Employee,Millennia Gardens Elementary,1
+2021-10-01,Employee,Hiawassee Elementary,1
 2021-09-30,Student,Winter Park High,1
 2021-09-30,Student,Winegard Elementary,1
 2021-09-30,Student,Village Park Elementary,2
@@ -90,8 +122,10 @@ date,type,location,count
 2021-09-28,Student,Tildenville Elementary,1
 2021-09-28,Student,Three Points Elementary,1
 2021-09-28,Student,Thornebrooke Elementary,1
+2021-09-28,Student,Southwest Middle,1
 2021-09-28,Student,Sand Lake Elementary,1
 2021-09-28,Student,Robinswood Middle,1
+2021-09-28,Student,Prairie Lake Elementary,1
 2021-09-28,Student,Pineloch Elementary,2
 2021-09-28,Student,Piedmont Lakes Middle,2
 2021-09-28,Student,Ocoee Middle,1
@@ -123,7 +157,7 @@ date,type,location,count
 2021-09-28,Student,Colonial High 9th Grade Center,1
 2021-09-28,Student,College Park Middle,2
 2021-09-28,Student,Clay Springs Elementary,1
-2021-09-28,Student,Chickasaw Elementary,1
+2021-09-28,Student,Chickasaw Elementary,2
 2021-09-28,Student,Castleview Elementary,1
 2021-09-28,Student,Camelot Elementary,1
 2021-09-28,Student,Bridgewater Middle,1
@@ -228,6 +262,7 @@ date,type,location,count
 2021-09-27,Employee,Liberty Middle,1
 2021-09-27,Employee,East River High,1
 2021-09-27,Employee,Citrus Elementary,1
+2021-09-26,Student,Waterbridge Elementary,1
 2021-09-26,Student,Ventura Elementary,1
 2021-09-26,Student,Sun Blaze Elementary,1
 2021-09-26,Student,Spring Lake Elementary,1
@@ -511,6 +546,7 @@ date,type,location,count
 2021-09-20,Employee,Audubon Park School (K-8),2
 2021-09-19,Student,Winegard Elementary,4
 2021-09-19,Student,Wekiva High,3
+2021-09-19,Student,Village Park Elementary,1
 2021-09-19,Student,Palm Lake Elementary,1
 2021-09-19,Student,MetroWest Elementary,2
 2021-09-19,Student,Carver Middle,3
@@ -789,6 +825,7 @@ date,type,location,count
 2021-09-14,Student,Freedom Middle,1
 2021-09-14,Student,Forsyth Woods Elementary,1
 2021-09-14,Student,Evans High,2
+2021-09-14,Student,Engelwood Elementary,1
 2021-09-14,Student,Edgewater High,2
 2021-09-14,Student,Eagle Creek Elementary,1
 2021-09-14,Student,Dr. Phillips High,5
@@ -940,12 +977,15 @@ date,type,location,count
 2021-09-13,Employee,Blankner School (K-8),1
 2021-09-12,Student,Windermere High,1
 2021-09-12,Student,Wheatley Elementary,1
+2021-09-12,Student,Wedgefield School (K-8),1
+2021-09-12,Student,Village Park Elementary,1
 2021-09-12,Student,Sunshine Elementary,1
 2021-09-12,Student,Sunridge Elementary,1
 2021-09-12,Student,Rolling Hills Elementary,1
 2021-09-12,Student,Oakshire Elementary,1
 2021-09-12,Student,Lakeview Middle,2
 2021-09-12,Student,Lake Como School (K-8),1
+2021-09-12,Student,John Young Elementary,1
 2021-09-12,Student,Hillcrest Elementary,1
 2021-09-12,Student,Hidden Oaks Elementary,4
 2021-09-12,Student,Conway Middle,1
@@ -974,6 +1014,7 @@ date,type,location,count
 2021-09-10,Student,Water Spring Middle,1
 2021-09-10,Student,Walker Middle,2
 2021-09-10,Student,Vista Lakes Elementary,2
+2021-09-10,Student,Village Park Elementary,1
 2021-09-10,Student,University High,2
 2021-09-10,Student,Timber Springs Middle,1
 2021-09-10,Student,Timber Creek High,1
@@ -1570,6 +1611,7 @@ date,type,location,count
 2021-09-02,Student,Windy Ridge School (K-8),2
 2021-09-02,Student,Windermere High,1
 2021-09-02,Student,Whispering Oak Elementary,1
+2021-09-02,Student,Wetherbee Elementary,1
 2021-09-02,Student,Westridge Middle,2
 2021-09-02,Student,Westbrooke Elementary,1
 2021-09-02,Student,Wekiva High,1
