@@ -1,4 +1,47 @@
 date,type,location,count
+2021-10-05,Student,Windermere High,2
+2021-10-05,Student,Wetherbee Elementary,1
+2021-10-05,Student,Westbrooke Elementary,1
+2021-10-05,Student,Wekiva High,2
+2021-10-05,Student,Waterbridge Elementary,1
+2021-10-05,Student,Water Spring Elementary,2
+2021-10-05,Student,Ventura Elementary,1
+2021-10-05,Student,University High,3
+2021-10-05,Student,Timber Springs Middle,1
+2021-10-05,Student,Timber Lakes Elementary,2
+2021-10-05,Student,Tildenville Elementary,2
+2021-10-05,Student,Sunset Park Elementary,2
+2021-10-05,Student,Sunridge Elementary,1
+2021-10-05,Student,Sun Blaze Elementary,2
+2021-10-05,Student,Summerlake Elementary,1
+2021-10-05,Student,Southwood Elementary,1
+2021-10-05,Student,Sand Lake Elementary,2
+2021-10-05,Student,Piedmont Lakes Middle,1
+2021-10-05,Student,Ocoee High,2
+2021-10-05,Student,Oakshire Elementary,1
+2021-10-05,Student,OCPS Academic Center for Excellence,1
+2021-10-05,Student,MetroWest Elementary,1
+2021-10-05,Student,Memorial Middle,1
+2021-10-05,Student,Lockhart Elementary,1
+2021-10-05,Student,Liberty Middle,2
+2021-10-05,Student,Independence Elementary,1
+2021-10-05,Student,Horizon High,2
+2021-10-05,Student,Freedom Middle,1
+2021-10-05,Student,East River High,1
+2021-10-05,Student,Cypress Creek High,1
+2021-10-05,Student,Cheney Elementary,1
+2021-10-05,Student,Chain of Lakes Middle,1
+2021-10-05,Student,Carver Middle,7
+2021-10-05,Student,Bridgewater Middle,1
+2021-10-05,Student,Blankner School (K-8),1
+2021-10-05,Student,Baldwin Park Elementary,1
+2021-10-05,Student,Audubon Park School (K-8),2
+2021-10-05,Student,Apopka High,3
+2021-10-05,Student,Andover Elementary,1
+2021-10-05,Employee,Horizon High,1
+2021-10-05,Employee,Freedom Middle,1
+2021-10-05,Employee,Cypress Creek High,1
+2021-10-05,Employee,Carver Middle,1
 2021-10-04,Student,Winter Park High,2
 2021-10-04,Student,Winter Park 9th Grade Center,1
 2021-10-04,Student,Whispering Oak Elementary,1
@@ -1345,7 +1388,7 @@ date,type,location,count
 2021-09-07,Student,Tildenville Elementary,1
 2021-09-07,Student,Sunshine Elementary,3
 2021-09-07,Student,Sunset Park Elementary,9
-2021-09-07,Student,Sunridge Elementary,4
+2021-09-07,Student,Sunridge Elementary,5
 2021-09-07,Student,SunRidge Middle,3
 2021-09-07,Student,Sun Blaze Elementary,1
 2021-09-07,Student,Summerlake Elementary,3
