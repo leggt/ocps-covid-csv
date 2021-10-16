@@ -1,4 +1,17 @@
 date,type,location,count
+2021-10-15,Student,Wekiva High,1
+2021-10-15,Student,Ventura Elementary,2
+2021-10-15,Student,Timber Lakes Elementary,1
+2021-10-15,Student,Timber Creek High,1
+2021-10-15,Student,Sand Lake Elementary,1
+2021-10-15,Student,Rock Springs Elementary,3
+2021-10-15,Student,Mollie Ray Elementary,1
+2021-10-15,Student,Maxey Elementary,1
+2021-10-15,Student,Lawton Chiles Elementary,1
+2021-10-15,Student,Evans High,1
+2021-10-15,Student,East River High,1
+2021-10-15,Student,Conway Elementary,1
+2021-10-15,Student,Bridgewater Middle,1
 2021-10-14,Student,Windermere High,1
 2021-10-14,Student,Water Spring Elementary,1
 2021-10-14,Student,Tildenville Elementary,1
@@ -23,7 +36,7 @@ date,type,location,count
 2021-10-13,Student,Timber Springs Middle,1
 2021-10-13,Student,Sunridge Elementary,1
 2021-10-13,Student,SunRidge Middle,1
-2021-10-13,Student,Summerlake Elementary,1
+2021-10-13,Student,Summerlake Elementary,2
 2021-10-13,Student,Sand Lake Elementary,2
 2021-10-13,Student,Prairie Lake Elementary,1
 2021-10-13,Student,Ocoee Middle,1
@@ -90,10 +103,10 @@ date,type,location,count
 2021-10-11,Student,Avalon Middle,1
 2021-10-11,Student,Arbor Ridge School (K-8),1
 2021-10-11,Student,Alternative Education Centers,1
+2021-10-11,Employee,Teaching and Learning,1
 2021-10-11,Employee,Robinswood Middle,1
 2021-10-11,Employee,Pineloch Elementary,1
 2021-10-11,Employee,Operations,1
-2021-10-11,Employee,OTHER (please note),1
 2021-10-11,Employee,Lawton Chiles Elementary,1
 2021-10-11,Employee,Evans High,1
 2021-10-11,Employee,Bonneville Elementary,1
