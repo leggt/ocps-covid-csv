@@ -17,7 +17,7 @@ d20212022 = {
     'directory': 'data/directory.csv',
     'templates': 'templates/d20212022/',
     'dashboard_url': "http://bit.ly/COVIDdashboardOCPS",
-    'request_url': 'https://wabi-us-east2-api.analysis.windows.net/public/reports/querydata?synchronous=true',
+    'request_url': 'https://wabi-us-east2-c-primary-api.analysis.windows.net/public/reports/querydata?synchronous=true',
     'cutoff': datetime(2021, 8, 2)
 }
 d20202021 = {
