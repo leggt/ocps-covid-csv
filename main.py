@@ -61,8 +61,14 @@ if __name__ == "__main__":
         logger.info("nightly run. Loop until new data")
         while True:
             latest_date = data.getLatestDate()
-            next_date = latest_date + timedelta(days=1)
-            if len(d.getDataFor({'date': next_date, 'type': 'Student'})) > 0:
+            next_date = datetime.today().date()
+            found_new = False
+            while next_date != latest_date:
+                next_date = next_date - timedelta(days=1)
+                if next_date != latest_date and len(d.getDataFor({'date': next_date, 'type': 'Student'})) > 0:
+                    found_new = True
+
+            if found_new:
                 d.go(args.all)
                 sys.exit()
             else:
