@@ -1,4 +1,43 @@
 date,type,location,count
+2021-12-23,Student,Wedgefield School (K-8),2
+2021-12-23,Student,Village Park Elementary,2
+2021-12-23,Student,Jones High,3
+2021-12-23,Employee,Princeton Elementary,1
+2021-12-23,Employee,Palmetto Elementary,1
+2021-12-23,Employee,Fiscal Services,1
+2021-12-23,Employee,Apopka High,1
+2021-12-22,Student,Water Spring Middle,4
+2021-12-22,Student,Pinar Elementary,1
+2021-12-22,Student,Lockhart Elementary,1
+2021-12-22,Student,Lakeville Elementary,1
+2021-12-22,Student,Lake Nona Middle,1
+2021-12-22,Student,Lake Nona High,3
+2021-12-22,Student,Eagle Creek Elementary,1
+2021-12-22,Student,Cypress Creek High,2
+2021-12-22,Student,Bay Lake Elementary,1
+2021-12-22,Student,Azalea Park Elementary,2
+2021-12-22,Employee,Timber Creek High,2
+2021-12-22,Employee,Edgewater High,1
+2021-12-21,Student,Wedgefield School (K-8),3
+2021-12-21,Student,Village Park Elementary,2
+2021-12-21,Student,Timber Creek High,3
+2021-12-21,Student,Sunshine Elementary,1
+2021-12-21,Student,Sand Lake Elementary,2
+2021-12-21,Student,Millennia Gardens Elementary,1
+2021-12-21,Student,Lakemont Elementary,1
+2021-12-21,Student,Lake Nona Middle,2
+2021-12-21,Student,Lake Nona High,1
+2021-12-21,Student,Keene’s Crossing Elementary,1
+2021-12-21,Student,Deerwood Elementary,1
+2021-12-21,Student,Cypress Creek High,4
+2021-12-21,Student,Corner Lake Middle,1
+2021-12-21,Student,Castleview Elementary,1
+2021-12-21,Employee,Timber Lakes Elementary,1
+2021-12-21,Employee,Rosemont Elementary,1
+2021-12-21,Employee,Lake Nona Middle,1
+2021-12-21,Employee,Deerwood Elementary,1
+2021-12-21,Employee,Castle Creek Elementary,1
+2021-12-21,Employee,Apopka Memorial Middle,1
 2021-12-20,Vendor/Visitor,Pinewood Elementary,1
 2021-12-20,Student,Windermere High,1
 2021-12-20,Student,Wetherbee Elementary,1
