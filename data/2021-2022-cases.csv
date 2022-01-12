@@ -1,4 +1,220 @@
 date,type,location,count
+2022-01-11,Vendor/Visitor,Sunshine Elementary,1
+2022-01-11,Vendor/Visitor,Operations,1
+2022-01-11,Vendor/Visitor,Jones High,1
+2022-01-11,Student,Wyndham Lakes Elementary,3
+2022-01-11,Student,Wolf Lake Middle,1
+2022-01-11,Student,Winter Park High,27
+2022-01-11,Student,Winter Park 9th Grade Center,2
+2022-01-11,Student,Windy Ridge School (K-8),6
+2022-01-11,Student,Windermere High,5
+2022-01-11,Student,Whispering Oak Elementary,1
+2022-01-11,Student,Wetherbee Elementary,2
+2022-01-11,Student,Westridge Middle,1
+2022-01-11,Student,Westpointe Elementary,3
+2022-01-11,Student,West Oaks Elementary,1
+2022-01-11,Student,West Creek Elementary,1
+2022-01-11,Student,Wekiva High,7
+2022-01-11,Student,Wedgefield School (K-8),2
+2022-01-11,Student,Waterford Elementary,4
+2022-01-11,Student,Water Spring Elementary,1
+2022-01-11,Student,Vista Pointe Elementary,6
+2022-01-11,Student,Village Park Elementary,1
+2022-01-11,Student,Ventura Elementary,2
+2022-01-11,Student,University High,9
+2022-01-11,Student,Union Park Elementary,1
+2022-01-11,Student,Timber Springs Middle,15
+2022-01-11,Student,Timber Lakes Elementary,1
+2022-01-11,Student,Timber Creek High,11
+2022-01-11,Student,Three Points Elementary,7
+2022-01-11,Student,Sunshine Elementary,2
+2022-01-11,Student,Sunrise Elementary,4
+2022-01-11,Student,SunRidge Middle,4
+2022-01-11,Student,Sun Blaze Elementary,6
+2022-01-11,Student,Summerlake Elementary,3
+2022-01-11,Student,Stone Lakes Elementary,1
+2022-01-11,Student,Spring Lake Elementary,1
+2022-01-11,Student,Southwood Elementary,3
+2022-01-11,Student,Shingle Creek Elementary,1
+2022-01-11,Student,Sally Ride Elementary,1
+2022-01-11,Student,Sadler Elementary,2
+2022-01-11,Student,Rosemont Elementary,2
+2022-01-11,Student,Rock Springs Elementary,7
+2022-01-11,Student,Roberto Clemente Middle,10
+2022-01-11,Student,Riverside Elementary,3
+2022-01-11,Student,Riverdale Elementary,1
+2022-01-11,Student,Ridgewood Park Elementary,1
+2022-01-11,Student,Princeton Elementary,2
+2022-01-11,Student,Prairie Lake Elementary,3
+2022-01-11,Student,Pineloch Elementary,2
+2022-01-11,Student,Pine Hills Elementary,14
+2022-01-11,Student,Pinar Elementary,3
+2022-01-11,Student,Pershing School (K-8),4
+2022-01-11,Student,Palmetto Elementary,2
+2022-01-11,Student,Palm Lake Elementary,1
+2022-01-11,Student,Orlo Vista Elementary,6
+2022-01-11,Student,Orange Technical College - Winter Park,1
+2022-01-11,Student,Orange Technical College - Mid Florida,2
+2022-01-11,Student,Olympia High,14
+2022-01-11,Student,Ocoee Middle,1
+2022-01-11,Student,Ocoee High,4
+2022-01-11,Student,Ocoee Elementary,1
+2022-01-11,Student,Oakshire Elementary,1
+2022-01-11,Student,NorthLake Park Community School,6
+2022-01-11,Student,Moss Park Elementary,5
+2022-01-11,Student,Mollie Ray Elementary,2
+2022-01-11,Student,Millennia Gardens Elementary,3
+2022-01-11,Student,Memorial Middle,4
+2022-01-11,Student,Meadowbrook Middle,7
+2022-01-11,Student,Meadow Woods Elementary,2
+2022-01-11,Student,McCoy Elementary,5
+2022-01-11,Student,Maxey Elementary,1
+2022-01-11,Student,Maitland Middle,8
+2022-01-11,Student,Magnolia School,1
+2022-01-11,Student,Lovell Elementary,3
+2022-01-11,Student,Lockhart Elementary,2
+2022-01-11,Student,Little River Elementary,2
+2022-01-11,Student,Liberty Middle,1
+2022-01-11,Student,Lawton Chiles Elementary,3
+2022-01-11,Student,Laureate Park Elementary,3
+2022-01-11,Student,Lancaster Elementary,1
+2022-01-11,Student,Lakeview Middle,5
+2022-01-11,Student,Lakemont Elementary,1
+2022-01-11,Student,Lake Whitney Elementary,2
+2022-01-11,Student,Lake Nona Middle,4
+2022-01-11,Student,Lake Nona High,19
+2022-01-11,Student,Lake Buena Vista High,9
+2022-01-11,Student,Keene’s Crossing Elementary,3
+2022-01-11,Student,Jones High,7
+2022-01-11,Student,John Young Elementary,3
+2022-01-11,Student,Innovation Middle,2
+2022-01-11,Student,Independence Elementary,3
+2022-01-11,Student,Hunter’s Creek Elementary,5
+2022-01-11,Student,Hungerford Elementary,1
+2022-01-11,Student,Howard Middle,5
+2022-01-11,Student,Horizon West Middle,7
+2022-01-11,Student,Horizon High,3
+2022-01-11,Student,Hidden Oaks Elementary,4
+2022-01-11,Student,Hiawassee Elementary,1
+2022-01-11,Student,Gotha Middle,3
+2022-01-11,Student,Glenridge Middle,6
+2022-01-11,Student,Freedom Middle,1
+2022-01-11,Student,Engelwood Elementary,1
+2022-01-11,Student,Endeavor Elementary,1
+2022-01-11,Student,East Lake Elementary,1
+2022-01-11,Student,Eagle Creek Elementary,2
+2022-01-11,Student,Dream Lake Elementary,3
+2022-01-11,Student,Dr. Phillips High,14
+2022-01-11,Student,Dover Shores Elementary,8
+2022-01-11,Student,Dommerich Elementary,2
+2022-01-11,Student,Dillard St. Elementary,3
+2022-01-11,Student,Deerwood Elementary,1
+2022-01-11,Student,Corner Lake Middle,3
+2022-01-11,Student,Conway Middle,1
+2022-01-11,Student,Conway Elementary,1
+2022-01-11,Student,Colonial High 9th Grade Center,9
+2022-01-11,Student,Colonial High,3
+2022-01-11,Student,Clay Springs Elementary,1
+2022-01-11,Student,Castleview Elementary,4
+2022-01-11,Student,Castle Creek Elementary,2
+2022-01-11,Student,Bridgewater Middle,7
+2022-01-11,Student,Boone High,13
+2022-01-11,Student,Bonneville Elementary,1
+2022-01-11,Student,Blankner School (K-8),2
+2022-01-11,Student,Bay Meadows Elementary,4
+2022-01-11,Student,Bay Lake Elementary,1
+2022-01-11,Student,Azalea Park Elementary,2
+2022-01-11,Student,Avalon Middle,3
+2022-01-11,Student,Audubon Park School (K-8),2
+2022-01-11,Student,Arbor Ridge School (K-8),5
+2022-01-11,Student,Apopka Memorial Middle,5
+2022-01-11,Student,Apopka High,16
+2022-01-11,Student,Alternative Education Center - SYA,1
+2022-01-11,Student,Acceleration West,2
+2022-01-11,Student,Acceleration East,1
+2022-01-11,Employee,Wyndham Lakes Elementary,2
+2022-01-11,Employee,Wolf Lake Middle,1
+2022-01-11,Employee,Winter Park High,4
+2022-01-11,Employee,Winter Park 9th Grade Center,1
+2022-01-11,Employee,Windermere High,1
+2022-01-11,Employee,Westridge Middle,2
+2022-01-11,Employee,Westpointe Elementary,1
+2022-01-11,Employee,West Orange High,2
+2022-01-11,Employee,West Oaks Elementary,1
+2022-01-11,Employee,Wekiva High,2
+2022-01-11,Employee,Waterbridge Elementary,1
+2022-01-11,Employee,Washington Shores Elementary,3
+2022-01-11,Employee,Vista Lakes Elementary,1
+2022-01-11,Employee,Ventura Elementary,2
+2022-01-11,Employee,University High,1
+2022-01-11,Employee,Timber Creek High,2
+2022-01-11,Employee,Thornebrooke Elementary,1
+2022-01-11,Employee,Teaching and Learning,3
+2022-01-11,Employee,Sunshine Elementary,1
+2022-01-11,Employee,Sunset Park Elementary,1
+2022-01-11,Employee,Sunrise Elementary,1
+2022-01-11,Employee,Sunridge Elementary,1
+2022-01-11,Employee,SunRidge Middle,1
+2022-01-11,Employee,Sun Blaze Elementary,1
+2022-01-11,Employee,School Choice Services,1
+2022-01-11,Employee,Sally Ride Elementary,3
+2022-01-11,Employee,Sadler Elementary,1
+2022-01-11,Employee,Rolling Hills Elementary,1
+2022-01-11,Employee,Riverside Elementary,1
+2022-01-11,Employee,Positive Pathways Transition Center,1
+2022-01-11,Employee,Piedmont Lakes Middle,3
+2022-01-11,Employee,Pershing School (K-8),1
+2022-01-11,Employee,Orange Technical College - Mid Florida,3
+2022-01-11,Employee,Operations,6
+2022-01-11,Employee,Olympia High,1
+2022-01-11,Employee,Ocoee Middle,2
+2022-01-11,Employee,Ocoee High,1
+2022-01-11,Employee,Ocoee Elementary,1
+2022-01-11,Employee,Oak Hill Elementary,2
+2022-01-11,Employee,OTHER (please note),1
+2022-01-11,Employee,OCPS Academic Center for Excellence,3
+2022-01-11,Employee,Moss Park Elementary,2
+2022-01-11,Employee,Millennia Gardens Elementary,1
+2022-01-11,Employee,Memorial Middle,1
+2022-01-11,Employee,Meadowbrook Middle,1
+2022-01-11,Employee,Lovell Elementary,2
+2022-01-11,Employee,Lawton Chiles Elementary,1
+2022-01-11,Employee,Lakemont Elementary,1
+2022-01-11,Employee,Lake Weston Elementary,2
+2022-01-11,Employee,Lake Nona High,2
+2022-01-11,Employee,Lake George Elementary,3
+2022-01-11,Employee,Jones High,1
+2022-01-11,Employee,Ivey Lane Elementary,1
+2022-01-11,Employee,Hunter’s Creek Middle,1
+2022-01-11,Employee,Hungerford Elementary,1
+2022-01-11,Employee,Human Resources,1
+2022-01-11,Employee,Hospital Homebound/Esteem Academy,2
+2022-01-11,Employee,Hiawassee Elementary,2
+2022-01-11,Employee,Gotha Middle,2
+2022-01-11,Employee,Glenridge Middle,1
+2022-01-11,Employee,Evans High,3
+2022-01-11,Employee,East River High,2
+2022-01-11,Employee,ESE Transition School,2
+2022-01-11,Employee,Dream Lake Elementary,1
+2022-01-11,Employee,Dr. Phillips High,4
+2022-01-11,Employee,Dover Shores Elementary,2
+2022-01-11,Employee,Dommerich Elementary,1
+2022-01-11,Employee,Cypress Creek High,6
+2022-01-11,Employee,Corner Lake Middle,1
+2022-01-11,Employee,Conway Middle,1
+2022-01-11,Employee,Colonial High,2
+2022-01-11,Employee,College Park Middle,3
+2022-01-11,Employee,Clay Springs Elementary,1
+2022-01-11,Employee,Castleview Elementary,1
+2022-01-11,Employee,Castle Creek Elementary,1
+2022-01-11,Employee,Brookshire Elementary,2
+2022-01-11,Employee,Boone High,1
+2022-01-11,Employee,Bonneville Elementary,1
+2022-01-11,Employee,Blankner School (K-8),1
+2022-01-11,Employee,Bay Lake Elementary,3
+2022-01-11,Employee,Azalea Park Elementary,1
+2022-01-11,Employee,Apopka High,1
+2022-01-11,Employee,Acceleration East,2
 2022-01-10,Student,Zellwood Elementary,3
 2022-01-10,Student,Wyndham Lakes Elementary,8
 2022-01-10,Student,Wolf Lake Middle,4
@@ -85,7 +301,7 @@ date,type,location,count
 2022-01-10,Student,Lake Sybelia Elementary,1
 2022-01-10,Student,Lake Silver Elementary,2
 2022-01-10,Student,Lake Nona Middle,11
-2022-01-10,Student,Lake Nona High,29
+2022-01-10,Student,Lake Nona High,31
 2022-01-10,Student,Lake George Elementary,6
 2022-01-10,Student,Lake Gem Elementary,6
 2022-01-10,Student,Lake Como School (K-8),1
