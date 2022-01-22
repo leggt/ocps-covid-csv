@@ -1,4 +1,127 @@
 date,type,location,count
+2022-01-21,Vendor/Visitor,South Creek Middle,1
+2022-01-21,Student,Wolf Lake Middle,1
+2022-01-21,Student,Winter Park High,1
+2022-01-21,Student,Winter Park 9th Grade Center,1
+2022-01-21,Student,Windy Ridge School (K-8),3
+2022-01-21,Student,Windermere High,3
+2022-01-21,Student,Whispering Oak Elementary,4
+2022-01-21,Student,West Orange High,6
+2022-01-21,Student,Wekiva High,1
+2022-01-21,Student,Waterford Elementary,1
+2022-01-21,Student,Water Spring Elementary,4
+2022-01-21,Student,Timber Creek High,2
+2022-01-21,Student,Tangelo Park Elementary,2
+2022-01-21,Student,Sunset Park Elementary,2
+2022-01-21,Student,Sunridge Elementary,3
+2022-01-21,Student,SunRidge Middle,4
+2022-01-21,Student,Southwood Elementary,6
+2022-01-21,Student,Rosemont Elementary,1
+2022-01-21,Student,Piedmont Lakes Middle,26
+2022-01-21,Student,Pershing School (K-8),1
+2022-01-21,Student,Palmetto Elementary,2
+2022-01-21,Student,Orlo Vista Elementary,1
+2022-01-21,Student,Orange Technical College - West Campus,1
+2022-01-21,Student,Orange Technical College - South Campus,1
+2022-01-21,Student,Orange Center Elementary,2
+2022-01-21,Student,Olympia High,4
+2022-01-21,Student,Ocoee Middle,3
+2022-01-21,Student,Ocoee High,2
+2022-01-21,Student,Oakshire Elementary,1
+2022-01-21,Student,OCPS Academic Center for Excellence,1
+2022-01-21,Student,NorthLake Park Community School,1
+2022-01-21,Student,Millennia Gardens Elementary,2
+2022-01-21,Student,McCoy Elementary,1
+2022-01-21,Student,Maxey Elementary,3
+2022-01-21,Student,Lockhart Middle,3
+2022-01-21,Student,Lawton Chiles Elementary,1
+2022-01-21,Student,Lancaster Elementary,2
+2022-01-21,Student,Lake Nona Middle,1
+2022-01-21,Student,Lake Nona High,7
+2022-01-21,Student,Killarney Elementary,4
+2022-01-21,Student,Keene’s Crossing Elementary,2
+2022-01-21,Student,Innovation Middle,1
+2022-01-21,Student,Independence Elementary,4
+2022-01-21,Student,Hunter’s Creek Middle,2
+2022-01-21,Student,Hunter’s Creek Elementary,4
+2022-01-21,Student,Howard Middle,2
+2022-01-21,Student,Horizon West Middle,3
+2022-01-21,Student,Hillcrest Elementary,1
+2022-01-21,Student,Hidden Oaks Elementary,1
+2022-01-21,Student,Hiawassee Elementary,2
+2022-01-21,Student,Gotha Middle,3
+2022-01-21,Student,Evans High,2
+2022-01-21,Student,East Lake Elementary,1
+2022-01-21,Student,Eagle’s Nest Elementary,4
+2022-01-21,Student,Eagle Creek Elementary,3
+2022-01-21,Student,Dream Lake Elementary,1
+2022-01-21,Student,Dr. Phillips High,8
+2022-01-21,Student,Dr. Phillips Elementary,3
+2022-01-21,Student,Dover Shores Elementary,3
+2022-01-21,Student,Dommerich Elementary,3
+2022-01-21,Student,Discovery Middle,7
+2022-01-21,Student,Dillard St. Elementary,2
+2022-01-21,Student,Cypress Creek High,37
+2022-01-21,Student,Colonial High 9th Grade Center,1
+2022-01-21,Student,Colonial High,4
+2022-01-21,Student,Chickasaw Elementary,1
+2022-01-21,Student,Catalina Elementary,1
+2022-01-21,Student,Camelot Elementary,1
+2022-01-21,Student,Boone High,5
+2022-01-21,Student,Bay Meadows Elementary,3
+2022-01-21,Student,Bay Lake Elementary,1
+2022-01-21,Student,Avalon Elementary,2
+2022-01-21,Student,Arbor Ridge School (K-8),1
+2022-01-21,Student,Apopka Memorial Middle,1
+2022-01-21,Student,Andover Elementary,1
+2022-01-21,Student,Aloma Elementary,1
+2022-01-21,Student,Acceleration West,1
+2022-01-21,Student,Acceleration East,2
+2022-01-21,Employee,Winter Park High,1
+2022-01-21,Employee,Windermere Elementary,1
+2022-01-21,Employee,University High,1
+2022-01-21,Employee,Timber Creek High,1
+2022-01-21,Employee,Tangelo Park Elementary,1
+2022-01-21,Employee,Silver Pines Academyk-12 Learning Center,2
+2022-01-21,Employee,Rosemont Elementary,1
+2022-01-21,Employee,Rock Springs Elementary,1
+2022-01-21,Employee,Robinswood Middle,1
+2022-01-21,Employee,Pershing School (K-8),1
+2022-01-21,Employee,Orange Technical College - South Campus,1
+2022-01-21,Employee,Orange Technical College - East Campus,1
+2022-01-21,Employee,Operations,1
+2022-01-21,Employee,Ocoee Middle,1
+2022-01-21,Employee,Ocoee High,1
+2022-01-21,Employee,Oakshire Elementary,1
+2022-01-21,Employee,Oak Ridge High,2
+2022-01-21,Employee,OCPS Academic Center for Excellence,1
+2022-01-21,Employee,Memorial Middle,1
+2022-01-21,Employee,Meadow Woods Middle,1
+2022-01-21,Employee,McCoy Elementary,1
+2022-01-21,Employee,Maxey Elementary,1
+2022-01-21,Employee,Lancaster Elementary,1
+2022-01-21,Employee,Lake Silver Elementary,1
+2022-01-21,Employee,Lake Nona High,1
+2022-01-21,Employee,Ivey Lane Elementary,1
+2022-01-21,Employee,Information Technology Services,1
+2022-01-21,Employee,Horizon West Middle,1
+2022-01-21,Employee,Evans High,1
+2022-01-21,Employee,East River High,1
+2022-01-21,Employee,Dr. Phillips High,2
+2022-01-21,Employee,Dommerich Elementary,1
+2022-01-21,Employee,Discovery Middle,2
+2022-01-21,Employee,Curriculum & Digital Learning,1
+2022-01-21,Employee,Corner Lake Middle,1
+2022-01-21,Employee,Colonial High,2
+2022-01-21,Employee,College Park Middle,1
+2022-01-21,Employee,Clay Springs Elementary,2
+2022-01-21,Employee,Chickasaw Elementary,1
+2022-01-21,Employee,Cheney Elementary,1
+2022-01-21,Employee,Bridgewater Middle,2
+2022-01-21,Employee,Boone High,1
+2022-01-21,Employee,Bay Lake Elementary,2
+2022-01-21,Employee,Avalon Middle,1
+2022-01-21,Employee,Andover Elementary,1
 2022-01-20,Vendor/Visitor,Lake George Elementary,1
 2022-01-20,Student,Zellwood Elementary,2
 2022-01-20,Student,Wyndham Lakes Elementary,2
@@ -39,7 +162,7 @@ date,type,location,count
 2022-01-20,Student,Pineloch Elementary,1
 2022-01-20,Student,Pershing School (K-8),1
 2022-01-20,Student,Orlo Vista Elementary,3
-2022-01-20,Student,Orange Technical College - Westside,3
+2022-01-20,Student,Orange Technical College - West Campus,3
 2022-01-20,Student,Orange Center Elementary,1
 2022-01-20,Student,Olympia High,2
 2022-01-20,Student,Ocoee High,7
@@ -108,6 +231,7 @@ date,type,location,count
 2022-01-20,Employee,Ventura Elementary,1
 2022-01-20,Employee,University High,4
 2022-01-20,Employee,Tildenville Elementary,1
+2022-01-20,Employee,Teaching and Learning,1
 2022-01-20,Employee,Sun Blaze Elementary,1
 2022-01-20,Employee,Summerlake Elementary,1
 2022-01-20,Employee,Stone Lakes Elementary,1
@@ -126,7 +250,6 @@ date,type,location,count
 2022-01-20,Employee,Ocoee Middle,1
 2022-01-20,Employee,Ocoee High,1
 2022-01-20,Employee,Oakshire Elementary,1
-2022-01-20,Employee,OTHER (please note),1
 2022-01-20,Employee,OCPS Academic Center for Excellence,2
 2022-01-20,Employee,Moss Park Elementary,1
 2022-01-20,Employee,Meadowbrook Middle,2
@@ -154,7 +277,6 @@ date,type,location,count
 2022-01-20,Employee,Eagle Creek Elementary,1
 2022-01-20,Employee,Dr. Phillips Elementary,1
 2022-01-20,Employee,Dover Shores Elementary,1
-2022-01-20,Employee,Deerwood Elementary,1
 2022-01-20,Employee,Cypress Creek High,1
 2022-01-20,Employee,Communications Division,1
 2022-01-20,Employee,Chickasaw Elementary,1
@@ -217,8 +339,8 @@ date,type,location,count
 2022-01-19,Student,Palmetto Elementary,2
 2022-01-19,Student,Orlo Vista Elementary,1
 2022-01-19,Student,Orlando Gifted Academy,1
-2022-01-19,Student,Orange Technical College - Winter Park,1
-2022-01-19,Student,Orange Technical College - Mid Florida,1
+2022-01-19,Student,Orange Technical College - South Campus,1
+2022-01-19,Student,Orange Technical College - East Campus,1
 2022-01-19,Student,Olympia High,15
 2022-01-19,Student,Ocoee Middle,4
 2022-01-19,Student,Ocoee High,2
@@ -298,7 +420,7 @@ date,type,location,count
 2022-01-19,Employee,University High,1
 2022-01-19,Employee,Timber Springs Middle,1
 2022-01-19,Employee,Tildenville Elementary,1
-2022-01-19,Employee,Teaching and Learning,2
+2022-01-19,Employee,Teaching and Learning,3
 2022-01-19,Employee,Tangelo Park Elementary,3
 2022-01-19,Employee,Sunshine Elementary,1
 2022-01-19,Employee,SunRidge Middle,1
@@ -315,11 +437,10 @@ date,type,location,count
 2022-01-19,Employee,Pinewood Elementary,1
 2022-01-19,Employee,Pine Hills Elementary,1
 2022-01-19,Employee,Piedmont Lakes Middle,2
-2022-01-19,Employee,Orange Technical College - Avalon,1
+2022-01-19,Employee,Orange Technical College - Avalon Campus,1
 2022-01-19,Employee,Operations,5
 2022-01-19,Employee,Oakshire Elementary,1
 2022-01-19,Employee,Oak Ridge High,4
-2022-01-19,Employee,OTHER (please note),2
 2022-01-19,Employee,OCPS Academic Center for Excellence,1
 2022-01-19,Employee,Millennia Elementary,1
 2022-01-19,Employee,MetroWest Elementary,1
@@ -330,7 +451,7 @@ date,type,location,count
 2022-01-19,Employee,Lake Buena Vista High,1
 2022-01-19,Employee,Ivey Lane Elementary,1
 2022-01-19,Employee,Innovation Middle,1
-2022-01-19,Employee,Information Technology Services,1
+2022-01-19,Employee,Information Technology Services,2
 2022-01-19,Employee,Independence Elementary,1
 2022-01-19,Employee,Hunter’s Creek Elementary,1
 2022-01-19,Employee,Hospital Homebound/Esteem Academy,1
@@ -411,8 +532,8 @@ date,type,location,count
 2022-01-18,Student,Palm Lake Elementary,2
 2022-01-18,Student,Orlo Vista Elementary,4
 2022-01-18,Student,Orlando Gifted Academy,2
-2022-01-18,Student,Orange Technical College - Westside,2
-2022-01-18,Student,Orange Technical College - Mid Florida,1
+2022-01-18,Student,Orange Technical College - West Campus,2
+2022-01-18,Student,Orange Technical College - South Campus,1
 2022-01-18,Student,Olympia High,9
 2022-01-18,Student,Ocoee Middle,12
 2022-01-18,Student,Ocoee High,13
@@ -517,7 +638,7 @@ date,type,location,count
 2022-01-18,Employee,University High,4
 2022-01-18,Employee,Timber Springs Middle,1
 2022-01-18,Employee,Timber Creek High,3
-2022-01-18,Employee,Teaching and Learning,3
+2022-01-18,Employee,Teaching and Learning,5
 2022-01-18,Employee,SunRidge Middle,2
 2022-01-18,Employee,Southwood Elementary,1
 2022-01-18,Employee,South Creek Middle,3
@@ -540,7 +661,6 @@ date,type,location,count
 2022-01-18,Employee,Oakshire Elementary,1
 2022-01-18,Employee,Oak Ridge High,3
 2022-01-18,Employee,Oak Hill Elementary,1
-2022-01-18,Employee,OTHER (please note),2
 2022-01-18,Employee,Moss Park Elementary,2
 2022-01-18,Employee,Mollie Ray Elementary,1
 2022-01-18,Employee,Memorial Middle,1
@@ -702,8 +822,8 @@ date,type,location,count
 2022-01-15,Employee,Shingle Creek Elementary,1
 2022-01-15,Employee,Riverside Elementary,1
 2022-01-15,Employee,Piedmont Lakes Middle,1
-2022-01-15,Employee,Orange Technical College - Westside,1
-2022-01-15,Employee,Orange Technical College - Orlando,1
+2022-01-15,Employee,Orange Technical College - West Campus,1
+2022-01-15,Employee,Orange Technical College,1
 2022-01-15,Employee,Meadow Woods Elementary,1
 2022-01-15,Employee,Innovation Middle,1
 2022-01-15,Employee,Hunter’s Creek Elementary,1
@@ -747,8 +867,8 @@ date,type,location,count
 2022-01-14,Student,Pershing School (K-8),3
 2022-01-14,Student,Palmetto Elementary,1
 2022-01-14,Student,Palm Lake Elementary,2
-2022-01-14,Student,Orange Technical College - Winter Park,1
-2022-01-14,Student,Orange Technical College - Mid Florida,1
+2022-01-14,Student,Orange Technical College - South Campus,1
+2022-01-14,Student,Orange Technical College - East Campus,1
 2022-01-14,Student,Olympia High,4
 2022-01-14,Student,Ocoee Middle,1
 2022-01-14,Student,Ocoee High,3
@@ -840,9 +960,9 @@ date,type,location,count
 2022-01-14,Employee,Pine Hills Elementary,1
 2022-01-14,Employee,Palmetto Elementary,1
 2022-01-14,Employee,Palm Lake Elementary,1
-2022-01-14,Employee,Orange Technical College - Westside,1
-2022-01-14,Employee,Orange Technical College - Mid Florida,1
-2022-01-14,Employee,Orange Technical College - Avalon,1
+2022-01-14,Employee,Orange Technical College - West Campus,1
+2022-01-14,Employee,Orange Technical College - South Campus,1
+2022-01-14,Employee,Orange Technical College - Avalon Campus,1
 2022-01-14,Employee,Operations,8
 2022-01-14,Employee,Ocoee Elementary,1
 2022-01-14,Employee,Oak Hill Elementary,1
@@ -927,8 +1047,8 @@ date,type,location,count
 2022-01-13,Student,Palm Lake Elementary,1
 2022-01-13,Student,Orlo Vista Elementary,1
 2022-01-13,Student,Orlando Gifted Academy,1
-2022-01-13,Student,Orange Technical College - Westside,2
-2022-01-13,Student,Orange Technical College - Mid Florida,1
+2022-01-13,Student,Orange Technical College - West Campus,2
+2022-01-13,Student,Orange Technical College - South Campus,1
 2022-01-13,Student,Olympia High,6
 2022-01-13,Student,Ocoee Middle,3
 2022-01-13,Student,Ocoee High,5
@@ -1038,7 +1158,7 @@ date,type,location,count
 2022-01-13,Employee,Prairie Lake Elementary,1
 2022-01-13,Employee,Pinar Elementary,1
 2022-01-13,Employee,Orlo Vista Elementary,1
-2022-01-13,Employee,Orange Technical College - Mid Florida,2
+2022-01-13,Employee,Orange Technical College - South Campus,2
 2022-01-13,Employee,Operations,4
 2022-01-13,Employee,Odyssey Middle,1
 2022-01-13,Employee,Ocoee High,1
@@ -1126,8 +1246,8 @@ date,type,location,count
 2022-01-12,Student,Palm Lake Elementary,2
 2022-01-12,Student,Orlo Vista Elementary,1
 2022-01-12,Student,Orlando Gifted Academy,3
-2022-01-12,Student,Orange Technical College - Westside,2
-2022-01-12,Student,Orange Technical College - Mid Florida,1
+2022-01-12,Student,Orange Technical College - West Campus,2
+2022-01-12,Student,Orange Technical College - South Campus,1
 2022-01-12,Student,Olympia High,11
 2022-01-12,Student,Ocoee Middle,3
 2022-01-12,Student,Ocoee High,17
@@ -1235,7 +1355,7 @@ date,type,location,count
 2022-01-12,Employee,Piedmont Lakes Middle,1
 2022-01-12,Employee,Palm Lake Elementary,1
 2022-01-12,Employee,Orlo Vista Elementary,1
-2022-01-12,Employee,Orange Technical College - Mid Florida,1
+2022-01-12,Employee,Orange Technical College - South Campus,1
 2022-01-12,Employee,Operations,8
 2022-01-12,Employee,Ocoee Middle,1
 2022-01-12,Employee,Ocoee High,2
@@ -1334,8 +1454,8 @@ date,type,location,count
 2022-01-11,Student,Palmetto Elementary,2
 2022-01-11,Student,Palm Lake Elementary,1
 2022-01-11,Student,Orlo Vista Elementary,6
-2022-01-11,Student,Orange Technical College - Winter Park,1
-2022-01-11,Student,Orange Technical College - Mid Florida,2
+2022-01-11,Student,Orange Technical College - South Campus,2
+2022-01-11,Student,Orange Technical College - East Campus,1
 2022-01-11,Student,Olympia High,14
 2022-01-11,Student,Ocoee Middle,1
 2022-01-11,Student,Ocoee High,4
@@ -1446,7 +1566,7 @@ date,type,location,count
 2022-01-11,Employee,Positive Pathways Transition Center,1
 2022-01-11,Employee,Piedmont Lakes Middle,3
 2022-01-11,Employee,Pershing School (K-8),1
-2022-01-11,Employee,Orange Technical College - Mid Florida,3
+2022-01-11,Employee,Orange Technical College - South Campus,3
 2022-01-11,Employee,Operations,6
 2022-01-11,Employee,Olympia High,1
 2022-01-11,Employee,Ocoee Middle,2
@@ -1551,9 +1671,9 @@ date,type,location,count
 2022-01-10,Student,Palm Lake Elementary,4
 2022-01-10,Student,Orlo Vista Elementary,2
 2022-01-10,Student,Orlando Gifted Academy,1
-2022-01-10,Student,Orange Technical College - Westside,4
-2022-01-10,Student,Orange Technical College - Orlando,2
-2022-01-10,Student,Orange Technical College - Mid Florida,1
+2022-01-10,Student,Orange Technical College - West Campus,4
+2022-01-10,Student,Orange Technical College - South Campus,1
+2022-01-10,Student,Orange Technical College,2
 2022-01-10,Student,Orange Center Elementary,1
 2022-01-10,Student,Olympia High,3
 2022-01-10,Student,Ocoee Middle,4
@@ -1676,9 +1796,9 @@ date,type,location,count
 2022-01-10,Employee,Pinar Elementary,1
 2022-01-10,Employee,Pershing School (K-8),1
 2022-01-10,Employee,Palmetto Elementary,1
-2022-01-10,Employee,Orange Technical College - Winter Park,1
-2022-01-10,Employee,Orange Technical College - Mid Florida,1
-2022-01-10,Employee,Orange Technical College - Avalon,1
+2022-01-10,Employee,Orange Technical College - South Campus,1
+2022-01-10,Employee,Orange Technical College - East Campus,1
+2022-01-10,Employee,Orange Technical College - Avalon Campus,1
 2022-01-10,Employee,Orange Center Elementary,1
 2022-01-10,Employee,Operations,7
 2022-01-10,Employee,Olympia High,1
@@ -1803,7 +1923,7 @@ date,type,location,count
 2022-01-08,Student,Rock Lake Elementary,1
 2022-01-08,Student,Positive Pathways Transition Center,2
 2022-01-08,Student,Pineloch Elementary,1
-2022-01-08,Student,Orange Technical College - Westside,1
+2022-01-08,Student,Orange Technical College - West Campus,1
 2022-01-08,Student,Ocoee High,26
 2022-01-08,Student,Moss Park Elementary,1
 2022-01-08,Student,Memorial Middle,1
@@ -1871,8 +1991,8 @@ date,type,location,count
 2022-01-07,Student,Palmetto Elementary,4
 2022-01-07,Student,Orlo Vista Elementary,1
 2022-01-07,Student,Orlando Gifted Academy,1
-2022-01-07,Student,Orange Technical College - Winter Park,1
-2022-01-07,Student,Orange Technical College - Westside,1
+2022-01-07,Student,Orange Technical College - West Campus,1
+2022-01-07,Student,Orange Technical College - East Campus,1
 2022-01-07,Student,Orange Center Elementary,4
 2022-01-07,Student,Olympia High,6
 2022-01-07,Student,Ocoee High,30
@@ -1971,7 +2091,7 @@ date,type,location,count
 2022-01-07,Employee,Pinewood Elementary,1
 2022-01-07,Employee,Pineloch Elementary,1
 2022-01-07,Employee,Pershing School (K-8),1
-2022-01-07,Employee,Orange Technical College - Orlando,2
+2022-01-07,Employee,Orange Technical College,2
 2022-01-07,Employee,Operations,7
 2022-01-07,Employee,Olympia High,2
 2022-01-07,Employee,Ocoee High,4
@@ -2061,8 +2181,8 @@ date,type,location,count
 2022-01-06,Student,Pinar Elementary,2
 2022-01-06,Student,Pershing School (K-8),1
 2022-01-06,Student,Palm Lake Elementary,2
-2022-01-06,Student,Orange Technical College - Westside,3
-2022-01-06,Student,Orange Technical College - Avalon,1
+2022-01-06,Student,Orange Technical College - West Campus,3
+2022-01-06,Student,Orange Technical College - Avalon Campus,1
 2022-01-06,Student,Olympia High,9
 2022-01-06,Student,Ocoee Middle,2
 2022-01-06,Student,Ocoee Elementary,5
@@ -2178,7 +2298,7 @@ date,type,location,count
 2022-01-06,Employee,Roberto Clemente Middle,2
 2022-01-06,Employee,Positive Pathways Transition Center,4
 2022-01-06,Employee,Palm Lake Elementary,1
-2022-01-06,Employee,Orange Technical College - Orlando,2
+2022-01-06,Employee,Orange Technical College,2
 2022-01-06,Employee,Operations,5
 2022-01-06,Employee,Ocoee Middle,2
 2022-01-06,Employee,Ocoee High,1
@@ -2279,8 +2399,8 @@ date,type,location,count
 2022-01-05,Student,Palmetto Elementary,2
 2022-01-05,Student,Palm Lake Elementary,2
 2022-01-05,Student,Orlando Gifted Academy,1
-2022-01-05,Student,Orange Technical College - Orlando,1
-2022-01-05,Student,Orange Technical College - Mid Florida,1
+2022-01-05,Student,Orange Technical College - South Campus,1
+2022-01-05,Student,Orange Technical College,1
 2022-01-05,Student,Olympia High,8
 2022-01-05,Student,Ocoee Elementary,1
 2022-01-05,Student,OCPS Academic Center for Excellence,10
@@ -2375,7 +2495,7 @@ date,type,location,count
 2022-01-05,Employee,Riverdale Elementary,1
 2022-01-05,Employee,Pineloch Elementary,1
 2022-01-05,Employee,Orlo Vista Elementary,1
-2022-01-05,Employee,Orange Technical College - Orlando,1
+2022-01-05,Employee,Orange Technical College,1
 2022-01-05,Employee,Orange County Virtual School,1
 2022-01-05,Employee,Operations,2
 2022-01-05,Employee,Ocoee High,3
@@ -2498,7 +2618,7 @@ date,type,location,count
 2022-01-04,Student,Pershing School (K-8),3
 2022-01-04,Student,Palm Lake Elementary,1
 2022-01-04,Student,Orlo Vista Elementary,1
-2022-01-04,Student,Orange Technical College - Mid Florida,1
+2022-01-04,Student,Orange Technical College - South Campus,1
 2022-01-04,Student,Olympia High,15
 2022-01-04,Student,Ocoee Middle,2
 2022-01-04,Student,Ocoee Elementary,1
@@ -2608,7 +2728,7 @@ date,type,location,count
 2022-01-04,Employee,Piedmont Lakes Middle,1
 2022-01-04,Employee,Pershing School (K-8),1
 2022-01-04,Employee,Orlo Vista Elementary,1
-2022-01-04,Employee,Orange Technical College - Orlando,1
+2022-01-04,Employee,Orange Technical College,1
 2022-01-04,Employee,Operations,18
 2022-01-04,Employee,Olympia High,1
 2022-01-04,Employee,Ocoee High,1
@@ -2713,8 +2833,8 @@ date,type,location,count
 2022-01-03,Student,Pershing School (K-8),13
 2022-01-03,Student,Palm Lake Elementary,6
 2022-01-03,Student,Orlo Vista Elementary,1
-2022-01-03,Student,Orange Technical College - Orlando,1
-2022-01-03,Student,Orange Technical College - Avalon,1
+2022-01-03,Student,Orange Technical College - Avalon Campus,1
+2022-01-03,Student,Orange Technical College,1
 2022-01-03,Student,Olympia High,40
 2022-01-03,Student,Ocoee Middle,7
 2022-01-03,Student,Ocoee Elementary,3
@@ -2827,7 +2947,7 @@ date,type,location,count
 2022-01-03,Employee,Palmetto Elementary,3
 2022-01-03,Employee,Palm Lake Elementary,3
 2022-01-03,Employee,Orlo Vista Elementary,2
-2022-01-03,Employee,Orange Technical College - Winter Park,2
+2022-01-03,Employee,Orange Technical College - East Campus,2
 2022-01-03,Employee,Orange Center Elementary,1
 2022-01-03,Employee,Operations,25
 2022-01-03,Employee,Olympia High,7
@@ -2980,7 +3100,7 @@ date,type,location,count
 2021-12-30,Employee,Riverside Elementary,1
 2021-12-30,Employee,Ridgewood Park Elementary,1
 2021-12-30,Employee,Pershing School (K-8),1
-2021-12-30,Employee,Orange Technical College - Mid Florida,1
+2021-12-30,Employee,Orange Technical College - South Campus,1
 2021-12-30,Employee,Operations,1
 2021-12-30,Employee,Lakeview Middle,1
 2021-12-30,Employee,John Young Elementary,1
@@ -3099,7 +3219,7 @@ date,type,location,count
 2021-12-16,Student,Shingle Creek Elementary,2
 2021-12-16,Student,Riverside Elementary,1
 2021-12-16,Student,Prairie Lake Elementary,1
-2021-12-16,Student,Orange Technical College - Mid Florida,1
+2021-12-16,Student,Orange Technical College - South Campus,1
 2021-12-16,Student,Ocoee High,1
 2021-12-16,Student,Lake Nona High,1
 2021-12-16,Student,John Young Elementary,1
@@ -3314,7 +3434,7 @@ date,type,location,count
 2021-12-02,Student,Summerlake Elementary,1
 2021-12-02,Student,Southwood Elementary,2
 2021-12-02,Student,Pershing School (K-8),4
-2021-12-02,Student,Orange Technical College - Mid Florida,1
+2021-12-02,Student,Orange Technical College - South Campus,1
 2021-12-02,Student,Ocoee High,2
 2021-12-02,Student,NorthLake Park Community School,1
 2021-12-02,Student,Independence Elementary,1
@@ -3352,8 +3472,8 @@ date,type,location,count
 2021-11-30,Student,Water Spring Elementary,1
 2021-11-30,Student,Timber Creek High,2
 2021-11-30,Student,SunRidge Middle,1
-2021-11-30,Student,Orange Technical College - Westside,1
-2021-11-30,Student,Orange Technical College - Avalon,1
+2021-11-30,Student,Orange Technical College - West Campus,1
+2021-11-30,Student,Orange Technical College - Avalon Campus,1
 2021-11-30,Student,Lakemont Elementary,1
 2021-11-30,Student,Lake Nona High,1
 2021-11-30,Student,Killarney Elementary,1
@@ -3392,7 +3512,7 @@ date,type,location,count
 2021-11-29,Employee,Vista Lakes Elementary,1
 2021-11-29,Employee,Teaching and Learning,2
 2021-11-29,Employee,Southwest Middle,1
-2021-11-29,Employee,Orange Technical College - Winter Park,1
+2021-11-29,Employee,Orange Technical College - East Campus,1
 2021-11-29,Employee,Operations,1
 2021-11-29,Employee,Lake Nona High,1
 2021-11-29,Employee,Information Technology Services,1
@@ -3432,7 +3552,7 @@ date,type,location,count
 2021-11-18,Student,University High,1
 2021-11-18,Student,Timber Lakes Elementary,1
 2021-11-18,Student,Sally Ride Elementary,1
-2021-11-18,Student,Orange Technical College - Mid Florida,1
+2021-11-18,Student,Orange Technical College - South Campus,1
 2021-11-18,Student,Hunter’s Creek Elementary,1
 2021-11-18,Student,East River High,1
 2021-11-18,Student,Cheney Elementary,2
@@ -3718,7 +3838,7 @@ date,type,location,count
 2021-10-25,Student,Three Points Elementary,2
 2021-10-25,Student,Thornebrooke Elementary,1
 2021-10-25,Student,Summerlake Elementary,1
-2021-10-25,Student,Orange Technical College - Winter Park,1
+2021-10-25,Student,Orange Technical College - East Campus,1
 2021-10-25,Student,Olympia High,1
 2021-10-25,Student,Ocoee Middle,2
 2021-10-25,Student,Millennia Gardens Elementary,1
@@ -3804,7 +3924,7 @@ date,type,location,count
 2021-10-19,Student,Stone Lakes Elementary,1
 2021-10-19,Student,Sand Lake Elementary,1
 2021-10-19,Student,Piedmont Lakes Middle,1
-2021-10-19,Student,Orange Technical College - Mid Florida,1
+2021-10-19,Student,Orange Technical College - South Campus,1
 2021-10-19,Student,Ocoee Middle,1
 2021-10-19,Student,NorthLake Park Community School,1
 2021-10-19,Student,Little River Elementary,1
@@ -3935,7 +4055,7 @@ date,type,location,count
 2021-10-11,Student,Riverside Elementary,1
 2021-10-11,Student,Riverdale Elementary,1
 2021-10-11,Student,Piedmont Lakes Middle,1
-2021-10-11,Student,Orange Technical College - Orlando,1
+2021-10-11,Student,Orange Technical College,1
 2021-10-11,Student,Ocoee Middle,1
 2021-10-11,Student,Oak Hill Elementary,1
 2021-10-11,Student,McCoy Elementary,1
@@ -4190,7 +4310,7 @@ date,type,location,count
 2021-09-30,Student,Ridgewood Park Elementary,1
 2021-09-30,Student,Prairie Lake Elementary,1
 2021-09-30,Student,Piedmont Lakes Middle,1
-2021-09-30,Student,Orange Technical College - Mid Florida,1
+2021-09-30,Student,Orange Technical College - South Campus,1
 2021-09-30,Student,Olympia High,3
 2021-09-30,Student,OCPS Academic Center for Excellence,1
 2021-09-30,Student,NorthLake Park Community School,1
@@ -4401,7 +4521,7 @@ date,type,location,count
 2021-09-27,Employee,Timber Creek High,1
 2021-09-27,Employee,Sadler Elementary,1
 2021-09-27,Employee,Piedmont Lakes Middle,1
-2021-09-27,Employee,Orange Technical College - Mid Florida,1
+2021-09-27,Employee,Orange Technical College - South Campus,1
 2021-09-27,Employee,Oak Hill Elementary,1
 2021-09-27,Employee,Lockhart Elementary,1
 2021-09-27,Employee,Liberty Middle,1
@@ -4801,8 +4921,8 @@ date,type,location,count
 2021-09-16,Student,Palmetto Elementary,7
 2021-09-16,Student,Palm Lake Elementary,1
 2021-09-16,Student,Orlo Vista Elementary,2
-2021-09-16,Student,Orange Technical College - Orlando,1
-2021-09-16,Student,Orange Technical College - Mid Florida,1
+2021-09-16,Student,Orange Technical College - South Campus,1
+2021-09-16,Student,Orange Technical College,1
 2021-09-16,Student,Orange Center Elementary,1
 2021-09-16,Student,Olympia High,2
 2021-09-16,Student,Ocoee Middle,1
@@ -4853,7 +4973,7 @@ date,type,location,count
 2021-09-16,Student,Apopka High,6
 2021-09-16,Employee,Winter Park 9th Grade Center,1
 2021-09-16,Employee,Rosemont Elementary,1
-2021-09-16,Employee,Orange Technical College - Mid Florida,1
+2021-09-16,Employee,Orange Technical College - South Campus,1
 2021-09-16,Employee,Operations,2
 2021-09-16,Employee,Ocoee High,1
 2021-09-16,Employee,NorthLake Park Community School,1
@@ -4879,7 +4999,7 @@ date,type,location,count
 2021-09-15,Student,Riverdale Elementary,1
 2021-09-15,Student,Princeton Elementary,1
 2021-09-15,Student,Pershing School (K-8),1
-2021-09-15,Student,Orange Technical College - Mid Florida,1
+2021-09-15,Student,Orange Technical College - South Campus,1
 2021-09-15,Student,Olympia High,4
 2021-09-15,Student,Ocoee Middle,2
 2021-09-15,Student,Ocoee High,3
@@ -5045,9 +5165,9 @@ date,type,location,count
 2021-09-13,Student,Pinar Elementary,1
 2021-09-13,Student,Palm Lake Elementary,1
 2021-09-13,Student,Orlo Vista Elementary,1
-2021-09-13,Student,Orange Technical College - Westside,1
-2021-09-13,Student,Orange Technical College - Orlando,2
-2021-09-13,Student,Orange Technical College - Mid Florida,1
+2021-09-13,Student,Orange Technical College - West Campus,1
+2021-09-13,Student,Orange Technical College - South Campus,1
+2021-09-13,Student,Orange Technical College,2
 2021-09-13,Student,Olympia High,1
 2021-09-13,Student,Ocoee Middle,2
 2021-09-13,Student,Ocoee Elementary,1
@@ -5105,7 +5225,7 @@ date,type,location,count
 2021-09-13,Employee,Water Spring Elementary,1
 2021-09-13,Employee,Timber Springs Middle,1
 2021-09-13,Employee,Riverside Elementary,1
-2021-09-13,Employee,Orange Technical College - Orlando,1
+2021-09-13,Employee,Orange Technical College,1
 2021-09-13,Employee,Operations,1
 2021-09-13,Employee,Ocoee High,2
 2021-09-13,Employee,Memorial Middle,1
@@ -5172,7 +5292,7 @@ date,type,location,count
 2021-09-10,Student,Princeton Elementary,2
 2021-09-10,Student,Piedmont Lakes Middle,3
 2021-09-10,Student,Palmetto Elementary,1
-2021-09-10,Student,Orange Technical College - Mid Florida,1
+2021-09-10,Student,Orange Technical College - South Campus,1
 2021-09-10,Student,Olympia High,4
 2021-09-10,Student,Ocoee Middle,2
 2021-09-10,Student,Ocoee High,4
@@ -5308,7 +5428,7 @@ date,type,location,count
 2021-09-09,Employee,Waterbridge Elementary,1
 2021-09-09,Employee,Sun Blaze Elementary,1
 2021-09-09,Employee,Ridgewood Park Elementary,1
-2021-09-09,Employee,Orange Technical College - Mid Florida,1
+2021-09-09,Employee,Orange Technical College - South Campus,1
 2021-09-09,Employee,OCPS Academic Center for Excellence,1
 2021-09-09,Employee,Lockhart Middle,1
 2021-09-09,Employee,Innovation Middle,1
@@ -5464,10 +5584,10 @@ date,type,location,count
 2021-09-07,Student,Palm Lake Elementary,1
 2021-09-07,Student,Orlo Vista Elementary,1
 2021-09-07,Student,Orlando Gifted Academy,2
-2021-09-07,Student,Orange Technical College - Winter Park,1
-2021-09-07,Student,Orange Technical College - Westside,1
-2021-09-07,Student,Orange Technical College - Mid Florida,1
-2021-09-07,Student,Orange Technical College - Avalon,1
+2021-09-07,Student,Orange Technical College - West Campus,1
+2021-09-07,Student,Orange Technical College - South Campus,1
+2021-09-07,Student,Orange Technical College - East Campus,1
+2021-09-07,Student,Orange Technical College - Avalon Campus,1
 2021-09-07,Student,Orange Center Elementary,2
 2021-09-07,Student,Olympia High,4
 2021-09-07,Student,Odyssey Middle,9
@@ -5574,7 +5694,7 @@ date,type,location,count
 2021-09-07,Employee,Riverside Elementary,1
 2021-09-07,Employee,Pine Hills Elementary,2
 2021-09-07,Employee,Pinar Elementary,2
-2021-09-07,Employee,Orange Technical College - Mid Florida,1
+2021-09-07,Employee,Orange Technical College - South Campus,1
 2021-09-07,Employee,Orange County Virtual School,4
 2021-09-07,Employee,Orange Center Elementary,1
 2021-09-07,Employee,Operations,6
@@ -5725,7 +5845,7 @@ date,type,location,count
 2021-09-03,Employee,Palmetto Elementary,1
 2021-09-03,Employee,Palm Lake Elementary,2
 2021-09-03,Employee,Orlando Gifted Academy,2
-2021-09-03,Employee,Orange Technical College - Avalon,2
+2021-09-03,Employee,Orange Technical College - Avalon Campus,2
 2021-09-03,Employee,Orange County Virtual School,3
 2021-09-03,Employee,Operations,6
 2021-09-03,Employee,Ocoee Middle,2
@@ -5783,9 +5903,9 @@ date,type,location,count
 2021-09-02,Student,Riverdale Elementary,4
 2021-09-02,Student,Ridgewood Park Elementary,4
 2021-09-02,Student,Palmetto Elementary,1
-2021-09-02,Student,Orange Technical College - Westside,2
-2021-09-02,Student,Orange Technical College - Orlando,2
-2021-09-02,Student,Orange Technical College - Mid Florida,2
+2021-09-02,Student,Orange Technical College - West Campus,2
+2021-09-02,Student,Orange Technical College - South Campus,2
+2021-09-02,Student,Orange Technical College,2
 2021-09-02,Student,Odyssey Middle,1
 2021-09-02,Student,Ocoee Middle,4
 2021-09-02,Student,Ocoee Elementary,4
@@ -5895,7 +6015,7 @@ date,type,location,count
 2021-09-01,Student,Pinewood Elementary,2
 2021-09-01,Student,Pershing School (K-8),3
 2021-09-01,Student,Orlo Vista Elementary,1
-2021-09-01,Student,Orange Technical College - Mid Florida,2
+2021-09-01,Student,Orange Technical College - South Campus,2
 2021-09-01,Student,Olympia High,3
 2021-09-01,Student,OCPS Academic Center for Excellence,1
 2021-09-01,Student,Meadowbrook Middle,2
@@ -6001,8 +6121,8 @@ date,type,location,count
 2021-08-31,Student,Pine Hills Elementary,1
 2021-08-31,Student,Pinar Elementary,1
 2021-08-31,Student,Orlando Gifted Academy,2
-2021-08-31,Student,Orange Technical College - Westside,1
-2021-08-31,Student,Orange Technical College - Mid Florida,1
+2021-08-31,Student,Orange Technical College - West Campus,1
+2021-08-31,Student,Orange Technical College - South Campus,1
 2021-08-31,Student,Olympia High,3
 2021-08-31,Student,Odyssey Middle,2
 2021-08-31,Student,Ocoee Middle,3
@@ -6082,7 +6202,7 @@ date,type,location,count
 2021-08-31,Employee,Riverdale Elementary,1
 2021-08-31,Employee,Pinewood Elementary,1
 2021-08-31,Employee,Palmetto Elementary,1
-2021-08-31,Employee,Orange Technical College - Orlando,1
+2021-08-31,Employee,Orange Technical College,1
 2021-08-31,Employee,Operations,3
 2021-08-31,Employee,OCPS Academic Center for Excellence,1
 2021-08-31,Employee,Meadowbrook Middle,1
@@ -6154,7 +6274,7 @@ date,type,location,count
 2021-08-30,Student,Palm Lake Elementary,1
 2021-08-30,Student,Orlo Vista Elementary,2
 2021-08-30,Student,Orlando Gifted Academy,1
-2021-08-30,Student,Orange Technical College - Westside,1
+2021-08-30,Student,Orange Technical College - West Campus,1
 2021-08-30,Student,Olympia High,12
 2021-08-30,Student,Odyssey Middle,5
 2021-08-30,Student,Ocoee Middle,2
@@ -6234,7 +6354,7 @@ date,type,location,count
 2021-08-30,Employee,Tangelo Park Elementary,1
 2021-08-30,Employee,Sunridge Elementary,1
 2021-08-30,Employee,Southwest Middle,1
-2021-08-30,Employee,Orange Technical College - Avalon,1
+2021-08-30,Employee,Orange Technical College - Avalon Campus,1
 2021-08-30,Employee,Operations,3
 2021-08-30,Employee,Olympia High,1
 2021-08-30,Employee,Ocoee High,1
@@ -6338,8 +6458,8 @@ date,type,location,count
 2021-08-27,Student,Piedmont Lakes Middle,4
 2021-08-27,Student,Palm Lake Elementary,1
 2021-08-27,Student,Orlo Vista Elementary,3
-2021-08-27,Student,Orange Technical College - Winter Park,1
-2021-08-27,Student,Orange Technical College - Mid Florida,1
+2021-08-27,Student,Orange Technical College - South Campus,1
+2021-08-27,Student,Orange Technical College - East Campus,1
 2021-08-27,Student,Olympia High,2
 2021-08-27,Student,Ocoee Middle,2
 2021-08-27,Student,OCPS Academic Center for Excellence,1
@@ -6456,7 +6576,7 @@ date,type,location,count
 2021-08-26,Student,Pinar Elementary,1
 2021-08-26,Student,Piedmont Lakes Middle,3
 2021-08-26,Student,Pershing School (K-8),1
-2021-08-26,Student,Orange Technical College - Mid Florida,1
+2021-08-26,Student,Orange Technical College - South Campus,1
 2021-08-26,Student,Olympia High,2
 2021-08-26,Student,Ocoee High,5
 2021-08-26,Student,Ocoee Elementary,1
@@ -6573,7 +6693,7 @@ date,type,location,count
 2021-08-25,Student,Palmetto Elementary,1
 2021-08-25,Student,Palm Lake Elementary,1
 2021-08-25,Student,Orlando Gifted Academy,1
-2021-08-25,Student,Orange Technical College - Avalon,1
+2021-08-25,Student,Orange Technical College - Avalon Campus,1
 2021-08-25,Student,Orange Center Elementary,2
 2021-08-25,Student,Odyssey Middle,2
 2021-08-25,Student,Ocoee Middle,1
@@ -6703,7 +6823,7 @@ date,type,location,count
 2021-08-24,Student,Palm Lake Elementary,1
 2021-08-24,Student,Orlo Vista Elementary,1
 2021-08-24,Student,Orlando Gifted Academy,1
-2021-08-24,Student,Orange Technical College - Westside,1
+2021-08-24,Student,Orange Technical College - West Campus,1
 2021-08-24,Student,Olympia High,5
 2021-08-24,Student,Odyssey Middle,2
 2021-08-24,Student,Ocoee Middle,1
@@ -6855,8 +6975,8 @@ date,type,location,count
 2021-08-23,Student,Pinewood Elementary,3
 2021-08-23,Student,Palmetto Elementary,1
 2021-08-23,Student,Orlo Vista Elementary,2
-2021-08-23,Student,Orange Technical College - Westside,1
-2021-08-23,Student,Orange Technical College - Mid Florida,1
+2021-08-23,Student,Orange Technical College - West Campus,1
+2021-08-23,Student,Orange Technical College - South Campus,1
 2021-08-23,Student,Orange Center Elementary,3
 2021-08-23,Student,Olympia High,4
 2021-08-23,Student,Odyssey Middle,3
@@ -6988,7 +7108,7 @@ date,type,location,count
 2021-08-22,Student,Boone High,1
 2021-08-22,Employee,West Orange High,2
 2021-08-22,Employee,Teaching and Learning,1
-2021-08-22,Employee,Orange Technical College - Avalon,1
+2021-08-22,Employee,Orange Technical College - Avalon Campus,1
 2021-08-22,Employee,Lake Gem Elementary,1
 2021-08-22,Employee,Innovation Middle,2
 2021-08-22,Employee,Edgewater High,1
@@ -6999,7 +7119,7 @@ date,type,location,count
 2021-08-21,Student,Three Points Elementary,1
 2021-08-21,Student,Sunset Park Elementary,4
 2021-08-21,Student,Pine Hills Elementary,2
-2021-08-21,Student,Orange Technical College - Mid Florida,1
+2021-08-21,Student,Orange Technical College - South Campus,1
 2021-08-21,Student,Ocoee High,1
 2021-08-21,Student,Meadow Woods Elementary,1
 2021-08-21,Student,Independence Elementary,1
@@ -7053,7 +7173,7 @@ date,type,location,count
 2021-08-20,Student,Pineloch Elementary,3
 2021-08-20,Student,Piedmont Lakes Middle,3
 2021-08-20,Student,Pershing School (K-8),1
-2021-08-20,Student,Orange Technical College - Mid Florida,1
+2021-08-20,Student,Orange Technical College - South Campus,1
 2021-08-20,Student,Odyssey Middle,2
 2021-08-20,Student,Ocoee Middle,2
 2021-08-20,Student,Ocoee High,7
@@ -7163,7 +7283,7 @@ date,type,location,count
 2021-08-19,Student,Pershing School (K-8),1
 2021-08-19,Student,Palm Lake Elementary,3
 2021-08-19,Student,Orlo Vista Elementary,3
-2021-08-19,Student,Orange Technical College - Orlando,1
+2021-08-19,Student,Orange Technical College,1
 2021-08-19,Student,Orange Center Elementary,1
 2021-08-19,Student,Olympia High,3
 2021-08-19,Student,Ocoee Elementary,2
@@ -7266,7 +7386,7 @@ date,type,location,count
 2021-08-18,Student,Pinewood Elementary,1
 2021-08-18,Student,Piedmont Lakes Middle,1
 2021-08-18,Student,Pershing School (K-8),2
-2021-08-18,Student,Orange Technical College - Mid Florida,1
+2021-08-18,Student,Orange Technical College - South Campus,1
 2021-08-18,Student,Olympia High,1
 2021-08-18,Student,Odyssey Middle,5
 2021-08-18,Student,Oakshire Elementary,1
@@ -7371,7 +7491,7 @@ date,type,location,count
 2021-08-17,Student,Piedmont Lakes Middle,10
 2021-08-17,Student,Palm Lake Elementary,2
 2021-08-17,Student,Orlando Gifted Academy,1
-2021-08-17,Student,Orange Technical College - Winter Park,1
+2021-08-17,Student,Orange Technical College - East Campus,1
 2021-08-17,Student,Olympia High,3
 2021-08-17,Student,Ocoee Middle,1
 2021-08-17,Student,Ocoee High,1
@@ -7431,7 +7551,7 @@ date,type,location,count
 2021-08-17,Employee,Riverside Elementary,1
 2021-08-17,Employee,Prairie Lake Elementary,1
 2021-08-17,Employee,Piedmont Lakes Middle,1
-2021-08-17,Employee,Orange Technical College - Mid Florida,1
+2021-08-17,Employee,Orange Technical College - South Campus,1
 2021-08-17,Employee,Orange County Virtual School,1
 2021-08-17,Employee,Operations,4
 2021-08-17,Employee,Maitland Middle,1
@@ -7498,7 +7618,7 @@ date,type,location,count
 2021-08-16,Student,Pershing School (K-8),1
 2021-08-16,Student,Palmetto Elementary,2
 2021-08-16,Student,Orlo Vista Elementary,1
-2021-08-16,Student,Orange Technical College - Winter Park,1
+2021-08-16,Student,Orange Technical College - East Campus,1
 2021-08-16,Student,Olympia High,2
 2021-08-16,Student,Odyssey Middle,4
 2021-08-16,Student,Ocoee Elementary,2
@@ -7579,7 +7699,7 @@ date,type,location,count
 2021-08-16,Employee,Riverside Elementary,1
 2021-08-16,Employee,Prairie Lake Elementary,2
 2021-08-16,Employee,Positive Pathways Transition Center,1
-2021-08-16,Employee,Orange Technical College - Mid Florida,1
+2021-08-16,Employee,Orange Technical College - South Campus,1
 2021-08-16,Employee,Operations,9
 2021-08-16,Employee,OCPS Academic Center for Excellence,1
 2021-08-16,Employee,Mollie Ray Elementary,1
@@ -7634,7 +7754,7 @@ date,type,location,count
 2021-08-15,Employee,Cypress Creek High,2
 2021-08-15,Employee,Corner Lake Middle,1
 2021-08-14,Student,Wyndham Lakes Elementary,1
-2021-08-14,Student,Orange Technical College - Mid Florida,1
+2021-08-14,Student,Orange Technical College - South Campus,1
 2021-08-14,Student,Lakemont Elementary,1
 2021-08-14,Student,Lake Sybelia Elementary,1
 2021-08-14,Student,Castleview Elementary,1
@@ -7669,7 +7789,7 @@ date,type,location,count
 2021-08-13,Student,Rock Springs Elementary,1
 2021-08-13,Student,Prairie Lake Elementary,1
 2021-08-13,Student,Palm Lake Elementary,3
-2021-08-13,Student,Orange Technical College - Mid Florida,1
+2021-08-13,Student,Orange Technical College - South Campus,1
 2021-08-13,Student,Olympia High,1
 2021-08-13,Student,Ocoee High,6
 2021-08-13,Student,Ocoee Elementary,1
@@ -7715,7 +7835,7 @@ date,type,location,count
 2021-08-13,Employee,Rosemont Elementary,1
 2021-08-13,Employee,Pinar Elementary,1
 2021-08-13,Employee,Orlo Vista Elementary,1
-2021-08-13,Employee,Orange Technical College - Mid Florida,1
+2021-08-13,Employee,Orange Technical College - South Campus,1
 2021-08-13,Employee,Operations,3
 2021-08-13,Employee,Lake Nona High,1
 2021-08-13,Employee,Jones High,1
@@ -7745,8 +7865,8 @@ date,type,location,count
 2021-08-12,Student,Pineloch Elementary,1
 2021-08-12,Student,Palmetto Elementary,1
 2021-08-12,Student,Palm Lake Elementary,1
-2021-08-12,Student,Orange Technical College - Winter Park,1
-2021-08-12,Student,Orange Technical College - Mid Florida,1
+2021-08-12,Student,Orange Technical College - South Campus,1
+2021-08-12,Student,Orange Technical College - East Campus,1
 2021-08-12,Student,Orange Center Elementary,1
 2021-08-12,Student,Moss Park Elementary,1
 2021-08-12,Student,Millennia Gardens Elementary,1
@@ -7820,7 +7940,7 @@ date,type,location,count
 2021-08-11,Student,Riverdale Elementary,1
 2021-08-11,Student,Prairie Lake Elementary,1
 2021-08-11,Student,Palmetto Elementary,1
-2021-08-11,Student,Orange Technical College - Westside,1
+2021-08-11,Student,Orange Technical College - West Campus,1
 2021-08-11,Student,Orange Center Elementary,1
 2021-08-11,Student,Ocoee Middle,1
 2021-08-11,Student,Ocoee High,1
@@ -7879,7 +7999,7 @@ date,type,location,count
 2021-08-10,Student,Timber Creek High,2
 2021-08-10,Student,Rosemont Elementary,1
 2021-08-10,Student,Pershing School (K-8),1
-2021-08-10,Student,Orange Technical College - Westside,1
+2021-08-10,Student,Orange Technical College - West Campus,1
 2021-08-10,Student,Little River Elementary,1
 2021-08-10,Student,Lake Whitney Elementary,1
 2021-08-10,Student,Evans High,2
@@ -7912,8 +8032,8 @@ date,type,location,count
 2021-08-09,Student,University High,1
 2021-08-09,Student,Summerlake Elementary,1
 2021-08-09,Student,Southwood Elementary,2
-2021-08-09,Student,Orange Technical College - Westside,1
-2021-08-09,Student,Orange Technical College - Mid Florida,1
+2021-08-09,Student,Orange Technical College - West Campus,1
+2021-08-09,Student,Orange Technical College - South Campus,1
 2021-08-09,Student,OCPS Academic Center for Excellence,1
 2021-08-09,Student,Meadowbrook Middle,7
 2021-08-09,Student,Maxey Elementary,2
@@ -7933,7 +8053,7 @@ date,type,location,count
 2021-08-09,Employee,Teaching and Learning,2
 2021-08-09,Employee,Piedmont Lakes Middle,1
 2021-08-09,Employee,Orlando Gifted Academy,1
-2021-08-09,Employee,Orange Technical College - Mid Florida,1
+2021-08-09,Employee,Orange Technical College - South Campus,1
 2021-08-09,Employee,Orange County Virtual School,1
 2021-08-09,Employee,Operations,4
 2021-08-09,Employee,Olympia High,1
@@ -7997,7 +8117,7 @@ date,type,location,count
 2021-08-05,Employee,Wyndham Lakes Elementary,1
 2021-08-05,Employee,Teaching and Learning,5
 2021-08-05,Employee,Palm Lake Elementary,1
-2021-08-05,Employee,Orange Technical College - Mid Florida,1
+2021-08-05,Employee,Orange Technical College - South Campus,1
 2021-08-05,Employee,Ocoee Elementary,1
 2021-08-05,Employee,Oak Ridge High,1
 2021-08-05,Employee,Memorial Middle,1
@@ -8018,7 +8138,7 @@ date,type,location,count
 2021-08-04,Employee,Timber Lakes Elementary,1
 2021-08-04,Employee,Sunridge Elementary,1
 2021-08-04,Employee,Rosemont Elementary,1
-2021-08-04,Employee,Orange Technical College - Mid Florida,1
+2021-08-04,Employee,Orange Technical College - South Campus,1
 2021-08-04,Employee,Operations,1
 2021-08-04,Employee,Odyssey Middle,1
 2021-08-04,Employee,Lake Como School (K-8),1
