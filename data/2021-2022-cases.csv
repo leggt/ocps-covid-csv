@@ -1,4 +1,145 @@
 date,type,location,count
+2022-01-31,Student,Zellwood Elementary,1
+2022-01-31,Student,Wyndham Lakes Elementary,1
+2022-01-31,Student,Winter Park High,7
+2022-01-31,Student,Winter Park 9th Grade Center,2
+2022-01-31,Student,Winegard Elementary,3
+2022-01-31,Student,Windy Ridge School (K-8),3
+2022-01-31,Student,Windermere High,9
+2022-01-31,Student,Windermere Elementary,1
+2022-01-31,Student,Westpointe Elementary,1
+2022-01-31,Student,Wedgefield School (K-8),2
+2022-01-31,Student,Waterford Elementary,6
+2022-01-31,Student,Water Spring Elementary,2
+2022-01-31,Student,Washington Shores Elementary,1
+2022-01-31,Student,Vista Pointe Elementary,3
+2022-01-31,Student,Vista Lakes Elementary,1
+2022-01-31,Student,Village Park Elementary,1
+2022-01-31,Student,University High,9
+2022-01-31,Student,Union Park Elementary,7
+2022-01-31,Student,Timber Lakes Elementary,1
+2022-01-31,Student,Timber Creek High,9
+2022-01-31,Student,Tildenville Elementary,1
+2022-01-31,Student,Thornebrooke Elementary,2
+2022-01-31,Student,Sunshine Elementary,1
+2022-01-31,Student,Sunridge Elementary,1
+2022-01-31,Student,Summerlake Elementary,1
+2022-01-31,Student,Southwood Elementary,1
+2022-01-31,Student,Shenandoah Elementary,1
+2022-01-31,Student,Sally Ride Elementary,2
+2022-01-31,Student,Riverdale Elementary,2
+2022-01-31,Student,Prairie Lake Elementary,2
+2022-01-31,Student,Pinar Elementary,2
+2022-01-31,Student,Pershing School (K-8),1
+2022-01-31,Student,Palm Lake Elementary,2
+2022-01-31,Student,Orlando Gifted Academy,1
+2022-01-31,Student,Olympia High,5
+2022-01-31,Student,Ocoee Middle,2
+2022-01-31,Student,Ocoee High,2
+2022-01-31,Student,Oak Hill Elementary,1
+2022-01-31,Student,NorthLake Park Community School,2
+2022-01-31,Student,Memorial Middle,3
+2022-01-31,Student,McCoy Elementary,1
+2022-01-31,Student,Lockhart Middle,6
+2022-01-31,Student,Little River Elementary,1
+2022-01-31,Student,Laureate Park Elementary,2
+2022-01-31,Student,Lancaster Elementary,2
+2022-01-31,Student,Lake Whitney Elementary,2
+2022-01-31,Student,Lake Sybelia Elementary,3
+2022-01-31,Student,Lake Silver Elementary,3
+2022-01-31,Student,Lake Nona High,5
+2022-01-31,Student,Lake Como School (K-8),2
+2022-01-31,Student,Killarney Elementary,1
+2022-01-31,Student,Innovation Middle,3
+2022-01-31,Student,Independence Elementary,2
+2022-01-31,Student,Howard Middle,2
+2022-01-31,Student,Horizon West Middle,4
+2022-01-31,Student,Horizon High,1
+2022-01-31,Student,Hillcrest Elementary,4
+2022-01-31,Student,Hidden Oaks Elementary,1
+2022-01-31,Student,Gotha Middle,1
+2022-01-31,Student,Glenridge Middle,16
+2022-01-31,Student,Frangus Elementary,1
+2022-01-31,Student,Forsyth Woods Elementary,2
+2022-01-31,Student,Engelwood Elementary,2
+2022-01-31,Student,Endeavor Elementary,5
+2022-01-31,Student,East Lake Elementary,1
+2022-01-31,Student,Dr. Phillips High,1
+2022-01-31,Student,Deerwood Elementary,1
+2022-01-31,Student,Cypress Creek High,1
+2022-01-31,Student,Corner Lake Middle,2
+2022-01-31,Student,Conway Middle,3
+2022-01-31,Student,Conway Elementary,2
+2022-01-31,Student,Columbia Elementary,1
+2022-01-31,Student,Colonial High,4
+2022-01-31,Student,Clay Springs Elementary,2
+2022-01-31,Student,Chickasaw Elementary,1
+2022-01-31,Student,Catalina Elementary,2
+2022-01-31,Student,Castleview Elementary,2
+2022-01-31,Student,Castle Creek Elementary,4
+2022-01-31,Student,Boone High,6
+2022-01-31,Student,Bonneville Elementary,2
+2022-01-31,Student,Blankner School (K-8),3
+2022-01-31,Student,Baldwin Park Elementary,4
+2022-01-31,Student,Azalea Park Elementary,1
+2022-01-31,Student,Avalon Middle,1
+2022-01-31,Student,Avalon Elementary,1
+2022-01-31,Student,Apopka Memorial Middle,2
+2022-01-31,Student,Apopka High,3
+2022-01-31,Student,Apopka Elementary,3
+2022-01-31,Student,Aloma Elementary,4
+2022-01-31,Student,Acceleration East,1
+2022-01-31,Employee,Wyndham Lakes Elementary,3
+2022-01-31,Employee,Winter Park High,1
+2022-01-31,Employee,Westridge Middle,3
+2022-01-31,Employee,Westbrooke Elementary,2
+2022-01-31,Employee,Wedgefield School (K-8),1
+2022-01-31,Employee,Waterford Elementary,1
+2022-01-31,Employee,Water Spring Elementary,1
+2022-01-31,Employee,Vista Lakes Elementary,1
+2022-01-31,Employee,Timber Lakes Elementary,1
+2022-01-31,Employee,Thornebrooke Elementary,1
+2022-01-31,Employee,Teaching and Learning,3
+2022-01-31,Employee,Sunridge Elementary,1
+2022-01-31,Employee,Stone Lakes Elementary,2
+2022-01-31,Employee,Shingle Creek Elementary,1
+2022-01-31,Employee,Sally Ride Elementary,1
+2022-01-31,Employee,Rock Springs Elementary,2
+2022-01-31,Employee,Positive Pathways Transition Center,2
+2022-01-31,Employee,Palm Lake Elementary,1
+2022-01-31,Employee,Orange Technical College - West Campus,1
+2022-01-31,Employee,Operations,1
+2022-01-31,Employee,Olympia High,1
+2022-01-31,Employee,Oak Ridge High,1
+2022-01-31,Employee,McCoy Elementary,1
+2022-01-31,Employee,Maxey Elementary,2
+2022-01-31,Employee,Magnolia School,2
+2022-01-31,Employee,Lockhart Elementary,2
+2022-01-31,Employee,Lake Weston Elementary,1
+2022-01-31,Employee,Lake Nona High,2
+2022-01-31,Employee,Keene’s Crossing Elementary,1
+2022-01-31,Employee,Jones High,2
+2022-01-31,Employee,Information Technology Services,1
+2022-01-31,Employee,Hungerford Elementary,1
+2022-01-31,Employee,Gotha Middle,1
+2022-01-31,Employee,Facilities Services,2
+2022-01-31,Employee,Engelwood Elementary,1
+2022-01-31,Employee,Eccleston Elementary,1
+2022-01-31,Employee,Dr. Phillips Elementary,1
+2022-01-31,Employee,Deerwood Elementary,1
+2022-01-31,Employee,Conway Middle,1
+2022-01-31,Employee,Communications Division,1
+2022-01-31,Employee,Columbia Elementary,1
+2022-01-31,Employee,Citrus Elementary,1
+2022-01-31,Employee,Cheney Elementary,1
+2022-01-31,Employee,Catalina Elementary,2
+2022-01-31,Employee,Castleview Elementary,2
+2022-01-31,Employee,Castle Creek Elementary,3
+2022-01-31,Employee,Bay Meadows Elementary,1
+2022-01-31,Employee,Avalon Middle,1
+2022-01-31,Employee,Avalon Elementary,2
+2022-01-31,Employee,Apopka Memorial Middle,1
+2022-01-31,Employee,Apopka High,1
 2022-01-30,Student,Union Park Elementary,7
 2022-01-30,Student,Sunridge Elementary,3
 2022-01-30,Student,Orlo Vista Elementary,1
