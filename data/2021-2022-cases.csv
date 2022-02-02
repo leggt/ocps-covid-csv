@@ -1,11 +1,95 @@
 date,type,location,count
+2022-02-01,Student,Wolf Lake Elementary,3
+2022-02-01,Student,Winter Park High,2
+2022-02-01,Student,Winegard Elementary,1
+2022-02-01,Student,Windy Ridge School (K-8),3
+2022-02-01,Student,Westbrooke Elementary,1
+2022-02-01,Student,West Oaks Elementary,1
+2022-02-01,Student,West Creek Elementary,3
+2022-02-01,Student,Wekiva High,1
+2022-02-01,Student,Wedgefield School (K-8),1
+2022-02-01,Student,Waterford Elementary,6
+2022-02-01,Student,Water Spring Elementary,1
+2022-02-01,Student,Ventura Elementary,1
+2022-02-01,Student,University High,2
+2022-02-01,Student,Timber Creek High,4
+2022-02-01,Student,Tildenville Elementary,1
+2022-02-01,Student,Spring Lake Elementary,1
+2022-02-01,Student,South Creek Middle,2
+2022-02-01,Student,Sand Lake Elementary,2
+2022-02-01,Student,Princeton Elementary,1
+2022-02-01,Student,Pinar Elementary,1
+2022-02-01,Student,Palmetto Elementary,1
+2022-02-01,Student,Orange Technical College,1
+2022-02-01,Student,Ocoee Middle,1
+2022-02-01,Student,Ocoee High,2
+2022-02-01,Student,Moss Park Elementary,2
+2022-02-01,Student,Millennia Elementary,1
+2022-02-01,Student,Meadowbrook Middle,1
+2022-02-01,Student,Little River Elementary,1
+2022-02-01,Student,Lakemont Elementary,2
+2022-02-01,Student,Lake Whitney Elementary,2
+2022-02-01,Student,Lake Sybelia Elementary,1
+2022-02-01,Student,Lake Nona Middle,5
+2022-02-01,Student,Lake Nona High,5
+2022-02-01,Student,Innovation Middle,4
+2022-02-01,Student,Independence Elementary,1
+2022-02-01,Student,Horizon High,1
+2022-02-01,Student,Hillcrest Elementary,1
+2022-02-01,Student,Gotha Middle,1
+2022-02-01,Student,Forsyth Woods Elementary,5
+2022-02-01,Student,Evans High,3
+2022-02-01,Student,Eagle Creek Elementary,3
+2022-02-01,Student,Dr. Phillips High,1
+2022-02-01,Student,Discovery Middle,3
+2022-02-01,Student,Corner Lake Middle,1
+2022-02-01,Student,Columbia Elementary,4
+2022-02-01,Student,Colonial High,2
+2022-02-01,Student,Camelot Elementary,5
+2022-02-01,Student,Brookshire Elementary,1
+2022-02-01,Student,Boone High,3
+2022-02-01,Student,Bay Lake Elementary,2
+2022-02-01,Student,Avalon Middle,1
+2022-02-01,Student,Avalon Elementary,1
+2022-02-01,Student,Audubon Park School (K-8),3
+2022-02-01,Student,Arbor Ridge School (K-8),2
+2022-02-01,Student,Apopka Memorial Middle,1
+2022-02-01,Student,Andover Elementary,3
+2022-02-01,Employee,Wyndham Lakes Elementary,1
+2022-02-01,Employee,Winter Park High,3
+2022-02-01,Employee,Windy Ridge School (K-8),1
+2022-02-01,Employee,Whispering Oak Elementary,1
+2022-02-01,Employee,Westpointe Elementary,1
+2022-02-01,Employee,Wedgefield School (K-8),1
+2022-02-01,Employee,Vista Lakes Elementary,1
+2022-02-01,Employee,University High,1
+2022-02-01,Employee,Teaching and Learning,1
+2022-02-01,Employee,Pinar Elementary,1
+2022-02-01,Employee,Orange Technical College - West Campus,1
+2022-02-01,Employee,Orange Technical College,1
+2022-02-01,Employee,Operations,1
+2022-02-01,Employee,NorthLake Park Community School,1
+2022-02-01,Employee,Millennia Elementary,1
+2022-02-01,Employee,Magnolia School,1
+2022-02-01,Employee,Lovell Elementary,2
+2022-02-01,Employee,Lakemont Elementary,1
+2022-02-01,Employee,Lake Nona Middle,1
+2022-02-01,Employee,Independence Elementary,1
+2022-02-01,Employee,Facilities Services,4
+2022-02-01,Employee,Evans High,1
+2022-02-01,Employee,Dillard St. Elementary,2
+2022-02-01,Employee,Columbia Elementary,2
+2022-02-01,Employee,Colonial High 9th Grade Center,1
+2022-02-01,Employee,Colonial High,1
+2022-02-01,Employee,College Park Middle,1
+2022-02-01,Employee,Alternative Education Centers,2
 2022-01-31,Student,Zellwood Elementary,1
 2022-01-31,Student,Wyndham Lakes Elementary,1
 2022-01-31,Student,Winter Park High,7
 2022-01-31,Student,Winter Park 9th Grade Center,2
 2022-01-31,Student,Winegard Elementary,3
 2022-01-31,Student,Windy Ridge School (K-8),3
-2022-01-31,Student,Windermere High,9
+2022-01-31,Student,Windermere High,10
 2022-01-31,Student,Windermere Elementary,1
 2022-01-31,Student,Westpointe Elementary,1
 2022-01-31,Student,Wedgefield School (K-8),2
@@ -289,7 +373,7 @@ date,type,location,count
 2022-01-27,Student,Lake Sybelia Elementary,2
 2022-01-27,Student,Lake Nona Middle,1
 2022-01-27,Student,Lake Nona High,9
-2022-01-27,Student,Lake Gem Elementary,2
+2022-01-27,Student,Lake Gem Elementary,3
 2022-01-27,Student,Keene’s Crossing Elementary,1
 2022-01-27,Student,Innovation Middle,4
 2022-01-27,Student,Independence Elementary,1
