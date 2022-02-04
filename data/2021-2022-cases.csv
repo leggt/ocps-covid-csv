@@ -1,4 +1,82 @@
 date,type,location,count
+2022-02-03,Vendor/Visitor,Camelot Elementary,1
+2022-02-03,Student,Wyndham Lakes Elementary,1
+2022-02-03,Student,Wolf Lake Elementary,1
+2022-02-03,Student,Winter Park High,2
+2022-02-03,Student,Windermere High,1
+2022-02-03,Student,Wetherbee Elementary,1
+2022-02-03,Student,West Oaks Elementary,1
+2022-02-03,Student,University High,3
+2022-02-03,Student,Timber Springs Middle,1
+2022-02-03,Student,Timber Creek High,10
+2022-02-03,Student,Three Points Elementary,1
+2022-02-03,Student,Thornebrooke Elementary,1
+2022-02-03,Student,Spring Lake Elementary,2
+2022-02-03,Student,South Creek Middle,4
+2022-02-03,Student,Sand Lake Elementary,1
+2022-02-03,Student,Sally Ride Elementary,2
+2022-02-03,Student,Riverdale Elementary,1
+2022-02-03,Student,Prairie Lake Elementary,1
+2022-02-03,Student,Pinewood Elementary,1
+2022-02-03,Student,Pinar Elementary,1
+2022-02-03,Student,Pershing School (K-8),1
+2022-02-03,Student,Olympia High,1
+2022-02-03,Student,Ocoee Middle,1
+2022-02-03,Student,Ocoee High,1
+2022-02-03,Student,Oak Hill Elementary,1
+2022-02-03,Student,Mollie Ray Elementary,1
+2022-02-03,Student,Liberty Middle,1
+2022-02-03,Student,Lancaster Elementary,1
+2022-02-03,Student,Lake Nona Middle,2
+2022-02-03,Student,Lake Nona High,4
+2022-02-03,Student,Lake Como School (K-8),2
+2022-02-03,Student,Innovation Middle,5
+2022-02-03,Student,Horizon West Middle,1
+2022-02-03,Student,Hiawassee Elementary,2
+2022-02-03,Student,Gotha Middle,1
+2022-02-03,Student,Glenridge Middle,6
+2022-02-03,Student,Evans High,1
+2022-02-03,Student,Endeavor Elementary,1
+2022-02-03,Student,Edgewater High,4
+2022-02-03,Student,Dover Shores Elementary,1
+2022-02-03,Student,Deerwood Elementary,2
+2022-02-03,Student,Cypress Creek High,4
+2022-02-03,Student,Conway Elementary,1
+2022-02-03,Student,Colonial High 9th Grade Center,1
+2022-02-03,Student,Chickasaw Elementary,1
+2022-02-03,Student,Camelot Elementary,2
+2022-02-03,Student,Brookshire Elementary,1
+2022-02-03,Student,Bridgewater Middle,5
+2022-02-03,Student,Avalon Middle,3
+2022-02-03,Student,Arbor Ridge School (K-8),3
+2022-02-03,Employee,Zellwood Elementary,1
+2022-02-03,Employee,Wolf Lake Elementary,1
+2022-02-03,Employee,Winter Park High,1
+2022-02-03,Employee,Winter Park 9th Grade Center,1
+2022-02-03,Employee,West Orange High,3
+2022-02-03,Employee,West Creek Elementary,2
+2022-02-03,Employee,Wedgefield School (K-8),1
+2022-02-03,Employee,Three Points Elementary,1
+2022-02-03,Employee,Teaching and Learning,1
+2022-02-03,Employee,Stone Lakes Elementary,1
+2022-02-03,Employee,Pineloch Elementary,1
+2022-02-03,Employee,Operations,2
+2022-02-03,Employee,OTHER (please note),1
+2022-02-03,Employee,Millennia Elementary,1
+2022-02-03,Employee,Magnolia School,1
+2022-02-03,Employee,Lovell Elementary,1
+2022-02-03,Employee,Keene’s Crossing Elementary,2
+2022-02-03,Employee,Hunter’s Creek Elementary,1
+2022-02-03,Employee,Gotha Middle,1
+2022-02-03,Employee,Dr. Phillips High,1
+2022-02-03,Employee,Dover Shores Elementary,1
+2022-02-03,Employee,Deerwood Elementary,1
+2022-02-03,Employee,Curriculum & Digital Learning,1
+2022-02-03,Employee,Castleview Elementary,1
+2022-02-03,Employee,Brookshire Elementary,1
+2022-02-03,Employee,Boone High,1
+2022-02-03,Employee,Avalon Middle,1
+2022-02-03,Employee,Andover Elementary,1
 2022-02-02,Student,Wolf Lake Middle,1
 2022-02-02,Student,Winter Park High,2
 2022-02-02,Student,Winter Park 9th Grade Center,1
@@ -2432,7 +2510,7 @@ date,type,location,count
 2022-01-12,Employee,Cypress Creek High,2
 2022-01-12,Employee,Conway Middle,2
 2022-01-12,Employee,Colonial High,3
-2022-01-12,Employee,Clay Springs Elementary,3
+2022-01-12,Employee,Clay Springs Elementary,2
 2022-01-12,Employee,Catalina Elementary,2
 2022-01-12,Employee,Castleview Elementary,1
 2022-01-12,Employee,Boone High,3
@@ -2914,7 +2992,7 @@ date,type,location,count
 2022-01-09,Employee,Westpointe Elementary,1
 2022-01-09,Employee,Walker Middle,1
 2022-01-09,Employee,Union Park Elementary,1
-2022-01-09,Employee,Teaching and Learning,2
+2022-01-09,Employee,Teaching and Learning,1
 2022-01-09,Employee,Sunrise Elementary,2
 2022-01-09,Employee,South Creek Middle,1
 2022-01-09,Employee,Sally Ride Elementary,1
