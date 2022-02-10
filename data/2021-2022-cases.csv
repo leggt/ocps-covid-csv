@@ -1,4 +1,54 @@
 date,type,location,count
+2022-02-09,Student,Wyndham Lakes Elementary,1
+2022-02-09,Student,Wolf Lake Elementary,2
+2022-02-09,Student,Windy Ridge School (K-8),4
+2022-02-09,Student,Westridge Middle,1
+2022-02-09,Student,West Creek Elementary,1
+2022-02-09,Student,Wekiva High,2
+2022-02-09,Student,Waterford Elementary,1
+2022-02-09,Student,Water Spring Middle,1
+2022-02-09,Student,Water Spring Elementary,1
+2022-02-09,Student,University High,4
+2022-02-09,Student,Timber Springs Middle,4
+2022-02-09,Student,Timber Creek High,4
+2022-02-09,Student,Sunridge Elementary,2
+2022-02-09,Student,Summerlake Elementary,1
+2022-02-09,Student,Stone Lakes Elementary,1
+2022-02-09,Student,Princeton Elementary,1
+2022-02-09,Student,Ocoee High,1
+2022-02-09,Student,Millennia Elementary,1
+2022-02-09,Student,Lovell Elementary,1
+2022-02-09,Student,Lancaster Elementary,1
+2022-02-09,Student,Lakeview Middle,2
+2022-02-09,Student,Lake Nona Middle,7
+2022-02-09,Student,Keene’s Crossing Elementary,1
+2022-02-09,Student,Independence Elementary,2
+2022-02-09,Student,Hunter’s Creek Elementary,1
+2022-02-09,Student,Gotha Middle,1
+2022-02-09,Student,Endeavor Elementary,1
+2022-02-09,Student,Dover Shores Elementary,1
+2022-02-09,Student,Cypress Creek High,3
+2022-02-09,Student,Colonial High 9th Grade Center,2
+2022-02-09,Student,Colonial High,4
+2022-02-09,Student,Citrus Elementary,1
+2022-02-09,Student,Castle Creek Elementary,1
+2022-02-09,Student,Boone High,1
+2022-02-09,Student,Blankner School (K-8),1
+2022-02-09,Student,Baldwin Park Elementary,1
+2022-02-09,Employee,Wolf Lake Elementary,1
+2022-02-09,Employee,Winter Park High,1
+2022-02-09,Employee,University High,1
+2022-02-09,Employee,Sunridge Elementary,1
+2022-02-09,Employee,Southwest Middle,1
+2022-02-09,Employee,Prairie Lake Elementary,1
+2022-02-09,Employee,Operations,1
+2022-02-09,Employee,OTHER (please note),1
+2022-02-09,Employee,NorthLake Park Community School,1
+2022-02-09,Employee,Innovation Middle,1
+2022-02-09,Employee,Facilities Services,1
+2022-02-09,Employee,Edgewater High,1
+2022-02-09,Employee,Chickasaw Elementary,1
+2022-02-09,Employee,Alternative Education Center - Compass,1
 2022-02-08,Student,Wyndham Lakes Elementary,5
 2022-02-08,Student,Wolf Lake Elementary,1
 2022-02-08,Student,Winter Park High,2
@@ -60,12 +110,12 @@ date,type,location,count
 2022-02-08,Employee,Water Spring Elementary,2
 2022-02-08,Employee,Vista Pointe Elementary,1
 2022-02-08,Employee,Timber Creek High,1
+2022-02-08,Employee,Teaching and Learning,1
 2022-02-08,Employee,Stone Lakes Elementary,1
 2022-02-08,Employee,Shenandoah Elementary,1
 2022-02-08,Employee,Robinswood Middle,1
 2022-02-08,Employee,Piedmont Lakes Middle,1
 2022-02-08,Employee,Ocoee Elementary,3
-2022-02-08,Employee,OTHER (please note),1
 2022-02-08,Employee,Laureate Park Elementary,1
 2022-02-08,Employee,Lake Nona High,2
 2022-02-08,Employee,Keene’s Crossing Elementary,1
@@ -327,11 +377,10 @@ date,type,location,count
 2022-02-03,Employee,West Creek Elementary,2
 2022-02-03,Employee,Wedgefield School (K-8),1
 2022-02-03,Employee,Three Points Elementary,1
-2022-02-03,Employee,Teaching and Learning,1
+2022-02-03,Employee,Teaching and Learning,2
 2022-02-03,Employee,Stone Lakes Elementary,1
 2022-02-03,Employee,Pineloch Elementary,1
 2022-02-03,Employee,Operations,2
-2022-02-03,Employee,OTHER (please note),1
 2022-02-03,Employee,Millennia Elementary,1
 2022-02-03,Employee,Magnolia School,1
 2022-02-03,Employee,Lovell Elementary,1
@@ -2139,7 +2188,7 @@ date,type,location,count
 2022-01-17,Employee,Maxey Elementary,1
 2022-01-17,Employee,Lancaster Elementary,1
 2022-01-17,Employee,Lakeville Elementary,1
-2022-01-17,Employee,Lake Weston Elementary,2
+2022-01-17,Employee,Lake Weston Elementary,1
 2022-01-17,Employee,Lake George Elementary,1
 2022-01-17,Employee,Innovation Middle,1
 2022-01-17,Employee,Hunter’s Creek Middle,1
