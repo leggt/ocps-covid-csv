@@ -1,4 +1,38 @@
 date,type,location,count
+2022-02-10,Student,Winter Park 9th Grade Center,1
+2022-02-10,Student,Windy Ridge School (K-8),2
+2022-02-10,Student,Windermere High,1
+2022-02-10,Student,Vista Pointe Elementary,1
+2022-02-10,Student,Timber Creek High,1
+2022-02-10,Student,Summerlake Elementary,1
+2022-02-10,Student,Pinar Elementary,1
+2022-02-10,Student,Orange Technical College,1
+2022-02-10,Student,Lake Nona High,7
+2022-02-10,Student,Horizon High,2
+2022-02-10,Student,Cypress Creek High,3
+2022-02-10,Student,Corner Lake Middle,1
+2022-02-10,Student,Colonial High 9th Grade Center,1
+2022-02-10,Student,Clay Springs Elementary,1
+2022-02-10,Student,Castleview Elementary,4
+2022-02-10,Student,Castle Creek Elementary,1
+2022-02-10,Student,Blankner School (K-8),2
+2022-02-10,Employee,Wolf Lake Elementary,1
+2022-02-10,Employee,Winter Park High,1
+2022-02-10,Employee,Windy Ridge School (K-8),1
+2022-02-10,Employee,Union Park Elementary,1
+2022-02-10,Employee,Teaching and Learning,2
+2022-02-10,Employee,Sun Blaze Elementary,1
+2022-02-10,Employee,Orange Technical College - South Campus,1
+2022-02-10,Employee,Ocoee High,1
+2022-02-10,Employee,OCPS Academic Center for Excellence,1
+2022-02-10,Employee,Moss Park Elementary,1
+2022-02-10,Employee,Evans High,1
+2022-02-10,Employee,Dover Shores Elementary,1
+2022-02-10,Employee,Discovery Middle,1
+2022-02-10,Employee,Columbia Elementary,1
+2022-02-10,Employee,Colonial High,1
+2022-02-10,Employee,Avalon Elementary,1
+2022-02-10,Employee,Apopka High,1
 2022-02-09,Student,Wyndham Lakes Elementary,1
 2022-02-09,Student,Wolf Lake Elementary,2
 2022-02-09,Student,Windy Ridge School (K-8),4
@@ -38,11 +72,11 @@ date,type,location,count
 2022-02-09,Employee,Wolf Lake Elementary,1
 2022-02-09,Employee,Winter Park High,1
 2022-02-09,Employee,University High,1
+2022-02-09,Employee,Teaching and Learning,1
 2022-02-09,Employee,Sunridge Elementary,1
 2022-02-09,Employee,Southwest Middle,1
 2022-02-09,Employee,Prairie Lake Elementary,1
 2022-02-09,Employee,Operations,1
-2022-02-09,Employee,OTHER (please note),1
 2022-02-09,Employee,NorthLake Park Community School,1
 2022-02-09,Employee,Innovation Middle,1
 2022-02-09,Employee,Facilities Services,1
@@ -2173,7 +2207,6 @@ date,type,location,count
 2022-01-17,Student,Castleview Elementary,5
 2022-01-17,Employee,Wheatley Elementary,1
 2022-01-17,Employee,Westridge Middle,1
-2022-01-17,Employee,Vista Lakes Elementary,1
 2022-01-17,Employee,Union Park Elementary,1
 2022-01-17,Employee,Timber Lakes Elementary,2
 2022-01-17,Employee,Teaching and Learning,3
