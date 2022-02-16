@@ -1,4 +1,63 @@
 date,type,location,count
+2022-02-14,Student,Wolf Lake Elementary,2
+2022-02-14,Student,Winter Park 9th Grade Center,1
+2022-02-14,Student,Windy Ridge School (K-8),1
+2022-02-14,Student,Windermere High,1
+2022-02-14,Student,Westpointe Elementary,3
+2022-02-14,Student,Wekiva High,1
+2022-02-14,Student,Wedgefield School (K-8),1
+2022-02-14,Student,Water Spring Middle,1
+2022-02-14,Student,Timber Lakes Elementary,1
+2022-02-14,Student,Timber Creek High,2
+2022-02-14,Student,Sunshine Elementary,4
+2022-02-14,Student,South Creek Middle,1
+2022-02-14,Student,Silver Pines Academyk-12 Learning Center,1
+2022-02-14,Student,Sand Lake Elementary,1
+2022-02-14,Student,Rock Springs Elementary,2
+2022-02-14,Student,Ridgewood Park Elementary,1
+2022-02-14,Student,Pinar Elementary,2
+2022-02-14,Student,Pershing School (K-8),1
+2022-02-14,Student,Ocoee High,2
+2022-02-14,Student,Moss Park Elementary,1
+2022-02-14,Student,Meadowbrook Middle,1
+2022-02-14,Student,Meadow Woods Elementary,2
+2022-02-14,Student,Lovell Elementary,1
+2022-02-14,Student,Lake Nona Middle,1
+2022-02-14,Student,Lake Como School (K-8),1
+2022-02-14,Student,Hunter’s Creek Elementary,1
+2022-02-14,Student,Forsyth Woods Elementary,1
+2022-02-14,Student,East River High,5
+2022-02-14,Student,Eagle Creek Elementary,1
+2022-02-14,Student,Dr. Phillips High,1
+2022-02-14,Student,Deerwood Elementary,1
+2022-02-14,Student,Colonial High 9th Grade Center,1
+2022-02-14,Student,Chickasaw Elementary,1
+2022-02-14,Student,Castleview Elementary,1
+2022-02-14,Student,Bridgewater Middle,1
+2022-02-14,Student,Boone High,4
+2022-02-14,Student,Azalea Park Elementary,1
+2022-02-14,Student,Apopka High,4
+2022-02-14,Employee,Wekiva High,1
+2022-02-14,Employee,Union Park Elementary,1
+2022-02-14,Employee,Sun Blaze Elementary,2
+2022-02-14,Employee,Stone Lakes Elementary,1
+2022-02-14,Employee,Rosemont Elementary,1
+2022-02-14,Employee,Orange Center Elementary,1
+2022-02-14,Employee,Olympia High,1
+2022-02-14,Employee,Ocoee Elementary,1
+2022-02-14,Employee,Moss Park Elementary,1
+2022-02-14,Employee,Magnolia School,1
+2022-02-14,Employee,Lake Nona High,1
+2022-02-14,Employee,Jones High,2
+2022-02-14,Employee,Innovation Middle,1
+2022-02-14,Employee,Hunter’s Creek Middle,1
+2022-02-14,Employee,Edgewater High,1
+2022-02-14,Employee,East River High,1
+2022-02-14,Employee,Dream Lake Elementary,1
+2022-02-14,Employee,Curriculum & Digital Learning,1
+2022-02-14,Employee,Corner Lake Middle,1
+2022-02-14,Employee,Arbor Ridge School (K-8),1
+2022-02-14,Employee,Apopka High,1
 2022-02-11,Student,Winter Park High,4
 2022-02-11,Student,Winter Park 9th Grade Center,1
 2022-02-11,Student,Wetherbee Elementary,1
@@ -2335,7 +2394,6 @@ date,type,location,count
 2022-01-15,Employee,Hunter’s Creek Elementary,1
 2022-01-15,Employee,Hidden Oaks Elementary,1
 2022-01-15,Employee,Glenridge Middle,1
-2022-01-15,Employee,Frangus Elementary,1
 2022-01-15,Employee,Bay Meadows Elementary,2
 2022-01-15,Employee,Apopka High,2
 2022-01-14,Vendor/Visitor,Hunter’s Creek Elementary,1
