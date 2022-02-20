@@ -1,4 +1,37 @@
 date,type,location,count
+2022-02-18,Student,Wolf Lake Elementary,3
+2022-02-18,Student,Winter Park 9th Grade Center,1
+2022-02-18,Student,Wetherbee Elementary,1
+2022-02-18,Student,Wekiva High,1
+2022-02-18,Student,Walker Middle,1
+2022-02-18,Student,Sunset Park Elementary,2
+2022-02-18,Student,Southwest Middle,3
+2022-02-18,Student,Pershing School (K-8),1
+2022-02-18,Student,Ocoee Elementary,1
+2022-02-18,Student,Moss Park Elementary,1
+2022-02-18,Student,McCoy Elementary,2
+2022-02-18,Student,Lovell Elementary,1
+2022-02-18,Student,Laureate Park Elementary,1
+2022-02-18,Student,Lake Nona High,1
+2022-02-18,Student,Innovation Middle,1
+2022-02-18,Student,Howard Middle,2
+2022-02-18,Student,Dr. Phillips High,1
+2022-02-18,Student,Corner Lake Middle,1
+2022-02-18,Student,Cheney Elementary,1
+2022-02-18,Student,Castleview Elementary,1
+2022-02-18,Student,Boone High,1
+2022-02-18,Student,Arbor Ridge School (K-8),2
+2022-02-18,Student,Aloma Elementary,1
+2022-02-18,Employee,Westridge Middle,1
+2022-02-18,Employee,Teaching and Learning,1
+2022-02-18,Employee,Sand Lake Elementary,1
+2022-02-18,Employee,Rock Lake Elementary,1
+2022-02-18,Employee,Pinar Elementary,1
+2022-02-18,Employee,Orange Center Elementary,1
+2022-02-18,Employee,Jones High,1
+2022-02-18,Employee,Hidden Oaks Elementary,1
+2022-02-18,Employee,College Park Middle,1
+2022-02-18,Employee,Castle Creek Elementary,1
 2022-02-17,Student,Winter Park High,3
 2022-02-17,Student,University High,1
 2022-02-17,Student,Timber Creek High,3
@@ -10,8 +43,8 @@ date,type,location,count
 2022-02-17,Student,Edgewater High,3
 2022-02-17,Student,Apopka Elementary,1
 2022-02-17,Employee,Wekiva High,1
+2022-02-17,Employee,Teaching and Learning,1
 2022-02-17,Employee,Ocoee High,1
-2022-02-17,Employee,OTHER (please note),1
 2022-02-17,Employee,Keene’s Crossing Elementary,1
 2022-02-17,Employee,Horizon West Middle,1
 2022-02-17,Employee,Catalina Elementary,1
@@ -39,11 +72,11 @@ date,type,location,count
 2022-02-16,Student,Boone High,2
 2022-02-16,Student,Blankner School (K-8),1
 2022-02-16,Employee,Union Park Middle,1
+2022-02-16,Employee,Teaching and Learning,1
 2022-02-16,Employee,Stone Lakes Elementary,1
 2022-02-16,Employee,Roberto Clemente Middle,1
 2022-02-16,Employee,Palmetto Elementary,1
 2022-02-16,Employee,Operations,1
-2022-02-16,Employee,OTHER (please note),1
 2022-02-16,Employee,Maitland Middle,1
 2022-02-16,Employee,Killarney Elementary,1
 2022-02-16,Employee,Howard Middle,1
