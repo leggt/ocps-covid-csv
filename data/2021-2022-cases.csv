@@ -1,4 +1,7 @@
 date,type,location,count
+2022-02-20,Student,Lake Como School (K-8),2
+2022-02-20,Employee,Pineloch Elementary,1
+2022-02-20,Employee,Glenridge Middle,1
 2022-02-19,Student,Sunridge Elementary,1
 2022-02-19,Student,Glenridge Middle,3
 2022-02-19,Employee,McCoy Elementary,1
@@ -1932,7 +1935,7 @@ date,type,location,count
 2022-01-20,Employee,Walker Middle,1
 2022-01-20,Employee,Village Park Elementary,1
 2022-01-20,Employee,Ventura Elementary,1
-2022-01-20,Employee,University High,3
+2022-01-20,Employee,University High,2
 2022-01-20,Employee,Tildenville Elementary,1
 2022-01-20,Employee,Teaching and Learning,1
 2022-01-20,Employee,Sun Blaze Elementary,1
