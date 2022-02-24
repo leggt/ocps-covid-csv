@@ -1,4 +1,51 @@
 date,type,location,count
+2022-02-22,Student,Windermere High,1
+2022-02-22,Student,Wekiva High,1
+2022-02-22,Student,Vista Lakes Elementary,1
+2022-02-22,Student,Ventura Elementary,1
+2022-02-22,Student,University High,6
+2022-02-22,Student,Timber Creek High,3
+2022-02-22,Student,Thornebrooke Elementary,1
+2022-02-22,Student,SunRidge Middle,1
+2022-02-22,Student,Southwood Elementary,2
+2022-02-22,Student,Sand Lake Elementary,2
+2022-02-22,Student,Ocoee High,1
+2022-02-22,Student,Moss Park Elementary,1
+2022-02-22,Student,McCoy Elementary,1
+2022-02-22,Student,Lockhart Elementary,1
+2022-02-22,Student,Legacy Middle,1
+2022-02-22,Student,Lake Whitney Elementary,1
+2022-02-22,Student,Lake Nona Middle,1
+2022-02-22,Student,Lake Nona High,3
+2022-02-22,Student,Jones High,1
+2022-02-22,Student,Horizon West Middle,2
+2022-02-22,Student,East River High,2
+2022-02-22,Student,Cypress Creek High,1
+2022-02-22,Student,Cheney Elementary,1
+2022-02-22,Student,Castle Creek Elementary,1
+2022-02-22,Student,Camelot Elementary,1
+2022-02-22,Student,Bridgewater Middle,3
+2022-02-22,Student,Avalon Middle,1
+2022-02-22,Student,Arbor Ridge School (K-8),4
+2022-02-22,Employee,Zellwood Elementary,1
+2022-02-22,Employee,Winter Park High,1
+2022-02-22,Employee,Wheatley Elementary,1
+2022-02-22,Employee,West Orange High,2
+2022-02-22,Employee,Timber Creek High,1
+2022-02-22,Employee,Sun Blaze Elementary,1
+2022-02-22,Employee,Sand Lake Elementary,2
+2022-02-22,Employee,Sadler Elementary,1
+2022-02-22,Employee,Roberto Clemente Middle,1
+2022-02-22,Employee,Operations,3
+2022-02-22,Employee,Oak Ridge High,1
+2022-02-22,Employee,Liberty Middle,1
+2022-02-22,Employee,Howard Middle,1
+2022-02-22,Employee,Hospital Homebound/Esteem Academy,1
+2022-02-22,Employee,Gotha Middle,1
+2022-02-22,Employee,Dr. Phillips Elementary,1
+2022-02-22,Employee,Conway Middle,1
+2022-02-22,Employee,Colonial High,1
+2022-02-22,Employee,Boone High,1
 2022-02-21,Student,Wheatley Elementary,2
 2022-02-21,Student,Stone Lakes Elementary,1
 2022-02-21,Student,Southwest Middle,1
@@ -36,6 +83,7 @@ date,type,location,count
 2022-02-18,Student,Lake Nona High,1
 2022-02-18,Student,Innovation Middle,1
 2022-02-18,Student,Howard Middle,2
+2022-02-18,Student,Horizon West Middle,1
 2022-02-18,Student,Dr. Phillips High,1
 2022-02-18,Student,Corner Lake Middle,1
 2022-02-18,Student,Cheney Elementary,1
@@ -175,6 +223,7 @@ date,type,location,count
 2022-02-14,Student,Moss Park Elementary,1
 2022-02-14,Student,Meadowbrook Middle,1
 2022-02-14,Student,Meadow Woods Elementary,2
+2022-02-14,Student,Magnolia School,1
 2022-02-14,Student,Lovell Elementary,1
 2022-02-14,Student,Lake Nona Middle,1
 2022-02-14,Student,Lake Como School (K-8),1
@@ -253,6 +302,7 @@ date,type,location,count
 2022-02-10,Student,Winter Park 9th Grade Center,1
 2022-02-10,Student,Windy Ridge School (K-8),2
 2022-02-10,Student,Windermere High,1
+2022-02-10,Student,Washington Shores Primary Learning Center,1
 2022-02-10,Student,Vista Pointe Elementary,1
 2022-02-10,Student,Timber Creek High,1
 2022-02-10,Student,Summerlake Elementary,1
@@ -294,7 +344,7 @@ date,type,location,count
 2022-02-09,Student,Water Spring Middle,1
 2022-02-09,Student,Water Spring Elementary,1
 2022-02-09,Student,University High,4
-2022-02-09,Student,Timber Springs Middle,4
+2022-02-09,Student,Timber Springs Middle,5
 2022-02-09,Student,Timber Creek High,4
 2022-02-09,Student,Sunridge Elementary,2
 2022-02-09,Student,Summerlake Elementary,1
@@ -612,7 +662,7 @@ date,type,location,count
 2022-02-03,Student,Wetherbee Elementary,1
 2022-02-03,Student,West Oaks Elementary,1
 2022-02-03,Student,University High,3
-2022-02-03,Student,Timber Springs Middle,1
+2022-02-03,Student,Timber Springs Middle,3
 2022-02-03,Student,Timber Creek High,10
 2022-02-03,Student,Three Points Elementary,1
 2022-02-03,Student,Thornebrooke Elementary,1
@@ -630,13 +680,13 @@ date,type,location,count
 2022-02-03,Student,Ocoee High,1
 2022-02-03,Student,Oak Hill Elementary,1
 2022-02-03,Student,Mollie Ray Elementary,1
-2022-02-03,Student,Liberty Middle,1
+2022-02-03,Student,Liberty Middle,2
 2022-02-03,Student,Lancaster Elementary,1
-2022-02-03,Student,Lake Nona Middle,2
+2022-02-03,Student,Lake Nona Middle,3
 2022-02-03,Student,Lake Nona High,4
 2022-02-03,Student,Lake Como School (K-8),2
 2022-02-03,Student,Innovation Middle,5
-2022-02-03,Student,Horizon West Middle,1
+2022-02-03,Student,Horizon West Middle,2
 2022-02-03,Student,Hiawassee Elementary,2
 2022-02-03,Student,Gotha Middle,1
 2022-02-03,Student,Glenridge Middle,6
@@ -645,7 +695,7 @@ date,type,location,count
 2022-02-03,Student,Edgewater High,4
 2022-02-03,Student,Dover Shores Elementary,1
 2022-02-03,Student,Deerwood Elementary,2
-2022-02-03,Student,Cypress Creek High,4
+2022-02-03,Student,Cypress Creek High,6
 2022-02-03,Student,Conway Elementary,1
 2022-02-03,Student,Colonial High 9th Grade Center,1
 2022-02-03,Student,Chickasaw Elementary,1
@@ -1026,7 +1076,7 @@ date,type,location,count
 2022-01-28,Student,Olympia High,8
 2022-01-28,Student,Ocoee Middle,1
 2022-01-28,Student,Ocoee High,5
-2022-01-28,Student,Ocoee Elementary,3
+2022-01-28,Student,Ocoee Elementary,4
 2022-01-28,Student,Oakshire Elementary,1
 2022-01-28,Student,Oak Hill Elementary,2
 2022-01-28,Student,NorthLake Park Community School,1
@@ -1111,9 +1161,9 @@ date,type,location,count
 2022-01-27,Student,Wekiva High,1
 2022-01-27,Student,Waterford Elementary,3
 2022-01-27,Student,Water Spring Middle,2
-2022-01-27,Student,Ventura Elementary,3
+2022-01-27,Student,Ventura Elementary,4
 2022-01-27,Student,University High,1
-2022-01-27,Student,Timber Creek High,4
+2022-01-27,Student,Timber Creek High,5
 2022-01-27,Student,Tildenville Elementary,1
 2022-01-27,Student,Sunset Park Elementary,1
 2022-01-27,Student,Sunridge Elementary,1
@@ -1126,6 +1176,7 @@ date,type,location,count
 2022-01-27,Student,Pershing School (K-8),3
 2022-01-27,Student,Palm Lake Elementary,3
 2022-01-27,Student,Orange Technical College - South Campus,2
+2022-01-27,Student,Ocoee High,1
 2022-01-27,Student,Oak Hill Elementary,1
 2022-01-27,Student,Millennia Elementary,1
 2022-01-27,Student,Lockhart Elementary,1
@@ -1151,7 +1202,7 @@ date,type,location,count
 2022-01-27,Student,Dream Lake Elementary,2
 2022-01-27,Student,Dr. Phillips High,1
 2022-01-27,Student,Deerwood Elementary,1
-2022-01-27,Student,Cypress Creek High,10
+2022-01-27,Student,Cypress Creek High,11
 2022-01-27,Student,Corner Lake Middle,1
 2022-01-27,Student,Conway Elementary,4
 2022-01-27,Student,Colonial High 9th Grade Center,5
@@ -1219,7 +1270,7 @@ date,type,location,count
 2022-01-26,Student,Waterbridge Elementary,1
 2022-01-26,Student,Washington Shores Elementary,1
 2022-01-26,Student,Ventura Elementary,1
-2022-01-26,Student,University High,5
+2022-01-26,Student,University High,6
 2022-01-26,Student,Timber Springs Middle,1
 2022-01-26,Student,Timber Lakes Elementary,2
 2022-01-26,Student,Timber Creek High,7
@@ -1241,12 +1292,13 @@ date,type,location,count
 2022-01-26,Student,Orange Technical College - Avalon Campus,1
 2022-01-26,Student,Orange Center Elementary,2
 2022-01-26,Student,Ocoee Middle,1
-2022-01-26,Student,Ocoee High,1
+2022-01-26,Student,Ocoee High,2
 2022-01-26,Student,Oakshire Elementary,2
 2022-01-26,Student,Moss Park Elementary,4
 2022-01-26,Student,Little River Elementary,3
 2022-01-26,Student,Legacy Middle,4
 2022-01-26,Student,Lancaster Elementary,1
+2022-01-26,Student,Lakemont Elementary,1
 2022-01-26,Student,Lake Weston Elementary,1
 2022-01-26,Student,Lake Como School (K-8),1
 2022-01-26,Student,Keene’s Crossing Elementary,2
@@ -1262,7 +1314,7 @@ date,type,location,count
 2022-01-26,Student,Evans High,2
 2022-01-26,Student,East River High,11
 2022-01-26,Student,East Lake Elementary,1
-2022-01-26,Student,Dommerich Elementary,1
+2022-01-26,Student,Dommerich Elementary,2
 2022-01-26,Student,Dillard St. Elementary,1
 2022-01-26,Student,Deerwood Elementary,2
 2022-01-26,Student,Corner Lake Middle,1
@@ -1335,7 +1387,7 @@ date,type,location,count
 2022-01-25,Student,West Creek Elementary,7
 2022-01-25,Student,Wekiva High,3
 2022-01-25,Student,Waterford Elementary,3
-2022-01-25,Student,Waterbridge Elementary,1
+2022-01-25,Student,Waterbridge Elementary,4
 2022-01-25,Student,Water Spring Middle,1
 2022-01-25,Student,Water Spring Elementary,2
 2022-01-25,Student,Vista Lakes Elementary,2
@@ -1358,10 +1410,10 @@ date,type,location,count
 2022-01-25,Student,Pinewood Elementary,1
 2022-01-25,Student,Pineloch Elementary,1
 2022-01-25,Student,Pershing School (K-8),2
-2022-01-25,Student,Orlando Gifted Academy,1
+2022-01-25,Student,Orlando Gifted Academy,2
 2022-01-25,Student,Orange Technical College - West Campus,2
 2022-01-25,Student,Ocoee Middle,5
-2022-01-25,Student,Ocoee High,3
+2022-01-25,Student,Ocoee High,4
 2022-01-25,Student,Ocoee Elementary,6
 2022-01-25,Student,NorthLake Park Community School,1
 2022-01-25,Student,Millennia Elementary,5
@@ -1399,9 +1451,9 @@ date,type,location,count
 2022-01-25,Student,Dr. Phillips High,2
 2022-01-25,Student,Dr. Phillips Elementary,2
 2022-01-25,Student,Dommerich Elementary,1
-2022-01-25,Student,Dillard St. Elementary,1
+2022-01-25,Student,Dillard St. Elementary,2
 2022-01-25,Student,Cypress Springs Elementary,3
-2022-01-25,Student,Cypress Creek High,11
+2022-01-25,Student,Cypress Creek High,12
 2022-01-25,Student,Corner Lake Middle,2
 2022-01-25,Student,Conway Elementary,2
 2022-01-25,Student,Citrus Elementary,1
@@ -1476,7 +1528,9 @@ date,type,location,count
 2022-01-24,Student,Winter Park 9th Grade Center,3
 2022-01-24,Student,Winegard Elementary,2
 2022-01-24,Student,Windy Ridge School (K-8),3
+2022-01-24,Student,Windermere Elementary,1
 2022-01-24,Student,Wetherbee Elementary,14
+2022-01-24,Student,Westpointe Elementary,1
 2022-01-24,Student,West Orange High,7
 2022-01-24,Student,West Creek Elementary,2
 2022-01-24,Student,Wekiva High,2
