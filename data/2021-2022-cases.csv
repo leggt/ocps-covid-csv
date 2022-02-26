@@ -1,4 +1,21 @@
 date,type,location,count
+2022-02-24,Student,Windermere High,2
+2022-02-24,Student,Westbrooke Elementary,1
+2022-02-24,Student,Wekiva High,2
+2022-02-24,Student,Waterford Elementary,1
+2022-02-24,Student,Tangelo Park Elementary,1
+2022-02-24,Student,Orange Technical College - West Campus,1
+2022-02-24,Student,Meadow Woods Elementary,1
+2022-02-24,Student,Lawton Chiles Elementary,1
+2022-02-24,Student,Horizon High,1
+2022-02-24,Student,Gotha Middle,1
+2022-02-24,Student,Evans High,1
+2022-02-24,Student,East River High,1
+2022-02-24,Employee,Vista Pointe Elementary,1
+2022-02-24,Employee,Orange Technical College - South Campus,1
+2022-02-24,Employee,Lockhart Elementary,1
+2022-02-24,Employee,Glenridge Middle,1
+2022-02-24,Employee,Dr. Phillips Elementary,1
 2022-02-23,Student,Winter Park High,2
 2022-02-23,Student,Windermere High,1
 2022-02-23,Student,Sand Lake Elementary,1
@@ -72,8 +89,8 @@ date,type,location,count
 2022-02-21,Student,Cypress Creek High,1
 2022-02-21,Student,Castle Creek Elementary,2
 2022-02-21,Employee,Vista Pointe Elementary,1
+2022-02-21,Employee,Teaching and Learning,1
 2022-02-21,Employee,Operations,1
-2022-02-21,Employee,OTHER (please note),1
 2022-02-21,Employee,Glenridge Middle,1
 2022-02-21,Employee,Facilities Services,1
 2022-02-20,Student,Lake Como School (K-8),2
