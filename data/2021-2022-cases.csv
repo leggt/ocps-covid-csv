@@ -1,4 +1,15 @@
 date,type,location,count
+2022-03-04,Student,Water Spring Middle,1
+2022-03-04,Student,Walker Middle,1
+2022-03-04,Student,University High,2
+2022-03-04,Student,Olympia High,1
+2022-03-04,Student,Jones High,1
+2022-03-04,Student,Forsyth Woods Elementary,2
+2022-03-04,Student,Chickasaw Elementary,1
+2022-03-04,Employee,University High,2
+2022-03-04,Employee,Pershing School (K-8),1
+2022-03-04,Employee,Fiscal Services,1
+2022-03-04,Employee,Aloma Elementary,2
 2022-03-03,Student,Timber Creek High,1
 2022-03-03,Student,Sun Blaze Elementary,1
 2022-03-03,Student,Shingle Creek Elementary,1
@@ -14,8 +25,8 @@ date,type,location,count
 2022-03-02,Student,Aloma Elementary,2
 2022-03-02,Employee,Whispering Oak Elementary,1
 2022-03-02,Employee,Westridge Middle,1
+2022-03-02,Employee,Teaching and Learning,1
 2022-03-02,Employee,Olympia High,1
-2022-03-02,Employee,OTHER (please note),1
 2022-03-02,Employee,Lake Nona High,1
 2022-03-02,Employee,Engelwood Elementary,1
 2022-03-01,Student,Wyndham Lakes Elementary,1
