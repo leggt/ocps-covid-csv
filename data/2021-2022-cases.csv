@@ -1,4 +1,10 @@
 date,type,location,count
+2022-03-11,Student,Sally Ride Elementary,1
+2022-03-11,Student,Rock Springs Elementary,1
+2022-03-11,Student,East Lake Elementary,1
+2022-03-11,Student,Avalon Elementary,1
+2022-03-11,Student,Apopka Elementary,1
+2022-03-11,Employee,Avalon Elementary,1
 2022-03-10,Student,Winter Park High,1
 2022-03-10,Student,Pershing School (K-8),1
 2022-03-10,Student,Hidden Oaks Elementary,1
@@ -10,7 +16,7 @@ date,type,location,count
 2022-03-09,Student,Moss Park Elementary,1
 2022-03-09,Student,Eagle Creek Elementary,1
 2022-03-09,Employee,Wekiva High,1
-2022-03-09,Employee,OTHER (please note),1
+2022-03-09,Employee,Teaching and Learning,1
 2022-03-09,Employee,Engelwood Elementary,1
 2022-03-09,Employee,Cheney Elementary,1
 2022-03-08,Student,Winter Park High,1
