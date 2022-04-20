@@ -1,16 +1,44 @@
 date,type,location,count
+2022-04-19,Student,Wyndham Lakes Elementary,1
+2022-04-19,Student,Union Park Elementary,1
+2022-04-19,Student,Timber Springs Middle,1
+2022-04-19,Student,SunRidge Middle,1
+2022-04-19,Student,Stone Lakes Elementary,1
+2022-04-19,Student,Meadow Woods Elementary,1
+2022-04-19,Student,McCoy Elementary,1
+2022-04-19,Student,Little River Elementary,1
+2022-04-19,Student,Lakemont Elementary,1
+2022-04-19,Student,Jones High,2
+2022-04-19,Student,Innovation Middle,1
+2022-04-19,Student,Edgewater High,1
+2022-04-19,Student,Cypress Creek High,3
+2022-04-19,Student,Colonial High 9th Grade Center,1
+2022-04-19,Student,Brookshire Elementary,1
+2022-04-19,Student,Boone High,1
+2022-04-19,Student,Apopka High,2
+2022-04-19,Employee,West Orange High,1
+2022-04-19,Employee,University High,1
+2022-04-19,Employee,Teaching and Learning,1
+2022-04-19,Employee,Rosemont Elementary,1
+2022-04-19,Employee,Positive Pathways Transition Center,1
+2022-04-19,Employee,Magnolia School,1
+2022-04-19,Employee,Lakemont Elementary,1
+2022-04-19,Employee,Dover Shores Elementary,1
+2022-04-19,Employee,Catalina Elementary,1
 2022-04-18,Student,Windermere Elementary,3
 2022-04-18,Student,Whispering Oak Elementary,1
 2022-04-18,Student,West Orange High,1
 2022-04-18,Student,Wekiva High,1
 2022-04-18,Student,Water Spring Middle,1
 2022-04-18,Student,Washington Shores Elementary,2
+2022-04-18,Student,Vista Pointe Elementary,1
 2022-04-18,Student,Timber Springs Middle,3
 2022-04-18,Student,Timber Creek High,2
 2022-04-18,Student,Sunrise Elementary,1
+2022-04-18,Student,Princeton Elementary,1
 2022-04-18,Student,Memorial Middle,1
 2022-04-18,Student,Keene’s Crossing Elementary,1
-2022-04-18,Student,Independence Elementary,1
+2022-04-18,Student,Independence Elementary,2
 2022-04-18,Student,Hunter’s Creek Middle,1
 2022-04-18,Student,Horizon West Middle,1
 2022-04-18,Student,Horizon High,1
@@ -20,6 +48,7 @@ date,type,location,count
 2022-04-18,Student,Colonial High,1
 2022-04-18,Student,Castle Creek Elementary,1
 2022-04-18,Student,Boone High,1
+2022-04-18,Student,Audubon Park School (K-8),1
 2022-04-18,Employee,Wyndham Lakes Elementary,1
 2022-04-18,Employee,Windermere High,1
 2022-04-18,Employee,Timber Creek High,1
