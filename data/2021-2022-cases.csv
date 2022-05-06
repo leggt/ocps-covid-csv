@@ -1,4 +1,35 @@
 date,type,location,count
+2022-05-05,Student,Windermere Elementary,1
+2022-05-05,Student,Wetherbee Elementary,3
+2022-05-05,Student,West Oaks Elementary,1
+2022-05-05,Student,West Creek Elementary,1
+2022-05-05,Student,Water Spring Elementary,1
+2022-05-05,Student,SunRidge Middle,1
+2022-05-05,Student,Lawton Chiles Elementary,1
+2022-05-05,Student,Laureate Park Elementary,1
+2022-05-05,Student,Lakeview Middle,1
+2022-05-05,Student,Lake Nona Middle,3
+2022-05-05,Student,Lake Nona High,1
+2022-05-05,Student,Innovation Middle,1
+2022-05-05,Student,Hunter’s Creek Elementary,1
+2022-05-05,Student,East River High,4
+2022-05-05,Student,Cypress Creek High,4
+2022-05-05,Student,Colonial High 9th Grade Center,1
+2022-05-05,Student,Blankner School (K-8),1
+2022-05-05,Student,Apopka High,3
+2022-05-05,Student,Andover Elementary,1
+2022-05-05,Employee,Windy Ridge School (K-8),1
+2022-05-05,Employee,Timber Creek High,1
+2022-05-05,Employee,SunRidge Middle,1
+2022-05-05,Employee,Stone Lakes Elementary,1
+2022-05-05,Employee,Palmetto Elementary,1
+2022-05-05,Employee,Laureate Park Elementary,1
+2022-05-05,Employee,Lake Nona High,1
+2022-05-05,Employee,Hunter’s Creek Elementary,1
+2022-05-05,Employee,Boone High,2
+2022-05-05,Employee,Bay Lake Elementary,1
+2022-05-05,Employee,Arbor Ridge School (K-8),1
+2022-05-05,Employee,Apopka Memorial Middle,1
 2022-05-04,Student,West Creek Elementary,1
 2022-05-04,Student,Water Spring Middle,1
 2022-05-04,Student,Water Spring Elementary,1
@@ -17,7 +48,7 @@ date,type,location,count
 2022-05-04,Employee,Piedmont Lakes Middle,1
 2022-05-04,Employee,Orange Technical College - South Campus,1
 2022-05-04,Employee,Orange Center Elementary,1
-2022-05-04,Employee,OTHER (please note),1
+2022-05-04,Employee,Operations,1
 2022-05-04,Employee,Dr. Phillips High,1
 2022-05-04,Employee,Deerwood Elementary,1
 2022-05-04,Employee,Cypress Creek High,1
