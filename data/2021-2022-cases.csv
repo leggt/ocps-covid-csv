@@ -1,4 +1,41 @@
 date,type,location,count
+2022-05-06,Student,Windy Ridge School (K-8),1
+2022-05-06,Student,West Creek Elementary,4
+2022-05-06,Student,Wekiva High,3
+2022-05-06,Student,University High,2
+2022-05-06,Student,Timber Creek High,2
+2022-05-06,Student,Stone Lakes Elementary,2
+2022-05-06,Student,Riverdale Elementary,1
+2022-05-06,Student,Pershing School (K-8),1
+2022-05-06,Student,Olympia High,2
+2022-05-06,Student,Oak Hill Elementary,1
+2022-05-06,Student,Innovation Middle,2
+2022-05-06,Student,Hunter’s Creek Elementary,1
+2022-05-06,Student,Evans High,2
+2022-05-06,Student,Dommerich Elementary,1
+2022-05-06,Student,Conway Middle,1
+2022-05-06,Student,Colonial High,2
+2022-05-06,Student,Citrus Elementary,1
+2022-05-06,Student,Boone High,2
+2022-05-06,Student,Bay Lake Elementary,1
+2022-05-06,Student,Avalon Middle,1
+2022-05-06,Student,Avalon Elementary,1
+2022-05-06,Student,Andover Elementary,1
+2022-05-06,Employee,Zellwood Elementary,1
+2022-05-06,Employee,Windermere High,1
+2022-05-06,Employee,Ventura Elementary,1
+2022-05-06,Employee,Sally Ride Elementary,1
+2022-05-06,Employee,Princeton Elementary,1
+2022-05-06,Employee,Orange Technical College - South Campus,1
+2022-05-06,Employee,Operations,2
+2022-05-06,Employee,NorthLake Park Community School,1
+2022-05-06,Employee,Lake Nona Middle,2
+2022-05-06,Employee,Hidden Oaks Elementary,1
+2022-05-06,Employee,East River High,1
+2022-05-06,Employee,Dr. Phillips High,3
+2022-05-06,Employee,Colonial High 9th Grade Center,1
+2022-05-06,Employee,Colonial High,1
+2022-05-06,Employee,Clay Springs Elementary,1
 2022-05-05,Student,Windermere Elementary,1
 2022-05-05,Student,Wetherbee Elementary,3
 2022-05-05,Student,West Oaks Elementary,1
@@ -101,12 +138,12 @@ date,type,location,count
 2022-05-02,Employee,Ridgewood Park Elementary,1
 2022-05-02,Employee,Pershing School (K-8),1
 2022-05-02,Employee,Ocoee High,1
-2022-05-02,Employee,OTHER (please note),1
 2022-05-02,Employee,Minority Achievement Office,1
 2022-05-02,Employee,Lawton Chiles Elementary,1
 2022-05-02,Employee,Lake Weston Elementary,1
 2022-05-02,Employee,Lake Silver Elementary,1
 2022-05-02,Employee,Jones High,2
+2022-05-02,Employee,Information Technology Services,1
 2022-05-02,Employee,Cypress Creek High,1
 2022-05-02,Employee,Conway Middle,1
 2022-05-02,Employee,Conway Elementary,1
