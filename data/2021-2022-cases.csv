@@ -1,4 +1,36 @@
 date,type,location,count
+2022-05-13,Student,Winter Park High,1
+2022-05-13,Student,Windermere High,1
+2022-05-13,Student,Westpointe Elementary,1
+2022-05-13,Student,West Creek Elementary,1
+2022-05-13,Student,Water Spring Elementary,1
+2022-05-13,Student,Timber Creek High,2
+2022-05-13,Student,Summerlake Elementary,1
+2022-05-13,Student,South Creek Middle,1
+2022-05-13,Student,Orlando Gifted Academy,1
+2022-05-13,Student,Ocoee High,1
+2022-05-13,Student,Little River Elementary,1
+2022-05-13,Student,Lake Nona High,2
+2022-05-13,Student,Lake Como School (K-8),1
+2022-05-13,Student,Jones High,1
+2022-05-13,Student,Hidden Oaks Elementary,1
+2022-05-13,Student,Gotha Middle,1
+2022-05-13,Student,Freedom Middle,2
+2022-05-13,Student,Castleview Elementary,1
+2022-05-13,Student,Azalea Park Elementary,1
+2022-05-13,Student,Acceleration East,1
+2022-05-13,Employee,Westpointe Elementary,1
+2022-05-13,Employee,Water Spring Elementary,1
+2022-05-13,Employee,Southwood Elementary,1
+2022-05-13,Employee,Southwest Middle,2
+2022-05-13,Employee,Operations,4
+2022-05-13,Employee,Lockhart Middle,1
+2022-05-13,Employee,Lake Como School (K-8),2
+2022-05-13,Employee,Horizon High,1
+2022-05-13,Employee,Glenridge Middle,1
+2022-05-13,Employee,Colonial High 9th Grade Center,1
+2022-05-13,Employee,Colonial High,1
+2022-05-13,Employee,Castleview Elementary,1
 2022-05-12,Student,Wolf Lake Elementary,1
 2022-05-12,Student,Whispering Oak Elementary,1
 2022-05-12,Student,Wetherbee Elementary,1
@@ -28,10 +60,10 @@ date,type,location,count
 2022-05-12,Student,Blankner School (K-8),1
 2022-05-12,Student,Avalon Middle,2
 2022-05-12,Employee,Wetherbee Elementary,1
+2022-05-12,Employee,Teaching and Learning,2
 2022-05-12,Employee,Sunrise Elementary,1
 2022-05-12,Employee,Sadler Elementary,1
 2022-05-12,Employee,Operations,1
-2022-05-12,Employee,OTHER (please note),2
 2022-05-12,Employee,Meadow Woods Elementary,1
 2022-05-12,Employee,Maitland Middle,1
 2022-05-12,Employee,Lake Nona Middle,1
