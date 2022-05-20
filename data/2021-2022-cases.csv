@@ -1,15 +1,51 @@
 date,type,location,count
+2022-05-19,Vendor/Visitor,Information Technology Services,1
+2022-05-19,Student,Winter Park High,1
+2022-05-19,Student,Southwood Elementary,2
+2022-05-19,Student,Pinar Elementary,1
+2022-05-19,Student,Maxey Elementary,1
+2022-05-19,Student,Dr. Phillips High,1
+2022-05-19,Student,Castle Creek Elementary,1
+2022-05-19,Student,Avalon Middle,1
+2022-05-19,Student,Apopka Memorial Middle,4
+2022-05-19,Employee,Windermere High,1
+2022-05-19,Employee,Teaching and Learning,1
+2022-05-19,Employee,Orlando Gifted Academy,1
+2022-05-19,Employee,Operations,1
+2022-05-19,Employee,Olympia High,1
+2022-05-19,Employee,OTHER (please note),1
+2022-05-19,Employee,Meadow Woods Elementary,1
+2022-05-19,Employee,Magnolia School,1
+2022-05-19,Employee,Legal Services/Internal Audit,1
+2022-05-19,Employee,Legacy Middle,1
+2022-05-19,Employee,John Young Elementary,1
+2022-05-19,Employee,Human Resources,1
+2022-05-19,Employee,Horizon West Middle,3
+2022-05-19,Employee,Horizon High,1
+2022-05-19,Employee,Frangus Elementary,1
+2022-05-19,Employee,Discovery Middle,1
+2022-05-19,Employee,Cypress Creek High,1
+2022-05-19,Employee,Curriculum & Digital Learning,2
+2022-05-19,Employee,Colonial High,1
+2022-05-19,Employee,Carver Middle,1
+2022-05-19,Employee,Bridgewater Middle,1
+2022-05-19,Employee,Baldwin Park Elementary,3
+2022-05-19,Employee,Arbor Ridge School (K-8),1
+2022-05-19,Employee,Apopka Elementary,1
 2022-05-18,Vendor/Visitor,Blankner School (K-8),1
+2022-05-18,Student,Wolf Lake Elementary,1
 2022-05-18,Student,Windy Ridge School (K-8),1
 2022-05-18,Student,West Orange High,1
 2022-05-18,Student,Water Spring Middle,2
+2022-05-18,Student,Water Spring Elementary,1
 2022-05-18,Student,Timber Creek High,2
 2022-05-18,Student,Sunrise Elementary,1
+2022-05-18,Student,Spring Lake Elementary,1
 2022-05-18,Student,South Creek Middle,1
 2022-05-18,Student,Ocoee Middle,1
 2022-05-18,Student,Moss Park Elementary,2
 2022-05-18,Student,Lakeview Middle,1
-2022-05-18,Student,Lake Nona High,2
+2022-05-18,Student,Lake Nona High,3
 2022-05-18,Student,Innovation Middle,4
 2022-05-18,Student,Independence Elementary,2
 2022-05-18,Student,Horizon High,1
@@ -24,6 +60,8 @@ date,type,location,count
 2022-05-18,Student,Citrus Elementary,2
 2022-05-18,Student,Baldwin Park Elementary,2
 2022-05-18,Student,Avalon Middle,2
+2022-05-18,Student,Avalon Elementary,1
+2022-05-18,Student,Audubon Park School (K-8),1
 2022-05-18,Student,Apopka Memorial Middle,1
 2022-05-18,Student,Apopka High,1
 2022-05-18,Employee,Wolf Lake Middle,1
